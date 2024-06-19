@@ -15,7 +15,7 @@
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
         "statamic/cms": "^4.0",
-        "withcandour/aardvark-seo": "dev-milestone/2.1"
+        "withcandour/aardvark-seo": "^3.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.8",
