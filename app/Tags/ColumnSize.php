@@ -6,7 +6,6 @@ use Statamic\Tags\Tags;
 
 class ColumnSize extends Tags
 {
-
     /**
      * The {{ column_size }} tag.
      *
@@ -18,7 +17,7 @@ class ColumnSize extends Tags
         $width = $this->params->get('width', 12);
         $screen = $this->params->get('screen', '');
 
-        $prefix = $screen ? $screen . ':' : '';
+        $prefix = $screen ? $screen.':' : '';
 
         switch ($type) {
 
@@ -35,7 +34,7 @@ class ColumnSize extends Tags
                 }
 
             case 'grid':
-                return (int)$width ? "{$prefix}col-span-{$width} {$prefix}block" : "{$prefix}hidden";
+                return (int) $width ? "{$prefix}col-span-{$width} {$prefix}block" : "{$prefix}hidden";
         }
     }
 }

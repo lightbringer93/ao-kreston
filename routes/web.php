@@ -1,8 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
 use Statamic\Facades\Data;
 use Statamic\Facades\Site;
-use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 //    'title' => 'Example'
 // ]);
 
-Route::get('/api/csrf', function() {
+Route::get('/api/csrf', function () {
     return response()->json([
         'token' => csrf_token(),
     ]);
@@ -32,8 +32,8 @@ Route::get('/api/csrf', function() {
     //return redirect('/de', '302');
 });*/
 
-Route::get('/forum', function() {
-	return redirect('/de/events/forum-2022');
+Route::get('/forum', function () {
+    return redirect('/de/events/forum-2022');
 });
 
 Route::get('/', function () {
@@ -168,6 +168,6 @@ Route::get('/de/seminare/mwst-abrchg-leicht-gemacht', function () {
     return redirect('/de/seminare/mwst-abrechnung-leicht-gemacht', '301');
 });
 
-Route::get('/de/dienstleistungen/fiskalvertrag', function() {
+Route::get('/de/dienstleistungen/fiskalvertrag', function () {
     return redirect('/de/dienstleistungen/fiskalvertretung', '301');
 });
