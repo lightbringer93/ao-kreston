@@ -18,19 +18,19 @@ return [
         'de' => [
             'name' => 'Deutsch',
             'locale' => 'de_CH',
-            'url' => env('APP_URL') . 'de/',
+            'url' => env('APP_URL').'de/',
         ],
 
         'en' => [
             'name' => 'Englisch',
             'locale' => 'en_US',
-            'url' => env('APP_URL') . 'en/',
+            'url' => env('APP_URL').'en/',
         ],
 
         'fr' => [
             'name' => 'Französisch',
             'locale' => 'fr_FR',
-            'url' => env('APP_URL') . 'fr/',
+            'url' => env('APP_URL').'fr/',
         ],
 
     ],

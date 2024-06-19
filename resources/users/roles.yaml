@@ -92,3 +92,6 @@ editor:
     - 'delete network assets'
     - 'view contact form submissions'
     - 'view event form submissions'
+    - 'access de site'
+    - 'access en site'
+    - 'access fr site'
