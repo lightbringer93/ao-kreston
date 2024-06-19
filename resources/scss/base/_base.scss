@@ -1,0 +1,26 @@
+// Base
+
+a {
+    &:focus {
+        @apply outline-none;
+    }
+}
+
+.content {
+    p {
+        @apply mb-6
+    }
+    ul {
+        li {
+            @apply pl-6 mb-6 relative before:absolute before:left-0 before:top-[2px] before:w-[22px] before:h-[22px] before:bg-[url('/assets/icons/list_small.png')] before:bg-contain before:bg-no-repeat
+        }
+    }
+}
+
+ul {
+    li {
+        p {
+            @apply mb-0 #{!important};
+        }
+    }
+}

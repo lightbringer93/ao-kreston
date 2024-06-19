@@ -1,0 +1,17 @@
+{{ partial:layouts/forms/default }}
+
+    {{ fields }}
+
+        {{ if handle === 'date' }}
+
+            {{ partial:partials/forms/field classes="date-select" }}
+
+        {{ else }}
+
+            {{ partial:partials/forms/field }}
+
+        {{ /if }}
+
+    {{ /fields }}
+
+{{ /partial:layouts/forms/default }}

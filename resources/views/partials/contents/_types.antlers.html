@@ -1,0 +1,44 @@
+<!-- Content Types -->
+{{ if type == 'text' && text }}
+
+    <!-- Text -->
+    {{ if !no_container }}<div class="container xxl:max-w-screen-xxl">{{ /if }}
+    {{ partial:partials/contents/default }}
+    {{ text }}
+    {{ /partial:partials/contents/default }}
+    {{ if !no_container }}</div>{{ /if }}
+
+{{ elseif type == 'container' }}
+
+    <!-- Container -->
+    {{ if !no_container }}<div class="container xxl:max-w-screen-xxl">{{ /if }}
+        <div class="grid grid-cols-12 gap-y-6 sm:gap-y-6 lg:gap-8 {{ if margin }}mb-10 xl:mb-20{{ /if}} w-full {{ if align_items === 'start' }}items-start{{ else }}items-center{{ /if }}">
+            {{ columns }}
+            {{ partial src="partials/columns/grid" }}
+            {{ /columns }}
+        </div>
+    {{ if !no_container }}</div>{{ /if }}
+
+{{ elseif type == 'layout' }}
+
+    {{ partial:partials/contents/default }}
+
+        <!-- Layouts -->
+        {{ partial src="layouts/contents/{ layout }" }}
+
+    {{ /partial:partials/contents/default }}
+
+{{ else }}
+
+    {{ partial:partials/contents/default }}
+
+        {{ if !no_container }}<div class="container max-w-screen-xxl">{{ /if }}
+
+            <!-- Partials -->
+            {{ partial src="partials/{ type replace='_|' }s/{ selected_partial ?? 'default' }" }}
+
+        {{ if !no_container }}</div>{{ /if }}
+
+    {{ /partial:partials/contents/default }}
+
+{{ /if }}

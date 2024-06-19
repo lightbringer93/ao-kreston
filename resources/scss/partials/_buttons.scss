@@ -1,0 +1,231 @@
+.btn {
+    @apply font-display inline-flex font-normal text-lg items-center rounded-md justify-center w-full text-center px-7 py-2 leading-none border border-transparent transition ease-in-out duration-150;
+    @screen md {
+        @apply w-auto;
+    }
+    &:focus {
+        @apply outline-none;
+    }
+    // Primary
+    &-primary {
+        @apply text-white #{!important};
+        @apply bg-primary-500;
+        @apply hover:bg-primary-600;
+
+        &:focus, &:active {
+            @apply bg-primary-700 border-primary-700 outline-none ring-2 ring-primary-500;
+        }
+
+        // Outline
+        &-outline {
+            @apply text-primary-500 #{!important};
+            @apply border-primary-500;
+            &:hover, &:focus, &:active {
+                @apply text-primary-100 #{!important};
+            }
+            &:hover {
+                @apply bg-primary-500 border-primary-500;
+            }
+            &:focus {
+                @apply bg-primary-600 border-primary-600 outline-none ring-2 ring-primary-700;
+            }
+            &:active {
+                @apply bg-primary-700;
+            }
+        }
+    }
+
+    // Secondary
+    &-secondary {
+        @apply text-secondary-100 #{!important};
+        @apply bg-secondary-500;
+        &:hover {
+            @apply bg-secondary-600;
+        }
+        &:focus {
+            @apply bg-secondary-700 border-secondary-700 outline-none ring-2 ring-secondary-700;
+        }
+        &:active {
+            @apply bg-secondary-800;
+        }
+        // Outline
+        &-outline {
+            @apply text-secondary-500 #{!important};
+            @apply border-secondary-300;
+            &:hover, &:focus, &:active {
+                @apply text-secondary-100 #{!important};
+            }
+            &:hover {
+                @apply bg-secondary-500;
+            }
+            &:focus {
+                @apply bg-secondary-600 border-secondary-600 outline-none ring-2 ring-secondary-700;
+            }
+            &:active {
+                @apply bg-secondary-700;
+            }
+        }
+    }
+
+    // Tertiary
+    &-tertiary {
+        @apply text-white #{!important};
+        @apply bg-tertiary-500;
+        @apply hover:bg-tertiary-600;
+
+        &:focus, &:active {
+            @apply bg-tertiary-700 border-tertiary-700 outline-none ring-2 ring-tertiary-500;
+        }
+
+        // Outline
+        &-outline {
+            @apply text-tertiary-500 #{!important};
+            @apply border-tertiary-500;
+            &:hover, &:focus, &:active {
+                @apply text-tertiary-100 #{!important};
+            }
+            &:hover {
+                @apply bg-tertiary-500 border-tertiary-500;
+            }
+            &:focus {
+                @apply bg-tertiary-600 border-tertiary-600 outline-none ring-2 ring-tertiary-700;
+            }
+            &:active {
+                @apply bg-tertiary-700;
+            }
+        }
+    }
+
+    // Gray
+    &-gray {
+        @apply text-gray-800 #{!important};
+        @apply bg-gray-300;
+        &:hover {
+            @apply bg-gray-400;
+        }
+        &:focus {
+            @apply bg-gray-400 border-gray-500 outline-none ring-2 ring-gray-700;
+        }
+        &:active {
+            @apply bg-gray-500;
+        }
+        // Outline
+        &-outline {
+            @apply text-gray-700 #{!important};
+            @apply border-gray-500;
+            &:hover, &:focus, &:active {
+                @apply text-white #{!important};
+            }
+            &:hover {
+                @apply bg-gray-600;
+            }
+            &:focus {
+                @apply bg-gray-700 border-gray-700 outline-none ring-2 ring-gray-700;
+            }
+            &:active {
+                @apply bg-gray-800;
+            }
+        }
+    }
+
+    &-white {
+        @apply text-primary-500 #{!important};
+        @apply bg-white;
+        &:hover, &:focus, &:active {
+            @apply text-white #{!important};
+        }
+        &:hover {
+            @apply bg-secondary-500;
+        }
+        &:focus {
+            @apply bg-secondary-600 outline-none ring-2 ring-gray-700;
+        }
+        &:active {
+            @apply bg-secondary-700;
+        }
+        // Outline
+        &-outline {
+            @apply text-primary-500 #{!important};
+            &:hover, &:focus, &:active {
+                @apply text-white #{!important};
+            }
+            &:hover {
+                @apply bg-white;
+            }
+            &:focus {
+                @apply bg-gray-100 outline-none ring-2 ring-gray-700;
+            }
+            &:active {
+                @apply bg-gray-200;
+            }
+        }
+    }
+
+    // Success
+    &-success {
+        @apply text-success-100 #{!important};
+        @apply bg-success-500;
+        &:hover {
+            @apply bg-success-600;
+        }
+
+        &:focus {
+            @apply bg-success-700 border-success-700 outline-none ring-2 ring-success-700;
+        }
+
+        &:active {
+            @apply bg-success-800;
+        }
+    }
+
+    // Info
+    &-info {
+        @apply text-info-100 #{!important};
+        @apply bg-info-500;
+        &:hover {
+            @apply bg-info-600;
+        }
+
+        &:focus {
+            @apply bg-info-700 border-info-700 outline-none ring-2 ring-info-700;
+        }
+
+        &:active {
+            @apply bg-info-800;
+        }
+    }
+
+    // Warning
+    &-warning {
+        @apply text-warning-100 #{!important};
+        @apply bg-warning-500;
+        &:hover {
+            @apply bg-warning-600;
+        }
+
+        &:focus {
+            @apply bg-warning-700 border-warning-700 outline-none ring-2 ring-warning-700;
+        }
+
+        &:active {
+            @apply bg-warning-800;
+        }
+    }
+
+    // Danger
+    &-danger {
+        @apply text-danger-100 #{!important};
+        @apply bg-danger-500;
+        &:hover {
+            @apply bg-danger-600;
+        }
+
+        &:focus {
+            @apply bg-danger-700 border-danger-700 outline-none ring-2 ring-danger-700;
+        }
+
+        &:active {
+            @apply bg-danger-800;
+        }
+    }
+}

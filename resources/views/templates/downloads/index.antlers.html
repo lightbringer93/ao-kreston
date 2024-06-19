@@ -1,0 +1,67 @@
+{{ partial:layouts/contents/default }}
+
+<div class="container xxl:max-w-screen-xxl content pb-10 sm:pb-[180px]"
+     x-data="accordion([{{ taxonomy from="download_tags" sort="handle:desc" }}'{{ slug replace="-|_" }}'{{ if !last }},{{ /if }}{{ /taxonomy }}], '{{ taxonomy from="download_tags" sort="handle:desc" }}{{ if first }}{{ slug replace="-|_" }}{{ /if }}{{ /taxonomy }}')">
+    <div class="grid grid-cols-12 gap-y-6 lg:gap-8">
+        <div class="col-span-12 lg:col-span-6 xl:col-span-4">
+
+            <div>
+                {{ taxonomy:download_tags sort="handle:desc" }}
+                <button
+                    class="py-2 px-4 mb-3 block transition-all duration-150 ease-in-out bg-secondary-500 text-white w-full text-left relative"
+                    :class="{'bg-tertiary-500 lg:max-w-[500px]': {{ slug replace="-|_" }}, 'lg:max-w-[90%]': !{{ slug replace="-|_" }}}"
+                    x-on:click="show('{{ slug replace="-|_" }}')">
+                    {{ title }}
+                    <div :class="{'opacity-0': !{{ slug replace="-|_" }}}"
+                         class="absolute -right-[13px] top-0 z-1 h-full hidden transition-all duration-100 ease-in-out hidden lg:block">
+                        <svg height="100%" width="13" viewBox="0 0 13 47" preserveAspectRatio="none"
+                             shape-rendering="geometricPrecision">
+                            <path d="M0,0 l12,23.5 l-12,23.5" class="fill-tertiary-500"></path>
+                        </svg>
+                    </div>
+                </button>
+                {{ /taxonomy:download_tags }}
+            </div>
+
+        </div>
+        <div class="col-span-12 lg:col-span-6 xl:col-span-8">
+            <div class="mb-10 sm:mb-[60px]">
+                {{ taxonomy:download_tags sort="handle:desc" }}
+                <h2 x-show="{{ slug replace="-|_" }}" class="mb-0 py-0 text-secondary-500">{{ title }}</h2>
+                {{ /taxonomy:download_tags }}
+            </div>
+
+            {{ assets container="downloads" }}
+            <div class="mb-4"
+                 x-show="{{ download_tags }}{{ slug replace="-|_" }}{{ if !last }} || {{ /if }}{{ /download_tags }} && ({{ languages }}'{{ site:short_locale }}' == '{{ handle }}'{{ if !last }} || {{ /if }}{{ /languages }})">
+                <a href="{{ url }}" target="_blank">
+                    <i class="fa-solid fa-file-pdf mr-3 text-xxl text-secondary-500"></i>
+                    {{ name ?? filename }}
+                </a>
+            </div>
+            {{ /assets }}
+        </div>
+    </div>
+
+</div>
+
+<div class="bg-gray-50 py-10 sm:py-[100px]">
+    <div class="container max-w-screen-xl">
+        {{ partial:layouts/contents/kreston_app }}
+        <div class="pt-8">
+            {{ "Unkompliziert und von überall her auf Knopfdruck Dokumentekomfortabel senden - das bietet die krestonApp." | trans }}
+        </div>
+        {{ /partial:layouts/contents/kreston_app }}
+    </div>
+</div>
+
+<div class="pt-10 sm:pt-[60px] prose-p:last:mb-0">
+    {{ content }}
+    {{ partial:partials/contents/types }}
+    {{ /content }}
+</div>
+
+{{ /partial:layouts/contents/default }}
+
+
+

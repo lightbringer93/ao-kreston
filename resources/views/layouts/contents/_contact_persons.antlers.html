@@ -1,0 +1,53 @@
+<!-- Contact Persons -->
+<div class="bg-gray-50 py-10 sm:py-[70px] mb-10 sm:mb-[70px]">
+    <div class="container xxl:max-w-screen-xxl">
+        {{ partial:partials/contents/default }}
+
+        <div class="grid grid-cols-12 gap-y-6 md:gap-8">
+            <div class="col-span-12 text-center mb-10 sm:mb-[70px]">
+                <h2 class="text-tertiary-500 mb-0 !pb-0 !pt-0">
+                    {{ if section_title }}
+                    {{ section_title }}
+                    {{ else }}
+                    {{ titles:contact_person_title }}
+                    {{ /if }}
+                </h2>
+            </div>
+
+            {{ contact_persons }}
+            <div class="col-span-12 xl:col-span-6 min-h-[400px]">
+                {{ partial:partials/boxes/default image="{ image }" link="{url}" }}
+                <div class="h-full flex flex-col">
+                    <p class="font-bold text-xxl">{{ title }}</p>
+                    <p class="mb-8">
+                        {{ position ?? '' }}
+                        {{ if education }}<br>{{ education }}{{ value }}{{ if not last }}, {{ /if }}{{ /education }}{{ /if }}
+                        {{ if workplace }}<br>Arbeitsort{{ workplace }}{{ if not first and last }}e{{ /if }}{{ /workplace }}
+                        {{ workplace }}{{ value }}{{ if not last }}, {{ /if }}{{ /workplace }}{{ /if }}
+                    </p>
+                    <p class="mt-auto !mb-0 space-x-5 prose-a:text-white prose-a:text-xxl">
+                        {{ if phone }}
+                        <a href="tel:{{ phone }}">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                        {{ /if }}
+                        {{ if linkedin }}
+                        <a href="{{ linkedin }}" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        {{ /if }}
+                        {{ if email }}
+                        <a href="mailto:{{ email | obfuscate_email }}">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        {{ /if }}
+                    </p>
+                </div>
+                {{ /partial:partials/boxes/default }}
+            </div>
+            {{ /contact_persons }}
+        </div>
+
+        {{ /partial:partials/contents/default }}
+    </div>
+</div>

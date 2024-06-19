@@ -1,0 +1,9 @@
+<div class="bg-primary-500 py-4 flex items-center px-2 mb-8 {{ classes }}">
+    {{ if icon }}
+    <div class="w-[110px] pl-2">
+        <img src="{{ glide src="/assets/icons/berufserfahrung.png" width="60" }}"
+             class="mx-auto">
+    </div>
+    {{ /if }}
+    <h3 class="text-white mb-0 flex-grow">{{ text }}{{ slot }}</h3>
+</div>

@@ -1,0 +1,8 @@
+<div
+    class="col-span-12 sm:col-span-6 md:col-span-3 xl:col-span-2 border border-[#cccccc] relative">
+    {{ if link }}<a href="{{ link }}" target="_blank" class="block w-full h-full flex items-center justify-center overflow-hidden py-2 px-6 group">{{ /if }}
+        <img src="{{ glide:url width="300" }}"
+             alt="{{ alt }}"
+             class="max-h-[70px] w-auto transition-all duration-300 ease-in-out group-hover:scale-[1.05]">
+        {{ if link }}</a>{{ /if }}
+</div>

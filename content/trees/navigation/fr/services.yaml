@@ -1,0 +1,67 @@
+tree:
+  -
+    id: da9d3199-233b-4ae3-8266-3139ef07bc61
+    entry: 1cc784ea-accd-4637-9ee7-198356a1f7e1
+    data:
+      color: primary-500
+      icon: icons/finanz_und_rechnungswesen.png
+      short_description: 'Préparation des états financiers mensuels, trimestriels et annuels, conformément aux directives de l''entreprise'
+  -
+    id: c8dc7bb5-9e47-4162-b2ad-6c9e32ef7449
+    entry: 1838e804-7afe-42fb-96d5-c5606a8726b5
+    title: 'Conseil juridique et fiscal'
+    data:
+      color: secondary-500
+      icon: icons/steuer_und_rechtsberatung.png
+      short_description: 'Planification et conseils fiscaux, restructurations, rachats et réorganisations'
+  -
+    id: c81f7519-2e82-4d96-841f-d6874132f0a6
+    entry: f4c03fa2-b7a8-41a5-b2d9-587bb76981f0
+    title: 'Conseil en économie et en gestion'
+    data:
+      color: gray-800
+      icon: icons/wirtschafts_und_unternehmensberatung.png
+      short_description: 'Règlement, conseils sur la forme de société ou sur la création ou la liquidation de sociétés'
+  -
+    id: 86acf353-62a8-4d41-981e-550243f1e3a2
+    entry: f85fc4fe-f106-4f8e-b982-51b32b122c58
+    title: 'Conseil en matière de salaires et de ressources humaines'
+    data:
+      color: secondary-500
+      icon: icons/salaer_und_human_resources_beratung.png
+      short_description: 'Paie, ressources humaines'
+  -
+    id: 15ed27d6-beb7-4dc0-8784-7ad116571fa4
+    entry: 4091bb77-124c-4138-a351-cebc79651457
+    data:
+      color: gray-800
+      icon: icons/wirtschaftsprufung.png
+      short_description: 'Audit des états financiers annuels et consolidés, audit des fondations (fondations qualifiées)'
+  -
+    id: 2582e445-0106-4b86-a1fe-5fff3d130b0c
+    entry: a45c9753-037f-477f-814b-66b926482171
+    data:
+      color: primary-500
+      icon: icons/mehrwertsteuerberatung.png
+      short_description: 'at Fiscal Representations in Switzerland and abroad through our international network'
+  -
+    id: 070fbc10-ca3c-4721-8cc5-70695fa360b3
+    entry: 65b10c5f-2d47-477a-88d3-a1f4fabaa903
+    data:
+      color: primary-500
+      icon: icons/interim-management.png
+      short_description: 'Nous vous aidons à mettre en place une gestion financière professionnelle, à combler temporairement les lacunes de gestion dans le domaine financier et à éliminer les goulots d''étranglement.'
+  -
+    id: 28b8e092-061e-49d5-890e-afda6570ec27
+    entry: 588bf1b5-eef9-494f-af65-3adb1e5662fe
+    data:
+      color: secondary-500
+      icon: icons/immobilien.png
+      short_description: 'Nous nous occupons de la gestion de biens locatifs et de propriétés par étages, ainsi que du conseil en matière d''achat et de vente de biens immobiliers et de biens d''investissement.'
+  -
+    id: 0bfa7380-a182-4de8-ad25-a9f78c6ec4d3
+    entry: b2e4ea74-db1a-4d1d-a9c6-e54ec13bf688
+    data:
+      color: gray-800
+      icon: icons/bitcoin.png
+      short_description: 'Conseil, Comptabilité, Impôts Personnes physiques et morales'

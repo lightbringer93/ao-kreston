@@ -1,0 +1,24 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: target
+        field:
+          options:
+            _self: null
+            _blank: null
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: target
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          default: _self

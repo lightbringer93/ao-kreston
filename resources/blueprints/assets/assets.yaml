@@ -1,8 +1,29 @@
 title: Asset
-fields:
-  -
-    handle: alt
-    field:
-      display: 'Alt Text'
-      type: text
-      instructions: 'Description of the image'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: alt
+        field:
+          display: 'Alt Text'
+          type: text
+          instructions: 'Description of the image'
+          localizable: true
+      -
+        handle: link
+        field:
+          collections:
+            - pages
+            - team
+            - news
+            - seminars
+            - events
+          container: assets
+          display: Link
+          type: link
+          icon: link
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true

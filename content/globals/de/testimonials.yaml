@@ -1,0 +1,16 @@
+entries:
+  -
+    name: 'Alexander Fischer'
+    origin: 'Swiss-Bellhotel du Parc Baden'
+    text: 'Mit der a&o kreston audit ag haben wir einen zuverlässigen Berater, der uns in allen steuerlichen und buchhalterischen Belangen mit grossem Engagement zur Seite steht. Die a&o kreston audit ag zeichnet sich durch Kompetenz, kurze Reaktionszeiten und massgeschneiderte Dienstleistungen aus.'
+    image: testimonials/alexander_fischer.jpg
+  -
+    name: 'Christelle Müller & Vera Maag'
+    origin: 'Petit Stellou'
+    text: 'Seit 2017 unterstützt uns A&O Kreston bei betrieblichen, rechtlichen und buchhalterischen Fragen. Sympathisch und kompetent begleitet A&O Kreston unsere Markenentwicklung sowie bei Fragen rund um den (Online-)Handel und die damit verbundenen Herausforderungen im In- und Ausland.'
+    image: testimonials/petit_stellou.jpg
+  -
+    name: 'Maria Vila'
+    origin: 'Franz Carl Weber AG'
+    text: 'Dynamisch, effizient, innovativ, verbunden mit einem dienstbereiten und aufgestellten Team, das sind alles Punkte die für die a&o kreston audit ag sprechen. Ich freue mich auf die weitere Zusammenarbeit.'
+    image: testimonials/maria_vila.jpg

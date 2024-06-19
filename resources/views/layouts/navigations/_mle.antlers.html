@@ -1,0 +1,8 @@
+<div class="uppercase">
+    {{ locales current_first="false" }}
+    <a class="{{ page:locale === locale:short ?= 'text-primary-500' }} transition-colors duration-300 ease-in-out hover:text-primary-700"
+       href="{{ permalink }}">
+        {{ locale:short }}
+    </a>{{ if !last}} | {{ /if }}
+    {{ /locales }}
+</div>

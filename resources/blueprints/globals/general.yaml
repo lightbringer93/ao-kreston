@@ -1,0 +1,261 @@
+sections:
+  main:
+    display: Informationen
+    fields:
+      -
+        handle: logo_headline
+        field:
+          display: Logo
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+      -
+        handle: logo
+        field:
+          mode: list
+          container: assets
+          folder: layout/logos
+          restrict: true
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: Logo
+          type: assets
+          icon: assets
+          width: 50
+          listable: hidden
+          instructions_position: above
+      -
+        handle: logo_mobile
+        field:
+          mode: list
+          container: assets
+          folder: layout/logos
+          restrict: true
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Logo Mobile'
+          type: assets
+          icon: assets
+          width: 50
+          listable: hidden
+          instructions_position: above
+      -
+        handle: informationen
+        field:
+          display: Kontaktdaten
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          instructions: 'Generelle Kontakt Informationen der Webseite findest du hier.'
+      -
+        handle: company_or_person
+        field:
+          options:
+            company: Unternehmen
+            person: Person
+          inline: true
+          cast_booleans: false
+          display: 'Firma oder Person?'
+          type: radio
+          icon: radio
+          instructions: 'Wähle ob der Inhalt dieser Webseite ein Unternehmen oder eine Person repräsentiert.'
+          listable: hidden
+          instructions_position: above
+          default: company
+      -
+        handle: name
+        field:
+          input_type: text
+          antlers: false
+          display: Name
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          unless:
+            company_or_person: 'equals person'
+      -
+        handle: firstname
+        field:
+          input_type: text
+          antlers: false
+          display: Vorname
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          if:
+            company_or_person: 'equals person'
+      -
+        handle: lastname
+        field:
+          input_type: text
+          antlers: false
+          display: Nachname
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          if:
+            company_or_person: 'equals person'
+      -
+        handle: street
+        field:
+          input_type: text
+          antlers: false
+          display: Strasse
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          width: 75
+      -
+        handle: street_nr
+        field:
+          input_type: text
+          antlers: false
+          display: Hausnummer
+          type: text
+          icon: text
+          width: 25
+          listable: hidden
+          instructions_position: above
+      -
+        handle: zip
+        field:
+          input_type: text
+          antlers: false
+          display: PLZ
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+      -
+        handle: city
+        field:
+          input_type: text
+          antlers: false
+          display: Ort
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+      -
+        handle: country
+        field:
+          input_type: text
+          antlers: false
+          display: Land
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+      -
+        handle: email
+        field:
+          input_type: email
+          antlers: false
+          display: Email
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          width: 33
+          validate:
+            - email
+      -
+        handle: phone
+        field:
+          input_type: text
+          antlers: false
+          display: Telefon
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+      -
+        handle: fax
+        field:
+          input_type: text
+          antlers: false
+          display: Fax
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+      -
+        handle: opening_hours_headline
+        field:
+          display: Öffnungszeiten
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+      -
+        handle: opening_hours_mo_fr
+        field:
+          input_type: text
+          antlers: false
+          display: 'Montag - Freitag'
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+      -
+        handle: opening_hours_sa
+        field:
+          input_type: text
+          antlers: false
+          display: Samstag
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+  social_media:
+    display: 'Social Media'
+    fields: {  }
+  footer:
+    display: Footer
+    fields:
+      -
+        handle: footer_logo
+        field:
+          mode: list
+          container: assets
+          folder: layout/logos
+          restrict: true
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: Logo
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+      -
+        handle: about_us
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Über uns'
+          type: markdown
+          icon: markdown
+          listable: hidden
+          instructions_position: above

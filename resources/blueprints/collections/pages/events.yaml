@@ -1,0 +1,33 @@
+title: Events
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          localizable: true
+      -
+        handle: navigation_children
+        field:
+          max_items: 1
+          mode: select
+          display: 'Navigation children'
+          type: collections
+          icon: collections
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        import: sidebar
+        config:
+          slug: {  }
+          parent: {  }

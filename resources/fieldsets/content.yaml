@@ -1,0 +1,97 @@
+title: Content
+fields:
+  -
+    handle: content
+    field:
+      always_show_set_button: false
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+        - underline
+        - strikethrough
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      display: Content
+      type: bard
+      icon: bard
+      listable: hidden
+      sets:
+        title:
+          display: Title
+          fields:
+            -
+              import: title
+        alert:
+          display: Alert
+          fields:
+            -
+              import: alert
+        button:
+          display: Button
+          fields: {  }
+        container:
+          display: Container
+          fields:
+            -
+              import: container
+        form:
+          display: Form
+          fields:
+            -
+              import: form
+        background_block:
+          display: 'Background Block'
+          fields:
+            -
+              import: background_block
+        layout:
+          display: Layout
+          fields:
+            -
+              import: layout
+        timeline:
+          display: Timeline
+          fields:
+            -
+              import: timeline
+        iframe:
+          display: iFrame
+          fields:
+            -
+              import: iframe
+        new_set:
+          display: 'New Set'
+          fields:
+            -
+              handle: video
+              field:
+                display: Video
+                type: video
+                icon: video
+                listable: hidden
+                instructions_position: above
+                read_only: false
+      container: assets
+      link_collections:
+        - pages
+      instructions_position: above
+      read_only: false
+      antlers: false
+      localizable: true

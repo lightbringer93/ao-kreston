@@ -1,0 +1,16 @@
+title: Team
+sites:
+  - de
+  - en
+  - fr
+propagate: false
+template: templates/team/show
+layout: layout
+taxonomies:
+  - team_tags
+revisions: false
+route: '/team/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

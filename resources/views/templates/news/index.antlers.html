@@ -1,0 +1,40 @@
+{{ partial:layouts/contents/default }}
+
+{{ content }}
+{{ partial:partials/contents/types }}
+{{ /content }}
+
+<div class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-6 md:gap-8">
+
+    {{ taxonomy }}
+
+        {{ collection:news taxonomy:news_tags="{slug}" sort="post_date:desc" }}
+
+            {{ if entries_count > 0 }}
+
+            <div class="col-span-12 md:col-span-6 xl:col-span-4">
+                {{ partial:partials/news/default url="{entry}" }}
+            </div>
+
+            {{ else }}
+
+            <div class="col-span-12">
+                {{ partial:partials/alerts/default alert_color="info" }}
+                Keine News vorhanden. :)
+                {{ /partial:partials/alerts/default }}
+            </div>
+
+            {{ /if }}
+
+        {{ /collection:news }}
+
+    {{ /taxonomy }}
+
+</div>
+
+{{ /partial:layouts/contents/default }}
+
+
+
+
+

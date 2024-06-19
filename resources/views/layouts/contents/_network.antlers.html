@@ -1,0 +1,16 @@
+<div class="grid gird-cols-12 xl:grid-cols-10 gap-y-6 sm:gap-8 items-stretch">
+
+    <div class="col-span-12 xl:col-span-10 text-center">
+        <h2 class="pt-0 mb-0 text-primary-500">{{ titles:network_title }}</h2>
+    </div>
+
+    {{ if logos }}
+    {{ logos }}
+    {{ partial:partials/boxes/network }}
+    {{ /logos }}
+    {{ else }}
+    {{ assets container="network" }}
+    {{ partial:partials/boxes/network }}
+    {{ /assets }}
+    {{ /if }}
+</div>

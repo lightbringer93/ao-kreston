@@ -1,0 +1,61 @@
+{
+    "SENDEN": "Submit",
+    "Anrede": "Salutation",
+    "Vorname": "First name",
+    "Nachname": "Last name",
+    "Telefonnummer": "Phone number",
+    "E-Mail Adresse": "E-Mail Address",
+    "Firma": "Company",
+    "Feedback via": "Feedback via",
+    "Telefon": "Phone",
+    "E-Mail": "E-Mail",
+    "Ich habe Interesse an": "I'm interested in",
+    "Wie wurden Sie auf uns aufmerksam": "How did you hear about us",
+    "Nachricht": "Message",
+    "Termin": "Date",
+
+    "Herr": "Mr.",
+    "Frau": "Ms.",
+
+    "Buchhaltung & Rechnungswesen": "Bookkeeping & Accounting",
+    "Steuer- und Rechtsberatung": "Tax and Legal Advice",
+    "CH & grenzüberschreitende Mehrwertsteuerberatung": "CH & Cross-Border VAT Consulting",
+    "Lohn- und Personal-Administration (HR-Services)": "Payroll and Personnel Administration (HR-Services)",
+    "Professionelle Verwaltungsratstätigkeiten": "Professional Board Activities",
+    "Fiskalvertretung": "Fiscal Representation",
+    "Nachfolgeplanung": "Succession Planning",
+    "Treuhandtätigkeiten": "Trust Services",
+    "Unternehmensberatung": "Management Consultancy",
+
+    "Empfehlung": "Recommendation",
+    "Anzeige": "Advertisement",
+    "Sonstiges": "Others",
+
+    "Ein Fehler ist aufgetreten. Versuchen Sie es bitte später nocheinmal.": "An error has occurred. Please try again later.",
+    "Ihre Nachricht wurde erfolgreich übermittelt.": "Your message was sent successfully.",
+
+    "Ort": "Place",
+    "Termine": "Dates",
+    "Seminarlänge": "Time",
+    "Preis": "Price",
+    "Jetzt anmelden": "Register now",
+
+    "Mehr erfahren": "Learn more",
+
+    "Alle Beiträge ansehen": "View all posts",
+
+    "Unkompliziert und von überall her auf Knopfdruck Dokumentekomfortabel senden - das bietet die krestonApp.": "Send documents easily and conveniently from anywhere at the touch of a button - that's what the kreston app offers.",
+		
+	"2x zum Top Steuerexperten & Treuhänder gewählt": "3x elected as top tax & trustees",
+	"Kreston Global ist das 12. grösste Treuhandnetzwerk": "Kreston Global is the 13th largest accounting network",
+	"Kunden-Rating «sehr gut» 4.4 von 5 Sternen": "Customer rating \"very good\" 4.4 out of 5 stars",
+		
+	"Haben Sie Fragen? Wir sind ein Hallo von Ihnen entfernt:": "Do you have any questions? We are a hello away from you:",
+		
+	"Seminarleitung": "Seminar management",
+	"Rabatte": "Discounts",
+	"Angerechnet bei": "Credited with",
+
+    "Ihre Nachricht wurde erfolgreich versendet.": "The submission was successful."
+
+}

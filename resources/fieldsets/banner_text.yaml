@@ -1,0 +1,20 @@
+title: 'Banner text'
+fields:
+  -
+    handle: banner_text
+    field:
+      restrict: false
+      automatic_line_breaks: true
+      automatic_links: false
+      escape_markup: false
+      smartypants: false
+      antlers: false
+      display: 'Banner Text'
+      type: markdown
+      icon: markdown
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      default: |-
+        Kreston.
+        Knowing good advice.

@@ -1,0 +1,283 @@
+title: Column
+fields:
+  -
+    import: color
+  -
+    handle: content
+    field:
+      always_show_set_button: false
+      sets:
+        alert:
+          display: Alert
+          fields:
+            -
+              import: alert
+        title:
+          display: Title
+          fields:
+            -
+              import: title
+        button:
+          display: Button
+          fields:
+            -
+              import: button
+        list:
+          display: List
+          fields:
+            -
+              import: list
+        form:
+          display: Form
+          fields:
+            -
+              import: form
+        email:
+          display: E-Mail
+          fields:
+            -
+              handle: email
+              field:
+                input_type: text
+                antlers: false
+                display: E-Mail
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+                validate:
+                  - email
+        layout:
+          display: Layout
+          fields:
+            -
+              import: layout
+        timeline:
+          display: Timeline
+          fields:
+            -
+              import: timeline
+        iframe:
+          display: iFrame
+          fields:
+            -
+              import: iframe
+        video:
+          display: Video
+          fields:
+            -
+              handle: video
+              field:
+                display: Video
+                type: video
+                icon: video
+                listable: hidden
+                instructions_position: above
+                read_only: false
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+        - code
+      container: assets
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      display: Content
+      type: bard
+      icon: bard
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      antlers: false
+      localizable: true
+  -
+    handle: size
+    field:
+      step: 1
+      min: 0
+      max: 12
+      default: '12'
+      display: Size
+      type: range
+      icon: range
+      listable: hidden
+      instructions_position: above
+      localizable: true
+  -
+    handle: size_for_2xl
+    field:
+      default: false
+      display: 'Size for 2xl'
+      type: toggle
+      icon: toggle
+      width: 33
+      listable: hidden
+      instructions_position: above
+      localizable: true
+  -
+    handle: size_for_xxl
+    field:
+      default: false
+      display: 'Size for xxl'
+      type: toggle
+      icon: toggle
+      width: 33
+      listable: hidden
+      instructions_position: above
+      localizable: true
+  -
+    handle: size_for_xl
+    field:
+      default: false
+      display: 'Size for xl'
+      type: toggle
+      icon: toggle
+      width: 33
+      listable: hidden
+      instructions_position: above
+      localizable: true
+  -
+    handle: size_for_lg
+    field:
+      default: false
+      display: 'Size for lg'
+      type: toggle
+      icon: toggle
+      width: 33
+      listable: hidden
+      instructions_position: above
+      localizable: true
+  -
+    handle: size_for_md
+    field:
+      default: false
+      display: 'Size for md'
+      type: toggle
+      icon: toggle
+      width: 33
+      listable: hidden
+      instructions_position: above
+      localizable: true
+  -
+    handle: size_for_sm
+    field:
+      default: false
+      display: 'Size for sm'
+      type: toggle
+      icon: toggle
+      width: 33
+      listable: hidden
+      instructions_position: above
+      localizable: true
+  -
+    handle: site_2xl
+    field:
+      step: 1
+      min: 0
+      max: 12
+      default: '12'
+      display: 'Size 2xl'
+      type: range
+      icon: range
+      listable: hidden
+      instructions_position: above
+      width: 33
+      if_any:
+        size_for_2xl: 'equals 1'
+      localizable: true
+  -
+    handle: size_xxl
+    field:
+      step: 1
+      min: 0
+      max: 12
+      default: '12'
+      display: 'Size xxl'
+      type: range
+      icon: range
+      width: 33
+      listable: hidden
+      instructions_position: above
+      if:
+        size_for_xxl: 'equals 1'
+      localizable: true
+  -
+    handle: size_xl
+    field:
+      step: 1
+      min: 0
+      max: 12
+      default: '12'
+      display: 'Size xl'
+      type: range
+      icon: range
+      width: 33
+      listable: hidden
+      instructions_position: above
+      if:
+        size_for_xl: 'equals 1'
+      localizable: true
+  -
+    handle: size_lg
+    field:
+      step: 1
+      min: 0
+      max: 12
+      default: '12'
+      display: 'Size lg'
+      type: range
+      icon: range
+      width: 33
+      listable: hidden
+      instructions_position: above
+      if:
+        size_for_lg: 'equals 1'
+      localizable: true
+  -
+    handle: size_md
+    field:
+      step: 1
+      min: 0
+      max: 12
+      default: '12'
+      display: 'Size md'
+      type: range
+      icon: range
+      width: 33
+      listable: hidden
+      instructions_position: above
+      if:
+        size_for_md: 'equals 1'
+      localizable: true
+  -
+    handle: size_sm
+    field:
+      step: 1
+      min: 0
+      max: 12
+      default: '12'
+      display: 'Size sm'
+      type: range
+      icon: range
+      width: 33
+      listable: hidden
+      instructions_position: above
+      if:
+        size_for_sm: 'equals 1'
+      localizable: true

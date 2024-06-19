@@ -1,0 +1,13 @@
+data:
+  name: 'Daily Report'
+  download_tags:
+    - finanz-und-rechnungswesen
+  languages:
+    - en
+    - fr
+size: 34816
+last_modified: 1649776701
+width: null
+height: null
+mime_type: application/vnd.ms-excel
+duration: null

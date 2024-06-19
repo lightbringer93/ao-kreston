@@ -1,0 +1,10 @@
+<textarea name="{{ handle }}"
+          id="{{ handle }}"
+          :class="{'border border-red-500': errors['{{ handle }}']}"
+          {{ if error }}class="border border-red-500"{{ /if }}
+          rows="5"
+          {{ if placeholder }}placeholder="{{ placeholder | trans }}"{{ /if }}
+          {{ if validate|contains:required }}required :required="false"{{ /if }}
+          {{ if character_limit }}maxlength="{{ character_limit }}"{{ /if }}>
+    {{ old ?? default }}
+</textarea>

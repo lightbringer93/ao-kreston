@@ -1,0 +1,25 @@
+title: Color
+fields:
+  -
+    handle: color
+    field:
+      options:
+        primary-500: Primary
+        secondary-500: Secondary
+        tertiary-500: Tertiary
+        gray-800: Gray
+        white: White
+        black: Black
+      multiple: false
+      clearable: true
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: Color
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true

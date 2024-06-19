@@ -1,0 +1,50 @@
+title: Container
+fields:
+  -
+    handle: margin
+    field:
+      default: true
+      display: Margin
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true
+      width: 50
+  -
+    handle: align_items
+    field:
+      options:
+        center: Center
+        start: start
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      default: center
+      display: 'Align items'
+      type: select
+      icon: select
+      width: 50
+      listable: hidden
+      instructions_position: above
+      read_only: false
+  -
+    handle: columns
+    field:
+      collapse: false
+      sets:
+        column:
+          display: Column
+          fields:
+            -
+              import: column
+      display: Columns
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      localizable: true

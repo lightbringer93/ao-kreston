@@ -1,0 +1,57 @@
+{
+    "SENDEN": "Envoyer",
+    "Anrede": "Titre de civilité",
+    "Vorname": "Prénom",
+    "Nachname": "Nom de famille",
+    "Telefonnummer": "Numéro de téléphone",
+    "E-Mail Adresse": "Adresse électronique",
+    "Firma": "Société",
+    "Feedback via": "Réaction via",
+    "Telefon": "Téléphone",
+    "E-Mail": "E-Mail",
+    "Ich habe Interesse an": "Je suis intéressé(e) par",
+    "Wie wurden Sie auf uns aufmerksam": "Comment avez-vous entendu parler de nous",
+    "Nachricht": "Message",
+    "Termin": "Rendez-vous",
+
+    "Herr": "Monsieur",
+    "Frau": "Mme",
+
+    "Buchhaltung & Rechnungswesen": "Finances et comptabilité",
+    "Steuer- und Rechtsberatung": "Conseil fiscal",
+    "CH & grenzüberschreitende Mehrwertsteuerberatung": "VAT and Customs Consultancy",
+    "Lohn- und Personal-Administration (HR-Services)": "Administration de la paie et du personnel (services des ressources humaines",
+    "Professionelle Verwaltungsratstätigkeiten": "Activités professionnelles des conseils d'administration",
+    "Fiskalvertretung": "Représentation fiscale",
+    "Nachfolgeplanung": "Planification des successions",
+    "Treuhandtätigkeiten": "Activités fiduciaires",
+    "Unternehmensberatung": "Conseil en gestion",
+
+    "Empfehlung": "Recommandation",
+    "Anzeige": "Publicité",
+    "Sonstiges": "Autres",
+
+    "Ein Fehler ist aufgetreten. Versuchen Sie es bitte später nocheinmal.": "Une erreur est survenue. Veuillez réessayer plus tard.",
+    "Ihre Nachricht wurde erfolgreich übermittelt.": "Votre message a été transmis avec succès.",
+
+    "Ort": "Lieu",
+    "Termine": "Dates",
+    "Seminarlänge": "Durée du séminaire",
+    "Preis": "Prix",
+    "Jetzt anmelden": "S'inscrire maintenant",
+
+    "Mehr erfahren": "En savoir plus",
+
+    "Alle Beiträge ansehen": "Voir tous les messages",
+
+    "Unkompliziert und von überall her auf Knopfdruck Dokumentekomfortabel senden - das bietet die krestonApp.": "Envoyer des documents confortables en toute simplicité et de n'importe où en appuyant sur un bouton - c'est ce que propose la krestonApp.",
+		
+	"2x zum Top Steuerexperten & Treuhänder gewählt": "Élu trois fois meilleur expert fiscal & fiduciaire",
+	"Kreston Global ist das 12. grösste Treuhandnetzwerk": "Kreston Global est le 13e plus grand réseau fiduciaire",
+	"Kunden-Rating «sehr gut» 4.4 von 5 Sternen": "Évaluation des clients \"très bien\" 4,4 étoiles sur 5",
+		
+	"Haben Sie Fragen? Wir sind ein Hallo von Ihnen entfernt:": "Vous avez des questions? Nous sommes à un bonjour de vous :",
+
+    "Ihre Nachricht wurde erfolgreich versendet.": "La soumission a été réussie."
+
+}

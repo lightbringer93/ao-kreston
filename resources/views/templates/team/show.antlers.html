@@ -1,0 +1,130 @@
+{{ partial:layouts/contents/default }}
+
+<div class="container xxl:max-w-screen-xxl">
+    {{ content }}
+    {{ partial:partials/contents/types }}
+    {{ /content }}
+</div>
+
+<div class="container xxl:max-w-screen-xxl pb-10 sm:pb-[100px]">
+    {{ if hero }}
+    <div class="mb-10 sm:mb-[60px]">
+        {{ hero }}
+    </div>
+    {{ /if }}
+
+    {{ if work_experience }}
+    <div class="grid grid-cols-12 gap-y-6 lg:gap-8">
+        <div class="col-span-12 lg:col-span-8 order-2 lg:order-1">
+            {{ partial:partials/titles/icon icon="{ glide src='/assets/icons/berufserfahrung.png' width='60' }" }}
+            Berufserfahrung
+            {{ /partial:partials/titles/icon }}
+            <div class="grid grid-cols-8 sm:gap-x-8 gap-y-8 sm:gap-y-10 items-center">
+                {{ work_experience }}
+                <div class="col-span-8 sm:col-span-2">
+                    {{ if logo }}
+                    <img src="{{ glide src="{logo}" width="180" }}">
+                    {{ /if }}
+                </div>
+                <div class="col-span-8 sm:col-span-6">
+                    {{ description }}
+                </div>
+                {{ /work_experience }}
+            </div>
+        </div>
+        <div class="col-span-12 lg:col-span-4 order-1 lg:order-2">
+            <img src="{{ glide:image }}"
+                 alt="{{ title }}"
+                 class="mb-5">
+            <p class="text-lg">
+                <span class="font-bold"><span class="text-primary-500">{{ title }}</span>, {{ position ?? '' }}</span>
+                {{ if education }}<br>{{ education }}{{ value }}{{ if not last }}<br> {{ /if }}{{ /education }}{{ /if }}
+                {{ if workplace }}<br>Arbeitsort{{ workplace }}{{ if not first and last }}e{{ /if }}{{ /workplace }}
+                {{ workplace }}{{ value }}{{ if not last }}, {{ /if }}{{ /workplace }}{{ /if }}
+            </p>
+        </div>
+    </div>
+    {{ /if }}
+</div>
+
+{{ if training or honorary_post }}
+<div class="bg-gray-50 py-10 sm:py-[70px] content">
+    <div class="container xxl:max-w-screen-xxl content grid grid-cols-12 gap-y-8 sm:gap-8">
+        <div class="col-span-12 text-center sm:mb-[60px]">
+            <h2>Sonstiges</h2>
+        </div>
+        {{ if training }}
+        <div class="col-span-12 {{ if honorary_post }}lg:col-span-6{{ /if }}">
+            {{ partial:partials/titles/icon icon="{ glide src='/assets/icons/ausbildung.png' width='60' }" }}
+            Ausbildung
+            {{ /partial:partials/titles/icon }}
+            <div class="grid grid-cols-8 sm:gap-x-8 gap-y-8 sm:gap-y-10 items-center">
+                {{ training }}
+                <div class="col-span-8 sm:col-span-2">
+                    {{ if logo }}<img src="{{ glide src="{logo}" width="180" }}">{{ /if }}
+                </div>
+                <div class="col-span-8 sm:col-span-6">
+                    {{ description }}
+                </div>
+                {{ /training }}
+            </div>
+        </div>
+        {{ /if }}
+        {{ if honorary_post }}
+        <div class="col-span-12 {{ if training }}lg:col-span-6{{ /if }}">
+            {{ partial:partials/titles/icon icon="{ glide src='/assets/icons/ehrenamt.png' width='60' }" }}
+            Ehrenamt
+            {{ /partial:partials/titles/icon }}
+            <div class="grid grid-cols-8 gap-x-8 gap-y-8 sm:gap-y-10 items-center">
+                {{ honorary_post }}
+                <div class="col-span-8 sm:col-span-2">
+                    {{ if logo }}<img src="{{ glide src="{logo}" width="180" }}">{{ /if }}
+                </div>
+                <div class="col-span-8 sm:col-span-6">
+                    {{ description }}
+                </div>
+                {{ /honorary_post }}
+            </div>
+        </div>
+        {{ /if }}
+    </div>
+</div>
+{{ /if }}
+
+{{ if languages or skills }}
+<div class="container xxl:max-w-screen-xxl py-10 sm:py-[70px]">
+    <div class="grid grid-cols-12 gap-y-6 sm:gap-8">
+        {{ if languages }}
+        <div class="col-span-12 {{ if skills }}lg:col-span-5{{ /if }}">
+            {{ partial:partials/titles/icon icon="{ glide src='/assets/icons/sprachen.png' width='60' }" }}
+            Sprachen
+            {{ /partial:partials/titles/icon }}
+            <div class="grid grid-cols-8 sm:gap-x-8 gap-y-5 items-center">
+                {{ languages }}
+                <div class="col-span-8 sm:col-span-2">
+                    <strong>{{ language }}</strong>
+                </div>
+                <div class="col-span-8 sm:col-span-6">
+                    <p class="mb-0">{{ description }}</p>
+                </div>
+                {{ /languages }}
+            </div>
+        </div>
+        {{ /if }}
+        {{ if skills }}
+        <div class="col-span-12 {{ if languages }}lg:col-span-6 lg:col-start-7{{ /if }} content">
+            {{ partial:partials/titles/icon icon="{ glide src='/assets/icons/kenntnisse.png' width='60' }" }}
+            Kenntnisse
+            {{ /partial:partials/titles/icon }}
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-8">
+                {{ skills }}
+                <li>{{ value }}</li>
+                {{ /skills }}
+            </ul>
+        </div>
+        {{ /if }}
+    </div>
+</div>
+{{ /if }}
+
+{{ /partial:layouts/contents/default }}

@@ -1,0 +1,80 @@
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: theme
+        field:
+          display: Theme
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          instructions: 'Achtung: Diese Farben definieren nur die Browser Theme color. (Meta tag theme-color)'
+          localizable: true
+      -
+        handle: theme_color
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - HEXA
+          display: 'Theme color'
+          type: color
+          icon: color
+          width: 50
+          listable: hidden
+          instructions_position: above
+          localizable: true
+      -
+        handle: theme_color_dark
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - HEXA
+          display: 'Theme color (dark mode)'
+          type: color
+          icon: color
+          width: 50
+          listable: hidden
+          instructions_position: above
+          localizable: true
+      -
+        handle: schriftart
+        field:
+          display: Schriftart
+          type: section
+          icon: section
+          instructions: 'Die gewünschte Schriftart importieren.'
+          listable: hidden
+          instructions_position: above
+          localizable: true
+      -
+        handle: google_fonts_link
+        field:
+          input_type: text
+          antlers: false
+          display: 'Google Fonts Link'
+          type: text
+          icon: text
+          instructions: 'Google Web Font Link einfügen <a href="https://fonts.google.com/" target="_blank">https://fonts.google.com/</a>'
+          listable: hidden
+          instructions_position: above
+          validate:
+            - url
+          localizable: true
+      -
+        handle: adobe_fonts_link
+        field:
+          input_type: text
+          antlers: false
+          display: 'Adobe Fonts Link'
+          type: text
+          icon: text
+          instructions: 'Adobe Web Fonts Link einfügen <a href="https://fonts.adobe.com/" target="_blank">https://fonts.adobe.com/</a>'
+          listable: hidden
+          instructions_position: above
+          localizable: true

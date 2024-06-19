@@ -1,0 +1,460 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          localizable: true
+      -
+        handle: hero_content
+        field:
+          always_show_set_button: false
+          sets:
+            title:
+              display: Title
+              fields:
+                -
+                  import: title
+            alert:
+              display: Alert
+              fields:
+                -
+                  import: alert
+            button:
+              display: Button
+              fields:
+                -
+                  import: button
+            list:
+              display: List
+              fields:
+                -
+                  import: list
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          container: assets
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          link_collections:
+            - pages
+            - team
+            - news
+            - seminars
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: Hero
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: content_before_sidebar
+        field:
+          always_show_set_button: false
+          sets:
+            title:
+              display: Title
+              fields:
+                -
+                  import: title
+            alert:
+              display: Alert
+              fields:
+                -
+                  import: alert
+            button:
+              display: Button
+              fields:
+                -
+                  import: button
+            list:
+              display: List
+              fields:
+                -
+                  import: list
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          container: assets
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          link_collections:
+            - pages
+            - team
+            - news
+            - seminars
+            - events
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: 'Content (before sidebar)'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: content_next_to_sidebar
+        field:
+          always_show_set_button: false
+          sets:
+            title:
+              display: Title
+              fields:
+                -
+                  import: title
+            alert:
+              display: Alert
+              fields:
+                -
+                  import: alert
+            button:
+              display: Button
+              fields:
+                -
+                  import: button
+            list:
+              display: List
+              fields:
+                -
+                  import: list
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          container: assets
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          link_collections:
+            - pages
+            - team
+            - news
+            - seminars
+            - events
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: 'Content (next to sidebar)'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: content_below_sidebar
+        field:
+          always_show_set_button: false
+          sets:
+            title:
+              display: Title
+              fields:
+                -
+                  import: title
+            alert:
+              display: Alert
+              fields:
+                -
+                  import: alert
+            button:
+              display: Button
+              fields:
+                -
+                  import: button
+            list:
+              display: List
+              fields:
+                -
+                  import: list
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          container: assets
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          link_collections:
+            - pages
+            - team
+            - news
+            - seminars
+            - events
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: 'Content (below sidebar)'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        import: sidebar
+        config:
+          slug: {  }
+      -
+        handle: post_date
+        field:
+          mode: single
+          time_enabled: true
+          time_seconds_enabled: false
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Post date'
+          type: date
+          icon: date
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+  data:
+    display: Data
+    fields:
+      -
+        handle: show_form
+        field:
+          default: true
+          display: 'Show form'
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          width: 50
+          localizable: true
+      -
+        handle: hide_data
+        field:
+          default: false
+          display: 'Hide data'
+          type: toggle
+          icon: toggle
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: place
+        field:
+          input_type: text
+          antlers: false
+          display: Place
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          width: 50
+          localizable: true
+      -
+        handle: price
+        field:
+          input_type: text
+          antlers: false
+          display: Price
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: seminar_length
+        field:
+          antlers: false
+          display: 'Seminar Length'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: dates
+        field:
+          fields:
+            -
+              handle: date
+              field:
+                mode: single
+                time_enabled: false
+                time_seconds_enabled: false
+                full_width: false
+                inline: false
+                columns: 1
+                rows: 1
+                display: Date
+                type: date
+                icon: date
+                listable: hidden
+                instructions_position: above
+                read_only: false
+                validate:
+                  - required
+          mode: table
+          reorderable: true
+          display: Dates
+          type: grid
+          icon: grid
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: dates_text_form
+        field:
+          display: 'Dates (text form)'
+          type: list
+          icon: list
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: seminar_leadership
+        field:
+          container: assets
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: true
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Seminar leadership'
+          type: markdown
+          icon: markdown
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: discouts
+        field:
+          container: assets
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: true
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: Discouts
+          type: markdown
+          icon: markdown
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: credited_with
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: true
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Credited with'
+          type: markdown
+          icon: markdown
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+  images:
+    display: Images
+    fields:
+      -
+        import: banner_text
+      -
+        handle: slider
+        field:
+          mode: list
+          container: assets
+          folder: slider
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Banner
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+title: Seminars

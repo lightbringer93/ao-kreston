@@ -1,0 +1,17 @@
+title: Seminars
+sites:
+  - de
+  - en
+  - fr
+propagate: false
+template: templates/events/show
+layout: layout
+revisions: false
+route:
+  de: 'seminare/{slug}'
+  en: 'seminars/{slug}'
+  fr: 'seminaires/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

@@ -1,0 +1,75 @@
+<!-- Mobile Navigation -->
+<div class="bg-white overflow-y-auto max-h-screen"
+     x-show="navOpen"
+     x-collapse>
+
+    <nav class="container pt-6 pb-1 px-0">
+
+        <div class="mb-1">
+            {{ partial:layouts/navigations/mle }}
+        </div>
+
+        {{ nav }}
+        {{ if show_in_menu }}
+        <div class="flex flex-wrap items-center {{ if navigation_children }}collection-children{{ /if }}"
+             {{ if children or navigation_children }}x-data="{ subMenuOpen{{ index }}: false }"{{ /if }}>
+
+            <a class="flex-1 block py-2 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-100 transition duration-150 ease-in-out {{ if depth == 2 }}text-sm pl-5{{ elseif depth == 3 }}text-sm pl-7{{ elseif depth == 4 }}text-sm pl-9{{ else }}text-base{{ /if }}"
+               href="{{ redirect ?? url }}">
+                {{ menu_text ?? title }}
+            </a>
+
+            {{ if children }}
+            <button
+                class="group ml-auto items-center justify-center py-1 px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500 transition duration-150 ease-in-out"
+                @click="subMenuOpen{{ index }} = (subMenuOpen{{ index }}) ? false : true">
+                <svg
+                    class="ml-auto group-hover:text-primary-500 group-focus:text-primary-500 transition ease-in-out duration-150 text-gray-600 {{ if depth == 1 }}h-6 w-6{{ else }}h-5 w-5{{ /if }}"
+                    :class="{ 'transform rotate-180': subMenuOpen{{ index }} === true }"
+                    viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                          clip-rule="evenodd"></path>
+                </svg>
+            </button>
+
+            <div class="w-full" x-show="subMenuOpen{{ index }}" x-collapse>
+                {{ if children }}
+                {{ *recursive children* }}
+                {{ /if }}
+            </div>
+            {{ /if }}
+
+            {{ if navigation_children }}
+            <button
+                class="group ml-auto items-center justify-center py-1 px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500 transition duration-150 ease-in-out"
+                @click="subMenuOpen{{ index }} = !subMenuOpen{{ index }}">
+                <svg
+                    class="ml-auto group-hover:text-primary-500 group-focus:text-primary-500 transition ease-in-out duration-150 text-gray-600 {{ if depth == 1 }}h-6 w-6{{ else }}h-5 w-5{{ /if }}"
+                    :class="{ 'transform rotate-180': subMenuOpen{{ index }} === true }"
+                    viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                          clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="w-full submenu" x-show="subMenuOpen{{ index }}" x-collapse>
+                {{ collection from="{ navigation_children }" sort="post_date:desc" }}
+                {{ if show_in_menu }}
+                <a class="flex-1 block py-2 text-sm pl-5 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:text-gray-900 focus:bg-gray-100 transition duration-150 ease-in-out"
+                   href="{{ redirect ?? url }}">
+                    {{ menu_text ?? title }}
+                </a>
+                {{ /if }}
+                {{ /collection }}
+            </div>
+            {{ /if }}
+        </div>
+        {{ /if }}
+        {{ /nav }}
+        <div>
+        </div>
+    </nav>
+</div>

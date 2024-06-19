@@ -1,0 +1,11 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: alt
+        field:
+          type: text
+          display: 'Alt Text'
+          instructions: 'Description of the image'
+          localizable: true

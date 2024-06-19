@@ -1,0 +1,17 @@
+<!-- FivtyFivty -->
+<div class="grid grid-cols-12 gap-y-8 lg:gap-8 bg-gray-50 relative {{ classes_wrapper }}">
+    <div class="lg:col-span-6 hidden lg:block relative">
+        <div data-aos="fade-right" data-aos-one="true" data-aos-duration="1000" class="h-full overflow-hidden">
+            {{# <img src="{{ glide:image height="686" }}" class="w-full h-full object-cover absolute inset-0"> #}}
+            {{ partial:partials/images/default
+            image="{ image }"
+            sizes="(min-width: 1024px) 50vw"
+            imgClass='w-full !h-full object-cover absolute inset-0 transition-all duration-300 ease-in-out hover:scale-[1.05]' }}
+        </div>
+    </div>
+    <div class="col-span-12 lg:col-span-6 py-10 sm:py-[65px] px-8 sm:px-[100px] {{ classes_content }}">
+        <div data-aos="fade-left" data-aos-one="true" data-aos-duration="1000" >
+            {{ slot }}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,186 @@
+{{ partial:layouts/contents/default no_padding_bottom="true" }}
+
+{{ if hero_content and !is_past_event }}
+
+<!-- Hero -->
+<div class="container xxl:max-w-screen-xxl mb-10 sm:mb-[80px]">
+
+    {{ hero_content }}
+    {{ partial:partials/contents/types no_container="true" }}
+    {{ /hero_content }}
+
+</div>
+
+{{ /if }}
+
+{{ if is_past_event }}
+
+<!-- Past Event Content -->
+<div class="container xxl:max-w-screen-xxl mb-10 sm:mb-[80px]">
+
+    {{ content_past_event }}
+    {{ partial:partials/contents/types no_container="true" }}
+    {{ /content_past_event }}
+
+</div>
+
+{{ if gallery }}
+
+<!-- Gallery -->
+<div class="container xxl:max-w-screen-xxl mb-10 sm:mb-[80px]">
+    <hr class="py-2">
+    <div class="grid grid-cols-12 gap-y-6 sm:gap-8">
+        {{ gallery }}
+        <div class="col-span-12 sm:col-span-4 lg:col-span-3">
+            <a href="{{ url }}" data-fancybox="{{ page:title }}">
+                <img src="{{ glide:url square="500" }}"
+                     class="hover:opacity-75 transition-opacity ease-in-out duration-300w"
+                     alt="{{ alt }}">
+            </a>
+        </div>
+        {{ /gallery }}
+    </div>
+</div>
+
+{{ /if }}
+
+{{ /if }}
+
+{{ if !is_past_event }}
+
+{{ if !hide_data }}
+
+<!-- Parallax -->
+{{ partial:partials/containers/parallax image="/assets/layout/parallax.jpg" classes="sm:py-[115px]" }}
+<div
+    class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-6 md:gap-8 text-white">
+    <div class="col-span-12 md:col-span-6 xxl:col-span-3 flex flex-col">
+        <div class="flex items-center mb-4 md:min-h-[51px]">
+            <img src="{{ glide src="/assets/icons/marker.png" width="37" }}"
+                 alt="Ort"
+                 class="mr-3 max-w-[25px] md:max-w-none">
+            <span class="text-[#c6e9f9] text-2xl md:text-5xl font-bold leading-none">{{ "Ort" | trans }}</span>
+        </div>
+        <p class="text-xxl">{{ place }}</p>
+    </div>
+    {{ if dates || dates_text_form }}
+    <div class="col-span-12 md:col-span-6 xxl:col-span-3 flex flex-col">
+        <div class="flex items-center mb-4 md:min-h-[51px]">
+            <img src="{{ glide src="/assets/icons/calendar.png" width="45" }}"
+                 alt="Termine"
+                 class="mr-3 max-w-[25px] md:max-w-none">
+            <span class="text-[#c6e9f9] text-2xl md:text-5xl font-bold leading-none">{{ "Termine" | trans }}</span>
+        </div>
+        <p class="text-xxl">
+            {{ dates }}
+            {{ date format_localized="%A, %d. %B %Y" }}{{ if !last }}<br>{{ /if }}
+            {{# date format="D, d. F Y" }}{{ if !last }}<br>{{ /if #}}
+            {{ /dates }}
+            {{ dates_text_form }}
+            {{ value }}{{ if !last }}<br>{{ /if }}
+            {{ /dates_text_form }}
+        </p>
+    </div>
+    {{ /if }}
+    <div class="col-span-12 md:col-span-6 xxl:col-span-3 flex flex-col">
+        <div class="flex items-center mb-4 md:min-h-[51px]">
+            <img src="{{ glide src="/assets/icons/clock.png" width="50" }}"
+                 alt="Seminarlänge"
+                 class="mr-3 max-w-[25px] md:max-w-none">
+            <span class="text-[#c6e9f9] text-2xl md:text-5xl font-bold leading-none">{{ "Seminarlänge" | trans }}</span>
+        </div>
+        <p class="text-xxl">
+            {{ seminar_length }}
+        </p>
+    </div>
+    <div class="col-span-12 md:col-span-6 xxl:col-span-3 flex flex-col">
+        <div class="flex items-center mb-4 md:min-h-[51px]">
+            <img src="{{ glide src="/assets/icons/tag.png" width="50" }}"
+                 alt="Preis"
+                 class="mr-3 max-w-[25px] md:max-w-none">
+            <span class="text-[#c6e9f9] text-2xl md:text-5xl font-bold leading-none">{{ "Preis" | trans }}</span>
+        </div>
+        <p class="text-xxl">{{ price }}</p>
+    </div>
+</div>
+{{ /partial:partials/containers/parallax }}
+
+{{ /if }}
+
+{{ if content_before_sidebar }}
+
+<!-- Content Before sidebar -->
+<div class="container xxl:max-w-screen-xxl pt-10 sm:pt-[65px] xl:mb-20">
+    {{ content_before_sidebar }}
+    {{ partial:partials/contents/types no_container="true" }}
+    {{ /content_before_sidebar }}
+</div>
+
+{{ /if }}
+
+{{ if content_next_to_sidebar }}
+
+<!-- Content with Sidebar -->
+<div class="container xxl:max-w-screen-xxl mb-20 {{ if !content_before_sidebar }}pt-20{{ /if }}">
+
+    <div class="grid grid-cols-12 gap-y-6 xl:gap-8">
+
+        <div class="col-span-12 xl:col-span-8">
+            {{ content_next_to_sidebar }}
+            {{ partial:partials/contents/types no_container="true" }}
+            {{ /content_next_to_sidebar }}
+        </div>
+
+        <div
+            class="col-span-12 xl:col-span-4 prose-strong:text-white prose-p:mb-8 prose-h2:mb-4 prose-h3:mb-4 prose-h2:text-white prose-h3:text-white">
+            {{ partial:layouts/contents/events_sidebar }}
+        </div>
+    </div>
+</div>
+
+{{ /if }}
+
+{{ if content_below_sidebar }}
+
+<!-- Content -->
+<div class="container xxl:max-w-screen-xxl mb-20">
+    {{ content_below_sidebar }}
+    {{ partial:partials/contents/types no_container="true" }}
+    {{ /content_below_sidebar }}
+</div>
+
+{{ /if }}
+
+{{ if !is_past_event && show_form }}
+
+{{ partial:partials/boxes/fivtyfivty image="/assets/home/people3.jpg" classes_wrapper="!bg-primary-500" }}
+
+<div class="text-white ">
+    <h2 class="text-white mb-10 sm:mb-[80px]">{{ "Jetzt anmelden" | trans }}</h2>
+
+    <div class="event-form">
+        {{ dates }}
+        {{# <span data-value="{{ date format_localized="%A, %d.%B %Y" }}" data-key="{{ date format="Y-m-d" }}"></span> #}}
+        <span class="date" data-value="{{ date format_localized="%A, %d. %B %Y" }}"
+              data-key="{{ date format_localized="%A, %d. %B %Y" }}"></span>
+        {{ /dates }}
+        {{ dates_text_form }}
+        <span class="date" data-value="{{ value }}"
+              data-key="{{ value }}"></span>
+        {{ /dates_text_form }}
+        <span class="event-name" data-event-name="{{ menu_text }}"></span>
+
+        {{ partial:partials/forms/default is_ajax_form="true" handle="event" form_template="event" }}
+    </div>
+</div>
+
+{{ /partial:partials/boxes/fivtyfivty }}
+
+{{ /if }}
+
+{{ /if }}
+
+{{ /partial:layouts/contents/default }}
+
+
+

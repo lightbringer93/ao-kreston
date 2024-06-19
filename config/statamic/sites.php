@@ -15,10 +15,22 @@ return [
 
     'sites' => [
 
-        'default' => [
-            'name' => config('app.name'),
+        'de' => [
+            'name' => 'Deutsch',
+            'locale' => 'de_CH',
+            'url' => env('APP_URL') . 'de/',
+        ],
+
+        'en' => [
+            'name' => 'Englisch',
             'locale' => 'en_US',
-            'url' => '/',
+            'url' => env('APP_URL') . 'en/',
+        ],
+
+        'fr' => [
+            'name' => 'Französisch',
+            'locale' => 'fr_FR',
+            'url' => env('APP_URL') . 'fr/',
         ],
 
     ],

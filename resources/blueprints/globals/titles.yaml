@@ -1,0 +1,219 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: contact_person_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Contact person title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: news_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'News title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: testimonials_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Testimonials title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: newsletter_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Newsletter title'
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: newsletter_link
+        field:
+          input_type: text
+          antlers: false
+          display: 'Newsletter link'
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: newsletter_button_text
+        field:
+          input_type: text
+          antlers: false
+          display: 'Newsletter button text'
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: network_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Network title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: vision
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: Vision
+          type: markdown
+          icon: markdown
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: all_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'All title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: headquarters_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Headquarters title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: branches_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Branches title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: approach_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Approach title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: contact_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Contact title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: a_and_o_kreston_ag_app_your_office_to_go_title
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'a&o kreston ag App – Your Office to Go title'
+          type: markdown
+          icon: markdown
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: download_ao_kreston_ag_app_now_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Download a&o kreston ag App now title'
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: app_google_play_link
+        field:
+          input_type: text
+          antlers: false
+          display: 'Google Play link'
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: app_store_link
+        field:
+          input_type: text
+          antlers: false
+          display: 'App Store link'
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false

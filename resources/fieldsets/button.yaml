@@ -1,0 +1,57 @@
+title: Button
+fields:
+  -
+    handle: button_text
+    field:
+      input_type: text
+      display: Text
+      type: text
+      icon: text
+      listable: hidden
+      width: 50
+      antlers: false
+      localizable: true
+      instructions_position: above
+  -
+    import: color
+    prefix: button_
+  -
+    handle: button_link
+    field:
+      display: Link
+      type: link
+      icon: link
+      listable: hidden
+      width: 75
+      instructions_position: above
+      read_only: false
+      collections:
+        - pages
+        - team
+        - news
+        - events
+        - seminars
+      container: assets
+      localizable: true
+  -
+    handle: button_blank
+    field:
+      display: 'New window?'
+      type: toggle
+      icon: toggle
+      width: 25
+      listable: hidden
+      instructions_position: above
+      default: false
+      localizable: true
+  -
+    handle: font_awesome_icon
+    field:
+      input_type: text
+      antlers: false
+      display: 'Font Awesome icon'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      localizable: true

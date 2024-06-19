@@ -1,0 +1,19 @@
+<!-- Form -->
+<div {{ if is_ajax_form }}x-data="form{{ if redirect_to }}{{ redirect_to }}('{{ url }}'){{ /redirect_to }}{{ /if }}"{{ /if }}>
+    {{ form:create in="{{ form ? form:handle : handle }}" x-on:submit.prevent="submit()" csrf="false" }}
+
+        {{ nocache }}<input type="hidden" name="_token" value="{{ csrf_token }}">{{ /nocache }}
+
+        {{# if { partial:exists src="layouts/forms/{handle}" } }}
+            {{ partial src="layouts/forms/{handle}" }}
+        {{ else }}
+            {{ partial src="layouts/forms/default" }}
+        {{ /if #}}
+        {{ if form_template }}
+            {{ partial src="layouts/forms/{ form_template }" }}
+        {{ else }}
+            {{ partial src="layouts/forms/default" }}
+        {{ /if }}
+
+    {{ /form:create }}
+</div>

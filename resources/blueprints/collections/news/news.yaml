@@ -1,0 +1,63 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          localizable: true
+      -
+        handle: post_date
+        field:
+          mode: single
+          time_enabled: true
+          time_seconds_enabled: false
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Post date'
+          type: date
+          icon: date
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: entry
+        field:
+          collections:
+            - pages
+            - team
+            - news
+            - seminars
+            - events
+          container: assets
+          display: Entry
+          type: link
+          icon: link
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        import: sidebar
+        config:
+          slug: {  }
+      -
+        handle: news_tags
+        field:
+          type: terms
+          taxonomies:
+            - news_tags
+          display: News
+          mode: select
+          localizable: true
+title: News

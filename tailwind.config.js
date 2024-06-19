@@ -1,19 +1,38 @@
 module.exports = {
     mode: 'jit',
-    purge: {
-        content: [
-            './resources/**/*.antlers.html',
-            './resources/**/*.blade.php',
-            './content/**/*.md'
-        ]
-    },
+    content: [
+        './resources/**/*.{html,php}',
+        './content/**/*.md'
+    ],
+    safelist: [
+        {
+            pattern: /w-([0-9]{1,2}\\?\/12|full)/,
+            variants: ['sm', 'md', 'lg', 'xl', 'xxl', '2xl']
+        },
+        {
+            pattern: /col-span-(full|1|2|3|4|5|6|7|8|9|10|11|12)/,
+            variants: ['sm', 'md', 'lg', 'xl', 'xxl', '2xl']
+        },
+        {
+            pattern: /aspect-video/,
+            variants: ['sm', 'md', 'lg', 'xl', 'xxl', '2xl']
+        },
+    ],
     theme: {
         container: {
             center: true,
             padding: {
                 DEFAULT: '0.9375rem',
-                sm: '1.25rem'
+                sm: '2.5rem'
             }
+        },
+        screens: {
+            'sm': '640px',
+            'md': '768px',
+            'lg': '1024px',
+            'xl': '1280px',
+            'xxl': '1470px',
+            '2xl': '1750px',
         },
         fontSize: {
             xs: '0.75rem', // 12px
@@ -25,15 +44,15 @@ module.exports = {
             '2xl': '1.5rem', // 24px
             '3xl': '1.625rem', // 26px
             '4xl': '1.75rem', // 28px
-            '5xl': '2.1875rem', // 35px
+            '5xl': '2rem', // 32px
             '6xl': '2.875rem', // 46px
             '7xl': '3.375rem', // 54px
             '8xl': '4.275rem' // 70px
         },
         extend: {
             fontFamily: {
-                display: ['arboria', 'Helvetica', 'Arial', 'sans-serif'],
-                body: ['open-sans', 'Helvetica', 'Arial', 'sans-serif'],
+                display: ['Montserrat', 'sans-serif'],
+                body: ['Montserrat', 'sans-serif'],
             },
             colors: {
                 primary: {
@@ -70,7 +89,7 @@ module.exports = {
                     '900': '#73180E',
                 },
                 gray: {
-                     '50': '#F9F9F9',
+                    '50': '#F9F9F9',
                     '100': '#F5F8F9',
                     '200': '#ECF1F4',
                     '300': '#D4DADF',
@@ -226,7 +245,7 @@ module.exports = {
                 },
             },
             spacing: {
-                px:  '0.0625rem', // 1px
+                px: '0.0625rem', // 1px
                 logo: '135px',
                 '0': '0',
                 '1': '0.3125rem', // 5px
@@ -239,39 +258,25 @@ module.exports = {
                 '8': '2.5rem', // 40px
                 '9': '2.8125rem', // 45px
                 '10': '3.125rem', // 50px
-                '11': '3.4375rem', // 55px
-                '12': '3.75rem', // 60px
-                '13': '4.0625rem', // 65px
-                '14': '4.375rem', // 70px
-                '15': '6.6875rem', // 75px
-                '16': '5rem', // 80px
-                '17': '5.3125rem', // 85px
-                '18': '5.625rem', // 90px
-                '19': '5.9375rem', // 95px
-                '20': '6.25rem', // 100px
-                '21': '6.5625rem', // 105px
-                '22': '6.875rem', // 110px
-                '23': '7.1875rem', // 115px
-                '24': '7.5rem', // 120px
-                '25': '7.8125rem', // 125px
-                '26': '8.125rem', // 130px
             },
             zIndex: {
                 under: '-2',
                 below: '-1',
-                '1':    '1',
-                '2':    '2',
-                '3':    '3',
+                '1': '1',
+                '2': '2',
+                '3': '3',
                 'over9k': '9999',
             },
         }
     },
-    variants: {
-
-    },
+    /*corePlugins: {
+        aspectRatio: false,
+    },*/
+    variants: {},
     plugins: [
+        // require('@tailwindcss/line-clamp'),
         require('@tailwindcss/typography'),
         require('@tailwindcss/forms'),
-        require('@tailwindcss/aspect-ratio'),
+        //require('@tailwindcss/aspect-ratio'),
     ],
 }

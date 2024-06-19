@@ -1,0 +1,130 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: event
+        field:
+          placeholder: Event
+          input_type: hidden
+          antlers: false
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: salutation
+        field:
+          placeholder: Anrede
+          options:
+            Herr: Herr
+            Frau: Frau
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          validate:
+            - required
+          localizable: true
+      -
+        handle: first_name
+        field:
+          placeholder: 'First Name'
+          input_type: text
+          antlers: false
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          validate:
+            - required
+          localizable: true
+      -
+        handle: last_name
+        field:
+          placeholder: Nachname
+          input_type: text
+          antlers: false
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          validate:
+            - required
+          localizable: true
+      -
+        handle: phone
+        field:
+          placeholder: Telefonnummer
+          input_type: text
+          antlers: false
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+          validate:
+            - required
+      -
+        handle: email
+        field:
+          placeholder: 'E-Mail Adresse'
+          input_type: text
+          antlers: false
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          validate:
+            - required
+            - email
+          localizable: true
+      -
+        handle: company
+        field:
+          placeholder: Firma
+          input_type: text
+          antlers: false
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: date
+        field:
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          type: select
+          icon: select
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          placeholder: Termin
+          localizable: true
+          validate:
+            - required

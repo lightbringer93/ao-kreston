@@ -1,0 +1,17 @@
+title: Events
+sites:
+  - de
+  - en
+  - fr
+propagate: false
+template: templates/events/show
+layout: layout
+revisions: false
+route:
+  de: '/events/{slug}'
+  en: '/events/{slug}'
+  fr: '/evenements/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

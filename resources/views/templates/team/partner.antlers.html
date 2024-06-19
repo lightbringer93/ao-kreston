@@ -1,0 +1,76 @@
+{{ partial:layouts/contents/default }}
+
+{{ if content }}
+<div class="container max-w-screen-xxl mb-6">
+    {{ content }}
+    {{ partial:partials/contents/types }}
+    {{ /content }}
+</div>
+{{ /if }}
+
+<div class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-6 md:gap-8">
+    {{ collection from="team" is_partner:is="true" }}
+    <div class="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 {{ team_tags }}{{ slug }} {{ /team_tags }}"
+         x-show="{{ team_tags }}{{ slug replace="-|_" }}{{ if !last }} || {{ /if }}{{ /team_tags }} || alle">
+        <div class="bg-cover relative overflow-hidden group">
+
+            <div
+                class="{{ if hover_image }}group-hover:opacity-0{{ /if }} transition-opacity duration-300 ease-in-out relative z-1">
+                {{ partial:partials/images/default
+                image="{ image }"
+                sizes="(min-width: 1470px) 25vw, (min-width: 1280px) 33vw, (min-width: 768px) 50vw, (min-width 640px) 100vw, 100vw"
+                class="w-full" }}
+            </div>
+
+            {{ if hover_image }}
+            {{ partial:partials/images/default
+            image="{ hover_image }"
+            sizes="(min-width: 1470px) 25vw, (min-width: 1280px) 33vw, (min-width: 768px) 50vw, (min-width 640px) 100vw, 100vw"
+            class="w-full absolute inset-0 object-cover" }}
+            {{ /if }}
+
+            {{ if is_partner and work_experience }}<a href="{{ url }}" class="after:absolute after:inset-0 after:z-1"></a>{{ /if }}
+
+            <div class="absolute bottom-0 text-center text-white w-full bg-gray-800/[.65] z-2 px-2">
+                <p class="text-xxl font-bold text-tertiary-500 py-4">{{ title }}</p>
+                <div class="overflow-hidden transition-all ease-in-out duration-300 max-h-0 group-hover:max-h-[1000px]">
+                    <div class="">
+                        <p>
+                            {{ position ?? '' }}
+
+                            {{ if education }}
+                            <br>{{ education }}{{ value }}{{ if !last }}<br>{{ /if }}{{ /education }}
+                            {{ /if }}
+
+                            {{ if workplace }}
+                            <br>Arbeitsort{{ if { workplace | count } > 1 }}
+                            e{{ /if }} {{ workplace }}{{ value }}{{ if !last }}
+                            <br>{{ /if }}{{ /workplace }}
+                            {{ /if }}
+                        </p>
+                        <p class="py-5 text-2xl text-tertiary-500 space-x-5">
+                            {{ if phone }}
+                            <a href="tel:{{ phone }}">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                            {{ /if }}
+                            {{ if linkedin }}
+                            <a href="{{ linkedin }}" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            {{ /if }}
+                            {{ if email }}
+                            <a href="mailto:{{ email | obfuscate_email }}">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            {{ /if }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ /collection }}
+</div>
+
+{{ /partial:layouts/contents/default }}

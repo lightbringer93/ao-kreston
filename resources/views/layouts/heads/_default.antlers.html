@@ -1,0 +1,59 @@
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- SEO-->
+{{ aardvark-seo:head }}
+
+<!-- Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+{{ if configurations:theme_color }}
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="{{ configurations:theme_color }}">
+<meta name="msapplication-TileColor" content="{{ configurations:theme_color }}">
+<meta name="theme-color" content="{{ configurations:theme_color }}" {{ if configurations:theme_color_dark
+      }}media="(prefers-color-scheme: light)" {{ /if }}>
+{{ /if }}
+{{ if configurations:theme_color_dark }}
+<meta name="theme-color" content="{{ configurations:theme_color_dark }}" media="(prefers-color-scheme: dark)">
+{{ /if }}
+
+{{ if configurations:google_fonts_link or configurations:adobe_fonts_link }}
+<!-- Fonts -->
+{{ if configurations:google_fonts_link }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+{{ /if }}
+<link href="{{ configurations:google_fonts_link ?? configurations:adobe_fonts_link }}" rel="stylesheet">
+{{ /if }}
+
+<!-- Styles -->
+<link rel="stylesheet" href="{{ mix src='/css/app.css' }}">
+<link rel="stylesheet" href="/css/cookieconsent.min.css">
+
+<style>
+    .cc-revoke, .cc-window {
+        z-index : 999999 !important;
+    }
+</style>
+
+{{#<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-220497662-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-220497662-1');
+</script>#}}
+
+<script type="text/javascript">
+    var lang_parent = '{{ locale }}';
+</script>

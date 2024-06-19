@@ -1,0 +1,39 @@
+title: Alert
+fields:
+  -
+    handle: alert_color
+    field:
+      options:
+        success: Success
+        info: Info
+        warning: Warning
+        danger: Danger
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: Type
+      type: select
+      icon: select
+      listable: hidden
+      validate:
+        - required
+      localizable: true
+  -
+    handle: alert_content
+    field:
+      restrict: false
+      automatic_line_breaks: true
+      automatic_links: false
+      escape_markup: false
+      smartypants: false
+      antlers: false
+      display: Text
+      type: markdown
+      icon: markdown
+      listable: hidden
+      validate:
+        - required
+      localizable: true

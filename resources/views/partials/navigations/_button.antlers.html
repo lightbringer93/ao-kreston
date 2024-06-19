@@ -1,0 +1,8 @@
+<!-- Button Navigation -->
+<a class="btn btn-secondary"
+   href="{{ url }}"{{ if target }} target="{{ target }}"{{ /if }}>
+    {{ menu_text ?? title }}
+    {{ asset url="/assets/icons/icon_logo.png" }}
+    <img src="{{ url }}" alt="{{ alt }}" width="10" class="ml-2">
+    {{ /asset }}
+</a>

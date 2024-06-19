@@ -1,0 +1,41 @@
+<div class="flex flex-wrap h-full" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+    <div class="w-full sm:w-1/2 bg-primary-500 text-white text-baser relative order-2 sm:order-1 flex-grow">
+        <div class="p-6 xl:pt-10 xl:pb-8 xl:pr-0 xl:pl-10 h-full">
+            {{ slot }}
+
+            {{ if box_content }}
+            {{ box_content }}{{ partial:partials/contents/types no_container="true" }}{{ /box_content }}
+            {{ /if }}
+        </div>
+
+        <div class="absolute -right-[125px] top-0 z-1 h-full hidden sm:block">
+            <svg height="100%" width="125" viewBox="0 0 125 386" preserveAspectRatio="none" shape-rendering="geometricPrecision">
+                <path d="M0,0 l125,193 l-125,193" class="fill-primary-500"></path>
+            </svg>
+        </div>
+
+        {{# <div class="absolute -right-[125px] top-0 z-1">
+            <svg height="100%"
+                 width="125"
+                 viewBox="0 0 125 386"
+                 preserveAspectRatio="none"
+                 shape-rendering="geometricPrecision">
+                <path d="M0,0 l40,50 l-40,50 h-110z" class="fill-secondary-500" />
+            </svg>
+        </div>#}}
+    </div>
+    <div class="w-full sm:w-1/2 relative order-1 sm:order-2 overflow-hidden">
+        {{# {{ partial:partials/images/default
+        image="{ image }"
+        sizes="(min-width: 1280px) 50vw, 100vw"
+        class="w-full !h-full object-cover xl:absolute inset-0"
+        imgClass="w-full !h-full object-cover xl:absolute inset-0" }} #}}
+        <img src="{{ glide:image width="600" height="722" fit="crop_focal" }}"
+             class="w-full h-full xl:absolute object-cover transition-all duration-300 ease-in-out hover:scale-[1.05]">
+    </div>
+    {{ if link }}
+    <div class="w-0 h-0">
+        <a href="{{ link }}" class="after:absolute after:inset-0 after:z-1"></a>
+    </div>
+    {{ /if }}
+</div>

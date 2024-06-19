@@ -1,0 +1,484 @@
+title: Home
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        import: title
+        config:
+          title:
+            required: true
+      -
+        handle: hero
+        field:
+          always_show_set_button: false
+          sets:
+            title:
+              display: Title
+              fields:
+                -
+                  import: title
+            alert:
+              display: Alert
+              fields:
+                -
+                  import: alert
+            button:
+              display: Button
+              fields:
+                -
+                  import: button
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          container: assets
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          link_collections:
+            - pages
+            - events
+            - news
+            - seminars
+            - team
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: Hero
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: content_one
+        field:
+          always_show_set_button: false
+          sets:
+            title:
+              display: Title
+              fields:
+                -
+                  import: title
+            alert:
+              display: Alert
+              fields:
+                -
+                  import: alert
+            button:
+              display: Button
+              fields:
+                -
+                  import: button
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          container: assets
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          link_collections:
+            - pages
+            - events
+            - news
+            - seminars
+            - team
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: 'Content 1'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: content_two
+        field:
+          always_show_set_button: false
+          sets:
+            title:
+              display: Title
+              fields:
+                -
+                  import: title
+            alert:
+              display: Alert
+              fields:
+                -
+                  import: alert
+            button:
+              display: Button
+              fields:
+                -
+                  import: button
+            container:
+              display: Container
+              fields:
+                -
+                  import: container
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          container: assets
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          link_collections:
+            - pages
+            - events
+            - news
+            - seminars
+            - team
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: 'Content 2'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: content_three
+        field:
+          always_show_set_button: false
+          sets:
+            title:
+              display: Title
+              fields:
+                -
+                  import: title
+            alert:
+              display: Alert
+              fields:
+                -
+                  import: alert
+            button:
+              display: Button
+              fields:
+                -
+                  import: button
+            layout:
+              display: Layout
+              fields:
+                -
+                  import: layout
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          container: assets
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          link_collections:
+            - pages
+            - events
+            - news
+            - seminars
+            - team
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: 'Content 3'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        import: sidebar
+        config:
+          slug: {  }
+          parent: {  }
+  titles:
+    display: Titles
+    fields:
+      -
+        handle: navigation_section
+        field:
+          display: Navigation
+          type: section
+          icon: section
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: navigation_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Navigation title'
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: video_section
+        field:
+          display: Video
+          type: section
+          icon: section
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: video_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Video title'
+          type: text
+          icon: text
+          localizable: true
+          width: 66
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: video_id
+        field:
+          input_type: text
+          antlers: false
+          display: 'Video ID'
+          type: text
+          icon: text
+          localizable: true
+          width: 33
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: video_button
+        field:
+          input_type: text
+          antlers: false
+          display: 'Video button'
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: facts_section
+        field:
+          display: Facts
+          type: section
+          icon: section
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: facts
+        field:
+          fields:
+            -
+              handle: icon
+              field:
+                mode: list
+                container: assets
+                folder: icons
+                restrict: false
+                allow_uploads: true
+                show_filename: true
+                display: Icon
+                type: assets
+                icon: assets
+                listable: hidden
+                instructions_position: above
+                read_only: false
+                max_files: 1
+            -
+              handle: fact
+              field:
+                input_type: text
+                antlers: false
+                display: Fact
+                type: text
+                icon: text
+                width: 50
+                listable: hidden
+                instructions_position: above
+                read_only: false
+            -
+              handle: title
+              field:
+                input_type: text
+                antlers: false
+                display: Title
+                type: text
+                icon: text
+                width: 50
+                listable: hidden
+                instructions_position: above
+                read_only: false
+          mode: table
+          reorderable: true
+          display: Facts
+          type: grid
+          icon: grid
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: locations_section
+        field:
+          display: Locations
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: locations_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Locations title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: business_center_locations_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Business center locations title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: business_center_locations_button_text
+        field:
+          input_type: text
+          antlers: false
+          display: 'Business center locations button text'
+          type: text
+          icon: text
+          localizable: true
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: business_center_locations_button_link
+        field:
+          input_type: text
+          antlers: false
+          display: 'Business center locations button link'
+          type: text
+          icon: text
+          localizable: true
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+  images:
+    display: Images
+    fields:
+      -
+        import: banner_text
+      -
+        handle: slider
+        field:
+          mode: list
+          container: assets
+          folder: slider
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Slider
+          type: assets
+          icon: assets
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          read_only: false

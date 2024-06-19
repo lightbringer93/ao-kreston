@@ -1,0 +1,6 @@
+title: Contact
+email:
+  -
+    to: info@kreston.ch
+    subject: Kontaktanfrage
+    html: templates/email/contact

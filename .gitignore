@@ -4,13 +4,15 @@
 /public/vendor/statamic
 /storage/*.key
 /vendor
-/.idea
 .env
 .env.backup
 .phpunit.result.cache
 .php_cs.cache
+docker-compose.override.yml
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
 .DS_Store
+/.idea
+/.vscode

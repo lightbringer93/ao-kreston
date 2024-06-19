@@ -1,0 +1,30 @@
+title: List
+fields:
+  -
+    handle: selected_partial
+    field:
+      options:
+        column: Column
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: Partial
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true
+  -
+    handle: list
+    field:
+      display: List
+      type: list
+      icon: list
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true

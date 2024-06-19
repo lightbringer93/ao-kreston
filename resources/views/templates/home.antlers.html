@@ -1,0 +1,240 @@
+<div>
+
+    <!-- Hero -->
+    <div class="bg-gray-50 pt-20 pb-12">
+        <div data-aos="fade-down" data-aos-once="true" data-aos-duration="1000">
+            <div class="container xxl:max-w-screen-xxl grid grid-cols-12 text-center">
+                <div class="col-span-12 xxl:col-span-8 xxl:col-start-3 mx-auto">
+                    <h1>{{ title }}
+                        <span class="subtitle">{{ subtitle }}</span>
+                    </h1>
+                    {{ hero }}
+                    {{ partial:partials/contents/types no_container="true" }}
+                    {{ /hero }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="bg-white py-10">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+            <div class="container xxl:max-w-screen-xxl mb-10 relative z-1">
+                <div class="col-span-12 text-center mb-10">
+                    <h2 class="pt-0">{{ navigation_title }}</h2>
+                </div>
+            </div>
+            {{ partial:layouts/navigations/services }}
+        </div>
+    </div>
+
+    <!-- Video -->
+    <div class="bg-gray-50 py-10 sm:py-[65px]">
+        <div
+            class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-6 lg:gap-6 items-center">
+            <div class="col-span-12 lg:col-span-7">
+                <div data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
+                    <h2 class="pt-0 text-primary-500 mb-5 lg:mb-[80px]">
+                        {{ video_title }}
+                    </h2>
+                    {{ partial:partials/buttons/default
+                    button_link="/assets/home/Kreston_v8.mp4"
+                    button_attributes="data-fancybox"
+                    button_color="tertiary"
+                    button_text="{video_button}"
+                    button_blank="true"
+                    button_classes="px-20 block lg:inline" }}
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-5">
+                <div data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
+                    <a href="/assets/home/Kreston_v8.mp4" data-fancybox class="relative flex items-center justify-center">
+                        <img src="{{ glide src="/assets/icons/play_button.png" }}" alt="Play" class="absolute">
+                        {{ partial:partials/images/default
+                        image="/assets/home/come-to-switzerland-video.png"
+                        sizes="(min-width: 1024px) 25vw, 100vw"
+                        class="w-full" }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Facts Parallax -->
+    {{ partial:partials/containers/parallax image="/assets/layout/parallax.jpg" }}
+    <div
+        class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-6 sm:gap-8 items-center text-white text-center">
+        {{ facts }}
+        <div class="col-span-12 sm:col-span-4">
+            <div class="flex items-center justify-center mb-4">
+                <img src="{{ glide src="{icon}" }}" alt="{{ title }}"
+                     class="mr-3 max-w-[40px] lg:max-w-none">
+                <span class="text-[#c6e9f9] text-5xl lg:text-[66px] font-bold leading-none"
+                      data-count-to="{{ fact }}"></span>
+            </div>
+            <p class="text-xxl lg:text-4xl">{{ title }}</p>
+        </div>
+        {{ /facts }}
+    </div>
+    {{ /partial:partials/containers/parallax }}
+
+    <!-- Content -->
+    <div class="bg-gray-50 py-5 sm:py-8">
+        <div class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-2 md:gap-8 items-center">
+            <div class="col-span-12 md:col-span-6" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
+                {{ partial:partials/images/default
+                image="/assets/home/meet.png"
+                sizes="(min-width: 768px) 50vw, 100vw"
+                class="w-full" }}
+            </div>
+            <div class="col-span-12 md:col-span-6" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
+                <img src="{{ glide src="/assets/home/awards_2022.png" }}" alt="Awards" class="mx-auto">
+            </div>
+        </div>
+
+    </div>
+
+    <!--Content -->
+    <div class="container xxl:max-w-screen-xxl py-10 sm:pt-[130px] sm:pb-[60px] prose-p:text-lg"
+         data-aos="fade-up"
+         data-aos-once="true"
+         data-aos-duration="1000">
+        {{ content_one }}
+        {{ partial:partials/contents/types no_container="true" }}
+        {{ /content_one }}
+
+        <div class="grid grid-cols-12 lg:grid-cols-10 gap-y-6 sm:gap-8 items-center justify-center pt-12">
+            <div class="col-span-12 sm:col-span-6 sm:col-span-4 lg:col-span-2">
+                <img src="{{ glide src="/assets/awards/award-1.png" width="150" }}" alt="Awards" class="block mx-auto">
+            </div>
+            <div class="col-span-12 sm:col-span-6 sm:col-span-4 lg:col-span-2">
+                <img src="{{ glide src="/assets/awards/award-2.png" width="150" }}" alt="Awards" class="mx-auto">
+            </div>
+            <div class="col-span-12 sm:col-span-6 sm:col-span-4 lg:col-span-2">
+                <img src="{{ glide src="/assets/awards/award-3.png" width="150" }}" alt="Awards" class="mx-auto">
+            </div>
+            <div class="col-span-12 sm:col-span-6 sm:col-span-4 lg:col-span-2">
+                <img src="{{ glide src="/assets/awards/award-4.png" width="150" }}" alt="Awards" class="mx-auto">
+            </div>
+            <div class="col-span-12 sm:col-span-6 sm:col-span-4 lg:col-span-2">
+                <img src="{{ glide src="/assets/awards/award-5.png" width="150" }}" alt="Awards" class="mx-auto">
+            </div>
+        </div>
+    </div>
+
+    <!-- Fivty Fivty -->
+    {{ partial:partials/boxes/fivtyfivty image="/assets/home/people.jpg" classes_content="!px-4" }}
+    <div class="sm:px-[80px] mb-10 sm:mb-[60px]">
+        <h2 class="pt-0">{{ locations_title }}</h2>
+    </div>
+    <img src="{{ glide src="/assets/home/standorte.png" width="830" }}" alt="Standorte" class="mx-auto">
+    {{ /partial:partials/boxes/fivtyfivty }}
+
+    <!-- Content -->
+    <div class="pt-10 sm:pt-[160px] pb-10 sm:pb-[80px]">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+            {{ content_two }}
+            {{ partial:partials/contents/types }}
+            {{ /content_two }}
+        </div>
+    </div>
+
+    <!-- Content -->
+    {{ partial:partials/boxes/fivtyfivty image="/assets/home/people3.jpg" classes_content="!px-4" }}
+    <div class="sm:px-[80px] mb-9">
+        <h2 class="pt-0">{{ business_center_locations_title }}</h2>
+    </div>
+    <img src="{{ glide src="/assets/home/business_center_standorte.png" width="830" }}"
+         alt="Standorte"
+         class="mx-auto mb-9">
+    <div class="sm:px-[80px]">
+        {{ partial:partials/buttons/default
+        button_link="{business_center_locations_button_link}"
+        button_blank="true"
+        button_color="secondary"
+        button_text="{business_center_locations_button_text}"
+        button_classes="px-20" }}
+    </div>
+    {{ /partial:partials/boxes/fivtyfivty }}
+
+
+    <!-- Kreston App -->
+    <div class="container xxl:max-w-screen-xxl py-10 sm:pt-[100px] sm:pb-[70px]">
+        {{ partial:layouts/contents/kreston_app }}
+    </div>
+
+    <!-- News Parallax -->
+    {{ partial:partials/containers/parallax image="/assets/layout/parallax_2.jpg" }}
+    <div class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-6 md:gap-8">
+
+        <div class="col-span-12 text-center mb-5 sm:mb-[60px]">
+            <h2 class="pt-0 text-white mb-0">{{ titles:news_title }}</h2>
+        </div>
+
+        {{ collection:news sort="post_date:desc" limit="3" }}
+
+        <div class="col-span-12 md:col-span-6 xl:col-span-4">
+            {{ partial:partials/news/default url="{ entry }" }}
+        </div>
+
+        {{ /collection:news }}
+
+        <div class="col-span-12 text-center pt-5 sm:pt-[60px]">
+            {{ partial:partials/buttons/default
+            button_link="{ link to='news' }"
+            button_color="tertiary"
+            button_text="{'Alle Beiträge ansehen'|trans}"
+            button_classes="px-20 mx-auto" }}
+        </div>
+
+    </div>
+    {{ /partial:partials/containers/parallax }}
+
+    <!-- Testimonials -->
+    <div class="container xxl:max-w-screen-xxl py-5 sm:pt-[70px] sm:pb-[75px]">
+        <div class="grid grid-cols-12 gap-y-6 md:gap-8">
+            <div class="col-span-12 text-center sm:mb-[70px]">
+                <h2 class="pt-0 text-tertiary-500 mb-0">{{ titles:testimonials_title }}</h2>
+            </div>
+
+            {{ testimonials:entries }}
+
+            <div class="col-span-12 xl:col-span-6">
+                {{ partial:partials/boxes/default image="{image}" }}
+                <div class="h-full flex flex-col h-full xl:pl-5">
+                    <p class="mb-8">“{{ text }}”</p>
+                    <p class="xl:mt-auto">
+                        <strong>{{ name }}</strong><br>
+                        <i>{{ origin }}</i>
+                    </p>
+                </div>
+                {{ /partial:partials/boxes/default }}
+            </div>
+
+            {{ /testimonials:entries }}
+
+            {{#
+            <div class="col-span-12 sm:pt-[60px] flex">
+                {{ partial:partials/buttons/default
+                button_link="#"
+                button_color="tertiary"
+                button_text="Alle Testimonals lesen"
+                button_classes="px-20 mx-auto" }}
+            </div>
+            #}}
+
+        </div>
+    </div>
+
+    {{ partial:layouts/dividers/newsletter }}
+
+    <!-- Netzwerk -->
+    <div class="container xxl:max-w-screen-xxl py-10 sm:pb-[65px]">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+            {{ content_three }}
+            {{ partial:partials/contents/types }}
+            {{ /content_three }}
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,49 @@
+title: Title
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Title
+      type: text
+      icon: text
+      width: 50
+      listable: hidden
+      localizable: true
+  -
+    handle: subtitle
+    field:
+      input_type: text
+      antlers: false
+      display: Subtitle
+      type: text
+      icon: text
+      width: 50
+      listable: hidden
+      localizable: true
+  -
+    handle: heading
+    field:
+      options:
+        h1: H1
+        h2: H2
+        h3: H3
+        h4: H4
+      multiple: false
+      max_items: 1
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      default: h1
+      display: Heading
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      localizable: true
+      read_only: false
+  -
+    import: color

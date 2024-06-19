@@ -1,0 +1,17 @@
+entries:
+  -
+    name: 'Alexander Fischer'
+    origin: 'Swiss-Bellhotel du Parc Baden'
+    text: 'With a&o kreston audit ltd, we have a reliable advisor who supports us with great commitment in all tax and accounting matters. a&o kreston audit ltd stands out for its competence, short response times and tailor-made services.'
+    image: testimonials/alexander_fischer.jpg
+  -
+    name: 'Christelle Müller & Vera Maag'
+    origin: 'Petit Stellou'
+    text: 'Since 2017, A&O Kreston has been supporting us with operational, legal and accounting issues. Sympathetically and competently, A&O Kreston accompanies our brand development as well as with issues related to (online) trade and the associated challenges at home and abroad.'
+    image: testimonials/petit_stellou.jpg
+  -
+    name: 'Maria Vila'
+    origin: 'Franz Carl Weber AG'
+    text: 'Dynamic, efficient, innovative, combined with a team that is ready and willing to serve, these are all points that speak for a&o kreston audit ltd. I am looking forward to our continued collaboration.'
+    image: testimonials/maria_vila.jpg
+origin: de

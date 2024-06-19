@@ -1,0 +1,15 @@
+title: News
+sites:
+  - de
+  - en
+  - fr
+propagate: false
+template: default
+layout: layout
+taxonomies:
+  - news_tags
+revisions: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

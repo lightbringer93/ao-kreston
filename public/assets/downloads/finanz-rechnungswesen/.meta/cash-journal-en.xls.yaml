@@ -1,0 +1,13 @@
+data:
+  name: 'Cash Journal'
+  download_tags:
+    - finanz-und-rechnungswesen
+  languages:
+    - en
+    - fr
+size: 260096
+last_modified: 1675776713
+width: null
+height: null
+mime_type: application/vnd.ms-excel
+duration: null

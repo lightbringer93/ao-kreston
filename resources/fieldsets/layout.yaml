@@ -1,0 +1,69 @@
+title: Layout
+fields:
+  -
+    handle: layout
+    field:
+      options:
+        branches: Branches
+        headquarters: Headquarters
+        events_sidebar: 'Events Sidebar'
+        network: Network
+        vision: Vision
+        contact_persons: 'Contact persons'
+      multiple: false
+      clearable: true
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: Layout
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true
+  -
+    handle: logos
+    field:
+      mode: list
+      container: network
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      display: Logos
+      type: assets
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      if:
+        layout: 'equals network'
+  -
+    handle: section_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Section title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      if:
+        layout: 'equals contact_persons'
+  -
+    handle: contact_persons
+    field:
+      mode: default
+      create: true
+      collections:
+        - team
+      display: 'Contact persons'
+      type: entries
+      icon: entries
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      if:
+        layout: 'equals contact_persons'

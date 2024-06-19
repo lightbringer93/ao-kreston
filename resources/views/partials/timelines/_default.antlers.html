@@ -1,0 +1,29 @@
+<div class="relative">
+    <!-- Vertical middle line-->
+    <div class="absolute hidden w-px h-full transform -translate-x-1/2 bg-gray-800 lg:block left-1/2"></div>
+    <div class="space-y-12 lg:space-y-8">
+        {{ timeline }}
+        <div {{ if count % 2 === 0 }}data-aos="fade-left"{{ else}}data-aos="fade-right"{{ /if}} data-aos-once="true" data-aos-duration="1000">
+            <div class="flex flex-col items-center">
+                <div class="flex items-center {{ count % 2 === 0 ? 'justify-end' : 'justify-start' }} w-full mx-auto">
+                    <div class="w-full lg:w-1/2 {{ count % 2 === 0 ? 'lg:pl-8' : 'lg:pr-8' }}">
+                        <div class="p-4 bg-gray-50 rounded">
+                            <div class="flex items-center mb-3">
+                                <img src="{{ glide:icon }}" alt="{{ title }}" class="max-w-[50px] mr-3">
+                                <h2 class="text-lg !p-0">{{ title }}</h2>
+                            </div>
+                            <div class="prose-p:mb-2">
+                                {{ text }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="absolute flex items-center justify-center w-[36px] h-[36px] transform -translate-x-1/2 -translate-y-4 bg-white border-[4px] border-gray-800 rounded-full left-1/2 sm:translate-y-0 flex">
+                    <span class="w-[12px] h-[12px] absolute rounded-full bg-gray-800 m-auto"></span>
+                </div>
+            </div>
+        </div>
+        {{ /timeline }}
+    </div>
+</div>

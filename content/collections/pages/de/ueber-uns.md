@@ -1,0 +1,20 @@
+---
+id: c1aa9b09-e859-46d9-8bcc-4ff317247fee
+blueprint: pages
+title: 'Über uns'
+author: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
+updated_at: 1649059492
+heading: h1
+show_in_menu: true
+is_button: false
+redirect: '@child'
+no_padding_bottom: false
+---

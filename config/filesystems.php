@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('FILESYSTEM_DRIVER', 'local'),
+    'default' => env('FILESYSTEM_DISK', 'local'),
 
     /*
     |--------------------------------------------------------------------------
@@ -58,6 +58,27 @@ return [
             'driver' => 'local',
             'root' => public_path('assets'),
             'url' => '/assets',
+            'visibility' => 'public',
+        ],
+
+        'downloads' => [
+            'driver' => 'local',
+            'root' => public_path('assets/downloads'),
+            'url' => '/assets/downloads',
+            'visibility' => 'public',
+        ],
+
+        'events' => [
+            'driver' => 'local',
+            'root' => public_path('assets/events'),
+            'url' => '/assets/events',
+            'visibility' => 'public',
+        ],
+
+        'network' => [
+            'driver' => 'local',
+            'root' => public_path('assets/network'),
+            'url' => '/assets/network',
             'visibility' => 'public',
         ],
 

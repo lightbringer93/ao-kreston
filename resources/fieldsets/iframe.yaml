@@ -1,0 +1,32 @@
+title: iframe
+fields:
+  -
+    handle: source
+    field:
+      input_type: text
+      antlers: false
+      display: Source
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      read_only: false
+  -
+    handle: aspect_ratio
+    field:
+      options:
+        '16:9': '16:9'
+        '1:1': '1:1'
+      multiple: false
+      max_items: 1
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: 'Aspect ratio'
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      read_only: false

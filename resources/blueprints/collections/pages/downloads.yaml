@@ -1,0 +1,69 @@
+title: Downloads
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          width: 50
+          localizable: true
+      -
+        handle: subtitle
+        field:
+          input_type: text
+          antlers: false
+          display: Subtitle
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        import: content
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        import: sidebar
+        config:
+          slug: {  }
+          parent: {  }
+  images:
+    display: Images
+    fields:
+      -
+        import: banner_text
+      -
+        handle: slider
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Banner
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          folder: slider
+          localizable: true

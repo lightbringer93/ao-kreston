@@ -1,0 +1,16 @@
+<div class="container xxl:max-w-screen-xxl mb-10 sm:mb-[70px]">
+    <div class="mb-10 sm:mb-[70px] pt-4">
+        {{ nav:breadcrumbs }}
+        <a href="{{ url }}"{{ if is_current }}
+           class="text-tertiary-500"{{ /if }}>{{ title }}</a>{{ if !last }}&nbsp;|&nbsp;{{ /if }}
+        {{ /nav:breadcrumbs }}
+    </div>
+    <h1 class="mb-0 pt-0">
+        {{ title }}
+        {{ if subtitle }}<span class="subtitle">{{ subtitle }}</span>{{ /if }}
+    </h1>
+</div>
+
+<div class="{{ if !no_padding_bottom }}pb-10 sm:pb-[80px]{{ /if }}">
+    {{ slot }}
+</div>

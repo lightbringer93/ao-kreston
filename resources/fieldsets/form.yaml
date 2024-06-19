@@ -1,0 +1,62 @@
+title: Form
+fields:
+  -
+    handle: form_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Form title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      localizable: true
+  -
+    handle: form
+    field:
+      max_items: 1
+      display: Form
+      type: form
+      icon: form
+      width: 50
+      listable: hidden
+      instructions_position: above
+      localizable: true
+  -
+    handle: is_ajax_form
+    field:
+      default: true
+      display: 'Is AJAX Form'
+      type: toggle
+      icon: toggle
+      width: 25
+      listable: hidden
+      instructions_position: above
+      localizable: true
+  -
+    handle: redirect_after_success
+    field:
+      default: false
+      display: 'Redirect after success?'
+      type: toggle
+      icon: toggle
+      width: 25
+      listable: hidden
+      instructions_position: above
+      localizable: true
+  -
+    handle: redirect_to
+    field:
+      max_items: 1
+      mode: select
+      create: true
+      collections:
+        - pages
+      display: 'Redirect to page after success'
+      type: entries
+      icon: entries
+      listable: hidden
+      instructions_position: above
+      if:
+        redirect_after_success: 'equals 1'
+      localizable: true

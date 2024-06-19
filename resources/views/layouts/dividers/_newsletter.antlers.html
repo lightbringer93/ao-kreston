@@ -1,0 +1,21 @@
+<!-- Newsletter -->
+<div class="bg-gray-50 py-8">
+    <div class="container max-w-screen-xxl grid grid-cols-12 gap-y-8 lg:gap-8 items-center">
+        <div class="col-span-12 lg:col-span-8 text-center lg:text-left">
+            <div data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
+                <h2 class="text-primary-500 mb-0 pt-0">{{ titles:newsletter_title }}</h2>
+            </div>
+        </div>
+        <div class="col-span-12 lg:col-span-4">
+            <div data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
+                {{ partial:partials/buttons/default
+                button_type="a"
+                button_blank="true"
+                button_link="{titles:newsletter_link}"
+                button_color="secondary"
+                button_text="{titles:newsletter_title}"
+                button_classes="block font-xl" }}
+            </div>
+        </div>
+    </div>
+</div>

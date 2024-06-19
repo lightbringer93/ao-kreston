@@ -1,0 +1,21 @@
+<!-- Banner -->
+<div
+    class="relative after:bg-primary-500 after:opacity-[68%] after:inset-0 after:absolute h-[199px] lg:h-[392px] flex items-center overflow-hidden">
+    {{ slider limit="1" }}
+    <img class="w-full h-full object-cover absolute inset-0"
+         src="{{ glide:url width="640" fit="crop_focal" }}"
+         alt="{{ alt }}"
+         style="object-position: {{ focus_css }}"
+         srcset="{{ glide:url width="1920" height="315" fit="crop_focal" }} 1024w,
+                                     {{ glide:url width="1024" height="315"  fit="crop_focal" }} 640w,
+                                     {{ glide:url width="640" height="315"  fit="crop_focal" }} 320w"
+         sizes="100vw">
+    {{ /slider }}
+    <img src="{{ glide src="/assets/layout/banner_effect.png" height="394" }}"
+         class="h-[200px] lg:h-[393px] absolute right-[-1px] top-0 z-10 hidden sm:block">
+    <div class="container max-w-screen-xxl z-10">
+        <div class="text-white mb-0 text-2xl md:text-5xl lg:text-6xl xl:text-7xl pt-0 font-bold prose-p:mb-0">
+            {{ if banner_text }}{{ banner_text }}{{ else }}Kreston.<br>Knowing good advice.{{ /if }}
+        </div>
+    </div>
+</div>

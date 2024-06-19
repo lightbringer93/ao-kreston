@@ -1,0 +1,26 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: alt
+        field:
+          type: text
+          display: 'Alt Text'
+          instructions: 'Description of the image'
+      -
+        handle: link
+        field:
+          collections:
+            - pages
+            - team
+            - news
+            - seminars
+            - events
+          container: assets
+          display: Link
+          type: link
+          icon: link
+          listable: hidden
+          instructions_position: above
+          read_only: false

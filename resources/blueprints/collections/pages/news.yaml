@@ -1,0 +1,68 @@
+title: News
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          localizable: true
+      -
+        handle: taxonomy
+        field:
+          max_items: 1
+          mode: select
+          create: true
+          taxonomies:
+            - news_tags
+          display: Taxonomy
+          type: terms
+          icon: taxonomy
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        import: sidebar
+        config:
+          slug: {  }
+          parent: {  }
+  images:
+    display: Images
+    fields:
+      -
+        import: banner_text
+      -
+        handle: slider
+        field:
+          mode: list
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Banner
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          container: assets
+          folder: slider
+          localizable: true

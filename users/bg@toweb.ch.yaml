@@ -1,0 +1,42 @@
+super: true
+name: toweb
+id: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
+password_hash: $2y$10$XY6F5aL43IK8hMZD9zyBAeO16.730LalePj3BXu4PgIO.gQPQaK/6
+preferences:
+  collections:
+    team:
+      columns:
+        - title
+        - slug
+        - site
+        - is_partner
+      after_save: continue_editing
+    news:
+      columns:
+        - title
+        - post_date
+        - site
+        - news_tags
+      after_save: continue_editing
+    seminars:
+      after_save: continue_editing
+    events:
+      after_save: continue_editing
+      columns:
+        - title
+        - site
+        - postdate
+    pages:
+      columns:
+        - title
+        - site
+        - slug
+      after_save: continue_editing
+  taxonomies:
+    team_tags:
+      after_save: continue_editing
+    download_tags:
+      after_save: continue_editing
+  assets:
+    assets:
+      per_page: 100

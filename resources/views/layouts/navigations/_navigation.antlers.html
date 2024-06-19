@@ -1,0 +1,36 @@
+<!-- Navigation -->
+<nav class="hidden lg:flex items-center justify-end text-base xxl:text-lg 2xl:text-xl tracking-tight font-normal">
+    {{ nav include_home="true" }}
+    {{ if published and show_in_menu }}
+    <div class="relative group {{ if navigation_children }}collection-children{{ /if }}">
+        {{ if is_button }}
+        <div class="px-2 2xl:px-4 last:pr-0 mb-[9px]">
+            {{ partial:partials/navigations/button }}
+        </div>
+        {{ else }}
+        {{ partial:partials/navigations/item collection_child="false" }}
+        {{ /if }}
+        {{ if navigation_children }}
+        <div
+            class="submenu text-base origin-top-left left-0 absolute min-w-[250px] shadow-lg bg-white -ml-3 p-3 transform opacity-0 scale-0 translate-y-1 transition-all duration-150 ease-in-out group-hover:scale-100 group-hover:opacity-100 group-hover:translate-y-0 group-focus:scale-100 group-focus:opacity-100 group-focus:translate-y-0">
+            {{ collection from="{ navigation_children }" sort="post_date:desc" }}
+            {{ if published and show_in_menu }}
+            {{ partial:partials/navigations/item child="true" collection_child="true" depth="2" }}
+            {{ /if }}
+            {{ /collection }}
+        </div>
+        {{ /if }}
+        {{ if children }}
+        <div
+            class="submenu text-base origin-top-left left-0 absolute min-w-[250px] shadow-lg bg-white -ml-3 p-3 transform opacity-0 scale-0 translate-y-1 transition-all duration-150 ease-in-out group-hover:scale-100 group-hover:opacity-100 group-hover:translate-y-0 group-focus:scale-100 group-focus:opacity-100 group-focus:translate-y-0">
+            {{ children }}
+            {{ if published and show_in_menu }}
+            {{ partial:partials/navigations/item child="true" }}
+            {{ /if }}
+            {{ /children }}
+        </div>
+        {{ /if }}
+    </div>
+    {{ /if }}
+    {{ /nav }}
+</nav>

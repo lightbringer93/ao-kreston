@@ -1,0 +1,16 @@
+<!-- Card Navigation -->
+<div class="relative rounded-lg shadow-2xl border border-stone-100 hover:border-stone-300 hover:shadow-xl transition-all duration-200 ease-in-out">
+    <a class="absolute inset-0 text-center md:text-left px-3 md:px-7 py-3" href="{{ url }}">
+        <h3 class="text-base md:text-3xl lg:text-4xl xl:text-3xl 2xl:text-5xl text-primary-500 font-bold leading-tight hyphens-auto">
+            {{ menu_text ?? title }}
+        </h3>
+        {{ if subtitle }}
+        <p class="hidden md:block xl:text-base 2xl:text-xl">
+            {{ subtitle replace="  |<br/>" }}
+        </p>
+        {{ /if }}
+    </a>
+    {{ thumbnail }}
+    {{ partial:components/images/thumbnail }}
+    {{ /thumbnail }}
+</div>

@@ -1,0 +1,18 @@
+<!-- Toggle Navigation -->
+<div>
+    <button
+        class="inline-flex items-center justify-center p-2 text-gray-700 hover:text-gray-800 focus:outline-none focus:text-gray-800 transition duration-150 ease-in-out"
+        aria-label="Main menu"
+        aria-expanded="false"
+        @click="navOpen = !navOpen">
+        <!-- Icon when menu is closed. -->
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-show="!navOpen">
+            <path stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <!-- Icon when menu is open. -->
+        <svg class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+             :class="{ 'block': navOpen, 'hidden': !navOpen }">
+            <path stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+    </button>
+</div>

@@ -1,0 +1,26 @@
+<!-- Header -->
+<header class="bg-white z-20 inset-x top-0 fixed w-full drop-shadow-sm" x-data="{navOpen: false}">
+    <div class="container mx-auto 2xl:max-w-screen-2xl grid grid-cols-12 xl:gap-x-8 xl:items-start items-center">
+        <div class="col-span-6 xl:col-span-2 py-2">
+            <a href="{{ link to="/" }}" >
+                <img src="{{ glide src="/assets/logos/logo_ao_kreston_audit_ag.png" }}"
+                     alt="AO Kreston"
+                     class="w-[130px] xl:w-[200px] max-w-full hover:opacity-75 transition-opacity duration-300 ease-in-out">
+            </a>
+        </div>
+        <div class="col-span-6 xl:col-span-10 flex xl:flex-col justify-end h-full items-center xl:items-end">
+            <div class="text-right pr-4 2xl:pr-8 xl:block hidden">
+                {{ partial:layouts/navigations/mle }}
+            </div>
+            <div class="xl:block hidden">
+                {{ partial:layouts/navigations/navigation }}
+            </div>
+            <div class="xl:hidden flex justify-end">
+                {{ partial:partials/navigations/toggle }}
+            </div>
+        </div>
+        <div class="xl:hidden col-span-12">
+            {{ partial:layouts/navigations/mobile }}
+        </div>
+    </div>
+</header>

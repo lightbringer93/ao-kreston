@@ -1,0 +1,9 @@
+<!-- Column -->
+<div
+    class="px-8 {{ column_size :width="size" }}{{ if size_for_sm }} {{ column_size :width="size_sm" screen='sm' }}{{ /if }}{{ if size_for_md }} {{ column_size :width="size_md" screen='md' }}{{ /if }}{{ if size_for_lg }} {{ column_size :width="size_lg" screen='lg' }}{{ /if }}{{ if size_for_xl }} {{ column_size :width="size_xl" screen='xl' }}{{ /if }}{{ if size_for_xxl }} {{ column_size :width="size_xxl" screen='xxl' }}{{ /if }}{{ if size_for_2xl }} {{ column_size :width="size_2xl" screen='2xl' }}{{ /if }}">
+    <div class="{{ if color }}bg-{{ color }} p-8 prose-p:text-white{{ /if }}">
+        {{ content }}
+        {{ partial:partials/contents/types no_container="true" }}
+        {{ /content }}
+    </div>
+</div>

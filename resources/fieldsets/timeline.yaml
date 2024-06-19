@@ -1,0 +1,59 @@
+title: Timeline
+fields:
+  -
+    handle: timeline
+    field:
+      collapse: false
+      sets:
+        entry:
+          display: Entry
+          fields:
+            -
+              handle: icon
+              field:
+                mode: list
+                container: assets
+                folder: icons
+                restrict: false
+                allow_uploads: true
+                show_filename: true
+                display: Icon
+                type: assets
+                icon: assets
+                listable: hidden
+                instructions_position: above
+                read_only: false
+                max_files: 1
+            -
+              handle: title
+              field:
+                input_type: text
+                antlers: false
+                display: Title
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+                read_only: false
+            -
+              handle: text
+              field:
+                restrict: false
+                automatic_line_breaks: true
+                automatic_links: false
+                escape_markup: false
+                smartypants: false
+                antlers: false
+                display: Text
+                type: markdown
+                icon: markdown
+                listable: hidden
+                instructions_position: above
+                read_only: false
+      display: Timeline
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true

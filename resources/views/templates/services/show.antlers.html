@@ -1,0 +1,53 @@
+{{ partial:layouts/contents/default no_padding_bottom="true" }}
+
+<!-- Content -->
+<div class="container xxl:max-w-screen-xxl pb-10 sm:pb-[70px]">
+    {{ partial:partials/contents/default }}
+
+    <div class="grid grid-cols-12 gap-y-6 lg:gap-8">
+        <div class="col-span-12 lg:col-span-8">
+            {{ content }}
+            {{ partial:partials/contents/types no_container="true" }}
+            {{ /content }}
+        </div>
+        <div class="col-span-12 lg:col-span-4 prose-a:!text-white hover:prose-a:!text-white">
+            <div class="bg-secondary-500 text-white pb-6">
+                {{ nav from="{ parent:slug }" }}
+                <a href="{{ url }}"
+                   class="relative py-3 pl-8 pr-2 block transition-all duration-300 ease-in-out {{ if is_current }}bg-gray-800 py-4{{ else }}hover:bg-secondary-700{{ /if }}">
+                    {{ title }}
+                    <div class="absolute left-0 top-0 z-1 h-full hidden transition-all duration-100 ease-in-out hidden lg:block {{ if !is_current }}opacity-0{{ /if }}">
+                        <svg height="100%" width="18" viewBox="0 0 18 57" preserveAspectRatio="none"
+                             shape-rendering="geometricPrecision">
+                            <path d="M0,0 l18,28.5 l-18,28.5" class="fill-secondary-500"></path>
+                        </svg>
+                    </div>
+                </a>
+                {{ /nav }}
+            </div>
+        </div>
+    </div>
+
+    {{ /partial:partials/contents/default }}
+</div>
+
+{{ if contact_persons }}
+
+{{ partial:layouts/contents/contact_persons }}
+
+{{ /if }}
+
+{{ if content_below }}
+
+<!-- Content below -->
+<div>
+    {{ content_below }}
+    {{ partial:partials/contents/types }}
+    {{ /content_below }}
+</div>
+
+{{ /if }}
+
+<div class="{{ if content_below }}pb-10 sm:pb-[80px]{{ /if }}"></div>
+
+{{ /partial:layouts/contents/default }}

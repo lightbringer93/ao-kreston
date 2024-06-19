@@ -1,0 +1,22 @@
+<!-- Services Nav -->
+<div class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-8 md:gap-8 text-white">
+    {{ nav:services }}
+    <div class="col-span-12 md:col-span-6 xl:col-span-4 bg-{{ color }} flex flex-col items-between py-8 pl-8 pr-4 relative transition-all duration-300 ease-in-out hover:shadow-lg hover:scale-[1.05]">
+        <div class="mb-8 flex items-center">
+            {{ icon }}
+            <img src="{{ glide:url width="60" }}" class="mr-3">
+            {{ /icon }}
+            <h3 class="text-white font-bold text-2xl mb-0 hyphens-auto tracking-tighter pt-0">{{ title }}</h3>
+        </div>
+        <div class="mb-8">
+            <p>{{ short_description }}</p>
+        </div>
+        <div class="mt-auto">
+            <a href="{{ url }}" class="after:absolute after:inset-0">
+                {{ "Mehr erfahren" | trans }}
+                <i class="fa-solid fa-arrow-right-long ml-2"></i>
+            </a>
+        </div>
+    </div>
+    {{ /nav:services }}
+</div>

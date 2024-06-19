@@ -1,0 +1,17 @@
+// Slider styles
+
+#slider {
+    .swiper-slide {
+        img {
+            transition : 15s ease-out;
+            transform  : scale(1);
+        }
+
+        &.swiper-slide-active,
+        &.swiper-slide-prev {
+            img {
+                transform : scale(1.1);
+            }
+        }
+    }
+}

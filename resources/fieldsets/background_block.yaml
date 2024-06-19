@@ -1,0 +1,82 @@
+title: 'Background Block'
+fields:
+  -
+    handle: no_container
+    field:
+      default: true
+      display: 'No container (Full-Width)'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true
+  -
+    handle: content
+    field:
+      always_show_set_button: false
+      sets:
+        title:
+          display: Title
+          fields:
+            -
+              import: title
+        alert:
+          display: Alert
+          fields:
+            -
+              import: alert
+        button:
+          display: Button
+          fields:
+            -
+              import: button
+        container:
+          display: Container
+          fields:
+            -
+              import: container
+        form:
+          display: Form
+          fields:
+            -
+              import: form
+        layout:
+          display: Layout
+          fields:
+            -
+              import: layout
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+      container: assets
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      link_collections:
+        - pages
+        - team
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      antlers: false
+      display: Content
+      type: bard
+      icon: bard
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true

@@ -1,0 +1,99 @@
+title: Sidebar
+fields:
+  -
+    handle: navigation
+    field:
+      display: Navigation
+      type: section
+      icon: section
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true
+  -
+    handle: slug
+    field:
+      generate: true
+      display: Slug
+      type: slug
+      icon: slug
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true
+  -
+    handle: menu_text
+    field:
+      input_type: text
+      antlers: false
+      display: 'Menu text'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true
+  -
+    handle: show_in_menu
+    field:
+      default: true
+      display: 'Show in menu'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true
+  -
+    handle: is_button
+    field:
+      default: false
+      display: 'Is button'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true
+  -
+    handle: parent
+    field:
+      mode: select
+      create: true
+      display: Parent
+      type: entries
+      icon: entries
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      max_items: 1
+      collections:
+        - pages
+        - team
+        - events
+        - news
+        - seminars
+      localizable: true
+  -
+    handle: redirect
+    field:
+      collections:
+        - pages
+      display: Redirect
+      type: link
+      icon: link
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true
+  -
+    handle: no_padding_bottom
+    field:
+      default: false
+      display: 'No padding at bottom'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+      read_only: false
+      localizable: true

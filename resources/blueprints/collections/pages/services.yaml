@@ -1,0 +1,223 @@
+title: Services
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          localizable: true
+          width: 50
+      -
+        handle: subtitle
+        field:
+          input_type: text
+          antlers: false
+          display: subtitle
+          type: text
+          icon: text
+          localizable: true
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: content
+        field:
+          always_show_set_button: true
+          sets:
+            title:
+              display: Title
+              fields:
+                -
+                  import: title
+            alert:
+              display: Alert
+              fields:
+                -
+                  import: alert
+            button:
+              display: Button
+              fields:
+                -
+                  import: button
+            list:
+              display: List
+              fields:
+                -
+                  import: list
+            timeline:
+              display: Timeline
+              fields:
+                -
+                  import: timeline
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          container: assets
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          link_collections:
+            - pages
+            - team
+            - news
+            - seminars
+            - events
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: Content
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: content_below
+        field:
+          always_show_set_button: false
+          sets:
+            title:
+              display: Title
+              fields:
+                -
+                  import: title
+            alert:
+              display: Alert
+              fields:
+                -
+                  import: alert
+            button:
+              display: Button
+              fields:
+                -
+                  import: button
+            list:
+              display: List
+              fields:
+                -
+                  import: list
+            container:
+              display: Container
+              fields:
+                -
+                  import: container
+            timeline:
+              display: Timeline
+              fields:
+                -
+                  import: timeline
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          container: assets
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          link_collections:
+            - pages
+            - team
+            - news
+            - seminars
+            - events
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: 'Content below'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        import: sidebar
+        config:
+          slug: {  }
+          parent: {  }
+  contact_persons:
+    display: 'Contact Persons'
+    fields:
+      -
+        handle: contact_persons
+        field:
+          mode: default
+          create: true
+          collections:
+            - team
+          display: 'Contact persons'
+          type: entries
+          icon: entries
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+  images:
+    display: Images
+    fields:
+      -
+        import: banner_text
+      -
+        handle: slider
+        field:
+          mode: list
+          container: assets
+          folder: slider
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Banner
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true

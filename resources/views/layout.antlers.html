@@ -1,16 +1,49 @@
 <!doctype html>
 <html lang="{{ site:short_locale }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ title ?? site:name }}</title>
-        <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
-    </head>
-    <body class="bg-gray-100 font-sans leading-normal text-gray-800">
-        <div class="mx-auto px-2 h-screen flex items-center justify-center">
-            {{ template_content }}
-        </div>
-        <script src="{{ mix src='/js/site.js' }}"></script>
-    </body>
+<head>
+    {{ partial:layouts/heads/default }}
+</head>
+<body
+    class="antialiased text-base xxl:text-lg leading-normal font-body text-gray-800 min-h-screen selection:bg-secondary-500 selection:text-white pt-[80px] xl:pt-[115px] overflow-x-hidden">
+
+{{ aardvark-seo:body }}
+
+{{ partial:layouts/headers/default }}
+
+<!-- Main -->
+<main>
+    {{ if slider }}
+    {{ if template === 'templates/home' }}
+    {{ partial:layouts/sliders/default }}
+    {{ else }}
+    {{ partial:layouts/sliders/banner }}
+    {{ /if }}
+    {{ /if }}
+    <div>
+        {{ template_content }}
+    </div>
+</main>
+
+<div class="cta flex items-center bg-primary-500 z-over9k rounded shadow-lg fixed bottom-0 sm:bottom-[100px] sm:right-4 right-0 sm:left-auto left-0 text-white p-2 sm:p-3 text-xs sm:text-base transition-all duration-300 ease-in-out hover:scale-[1.02]" style="opacity: 0">
+    <div class="pr-3">
+        <img src="/assets/layout/agent.png" alt="a&o kreston" class="w-[30px] sm:w-[39px]">
+    </div>
+    <p class="mb-0">
+        <span class="">{{ "Haben Sie Fragen? Wir sind ein Hallo von Ihnen entfernt:" | trans }}</span>
+        <br><a href="tel:0041581010202" class="after:absolute after:inset-0">058 101 02 02</a> /
+		<a href="mailto:hello@kreston.ch">hello@kreston.ch</a>
+
+    </p>
+</div>
+
+{{ if template !== 'templates/home' }}{{ partial:layouts/dividers/newsletter }}{{ /if }}
+{{ partial:layouts/footers/default }}
+
+{{ ardvark-seo:footer }}
+
+<script src="{{ mix src='/js/app.js' }}"></script>
+<script src="/js/ccs_handler.js"></script>
+
+{{ yield:script }}
+</body>
 </html>

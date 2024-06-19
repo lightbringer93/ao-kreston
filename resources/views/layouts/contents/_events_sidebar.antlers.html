@@ -1,0 +1,10 @@
+{{ if seminar_leadership || discounts || discouts || credited_with }}
+<div class="bg-secondary-500 p-8 text-white">
+    <h2 class="text-white">{{ "Seminarleitung" | trans }}</h2>
+    {{ seminar_leadership }}
+    <h2 class="text-white">{{ "Rabatte" | trans }}</h2>
+    {{ discounts }}{{ discouts }}
+    <h2 class="text-white">{{ "Angerechnet bei" | trans }}</h2>
+    {{ credited_with }}
+</div>
+{{ /if }}

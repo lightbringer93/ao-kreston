@@ -1,0 +1,181 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: salutation
+        field:
+          placeholder: Anrede
+          options:
+            Herr: Herr
+            Frau: Frau
+          multiple: false
+          max_items: 1
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          type: select
+          icon: select
+          width: 33
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          validate:
+            - required
+          localizable: true
+      -
+        handle: first_name
+        field:
+          placeholder: Vorname
+          input_type: text
+          antlers: false
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          validate:
+            - required
+          localizable: true
+      -
+        handle: last_name
+        field:
+          placeholder: Nachname
+          input_type: text
+          antlers: false
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          validate:
+            - required
+          localizable: true
+      -
+        handle: phone
+        field:
+          placeholder: Telefonnummer
+          input_type: text
+          antlers: false
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: email
+        field:
+          placeholder: 'E-Mail Adresse'
+          input_type: text
+          antlers: false
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          validate:
+            - required
+            - email
+          localizable: true
+      -
+        handle: company
+        field:
+          placeholder: Firma
+          input_type: text
+          antlers: false
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: feedback
+        field:
+          options:
+            Telefon: Telefon
+            E-Mail: E-Mail
+          inline: true
+          cast_booleans: false
+          display: 'Feedback via'
+          type: radio
+          icon: radio
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          validate:
+            - required
+          localizable: true
+      -
+        handle: interests
+        field:
+          placeholder: 'Ich habe Interesse an'
+          options:
+            'Buchhaltung & Rechnungswesen': 'Buchhaltung & Rechnungswesen'
+            'Steuer- und Rechtsberatung': 'Steuer- und Rechtsberatung'
+            'CH & grenzüberschreitende Mehrwertsteuerberatung': 'CH & grenzüberschreitende Mehrwertsteuerberatung'
+            'Lohn- und Personal-Administration (HR-Services)': 'Lohn- und Personal-Administration (HR-Services)'
+            'Professionelle Verwaltungsratstätigkeiten': 'Professionelle Verwaltungsratstätigkeiten'
+            Fiskalvertretung: Fiskalvertretung
+            Nachfolgeplanung: Nachfolgeplanung
+            Treuhandtätigkeiten: Treuhandtätigkeiten
+            Unternehmensberatung: Unternehmensberatung
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          type: select
+          icon: select
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          localizable: true
+      -
+        handle: source
+        field:
+          placeholder: 'Wie wurden Sie auf uns aufmerksam'
+          options:
+            Google: Google
+            Empfehlung: Empfehlung
+            Anzeige: Anzeige
+            Sonstiges: Sonstiges
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          type: select
+          icon: select
+          width: 50
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          validate:
+            - required
+          localizable: true
+      -
+        handle: user_message
+        field:
+          placeholder: Nachricht
+          antlers: false
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          read_only: false
+          validate:
+            - required
+          localizable: true

@@ -1,0 +1,66 @@
+tree:
+  -
+    id: f0b719d3-b6bc-4d4f-8b19-344a2b31bea8
+    entry: 556eb22a-11d2-4380-bbda-9eda304702a3
+    data:
+      color: primary-500
+      icon: icons/finanz_und_rechnungswesen.png
+      short_description: 'Preparation of monthly, quarterly and annual financial statements Reporting according to company guidelines'
+  -
+    id: 54be2360-bdeb-4b8a-b0dd-4cd75e10212a
+    entry: 3676d4e8-e7d5-43f3-aa3e-6bd349c75179
+    data:
+      color: secondary-500
+      icon: icons/steuer_und_rechtsberatung.png
+      short_description: 'Tax planning and consultancy for restructuring, acquisitions and renovations'
+  -
+    id: 5dd70bd3-e260-4610-8ec3-a7e344ec86ee
+    entry: feb0e613-8215-4b1f-bb04-14c386f517db
+    title: 'Business & Management Consulting'
+    data:
+      color: gray-800
+      icon: icons/wirtschafts_und_unternehmensberatung.png
+      short_description: 'Settlement Advice on the form of company or company foundations'
+  -
+    id: c086b1e2-dbbd-440f-ac66-9c3d77f72b4a
+    entry: 9b5b732f-0a80-4dcc-b57b-ddaf20e9be36
+    title: 'Salary & HR advice'
+    data:
+      color: secondary-500
+      icon: icons/salaer_und_human_resources_beratung.png
+      short_description: 'Payroll, Human Resources'
+  -
+    id: 525a81fb-5840-4f72-a027-37cde45d6d71
+    entry: a675b8dc-a15a-4db5-9ce2-9102de2e33c2
+    data:
+      color: gray-800
+      icon: icons/wirtschaftsprufung.png
+      short_description: 'Audit of annual and consolidated financial statements Foundation examinations (qualified foundations)'
+  -
+    id: 64192ebf-69a8-4b05-a789-d01de4ce2b20
+    entry: 5702d3fb-60a5-4cc3-b104-4811bad79332
+    data:
+      color: primary-500
+      icon: icons/mehrwertsteuerberatung.png
+      short_description: 'at Fiscal Representations in Switzerland and abroad through our international network'
+  -
+    id: 0f13dfc9-8a9e-4b69-b137-3efa86456a3a
+    entry: 925abfef-5e7a-4a2c-94d6-6dd34d7e0d33
+    data:
+      color: primary-500
+      icon: icons/interim-management.png
+      short_description: 'Support in setting up a professional financial system, bridging management gaps in the financial area for a limited period'
+  -
+    id: c2a6fafe-ca87-4ed0-849d-811a953c94ad
+    entry: c02efabc-d6d0-49b4-8d3b-5969313dea55
+    data:
+      color: secondary-500
+      icon: icons/immobilien.png
+      short_description: 'Management of rental properties and condominiums, consultancy services on the purchase and sale of real estate and investment properties'
+  -
+    id: 56b1de57-8ab4-4771-abd5-56b991202357
+    entry: 66014be8-5c9c-4e7a-9d76-b863e3512d19
+    data:
+      color: gray-800
+      icon: icons/bitcoin.png
+      short_description: 'Consulting, Accounting Services, Tax Services for individuals and corporations'

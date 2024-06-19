@@ -1,0 +1,5 @@
+<!-- Button -->
+<{{ button_type ?? 'a' }} {{ button_attributes}} {{ if button_type === 'a' or !button_type }}href="{{ button_link }}"{{ /if}} class="btn btn-{{ button_color regex_replace="-\d*| " }} {{ button_classes }} no-underline"{{ if button_blank }} target="_blank"{{ /if }} role="button">
+    {{ if font_awesome_icon }}<i class="{{ font_awesome_icon }} mr-3"></i>{{ /if }}
+    {{ button_text }}
+</{{ button_type ?? 'a'}}>

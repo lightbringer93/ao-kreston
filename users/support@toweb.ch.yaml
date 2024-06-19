@@ -1,0 +1,21 @@
+name: Toweb
+super: true
+id: b1c36291-e863-41f3-8c6f-b18dd4f22325
+password_hash: $2y$10$pa4WqkHKjohxV0.KQJt09O1ZlHdclORrVLCLGEzzJYJpoh/OtsZlC
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing
+    seminars:
+      after_save: continue_editing
+      per_page: 500
+    team:
+      columns:
+        - title
+        - slug
+        - site
+      per_page: 500
+      after_save: continue_editing
+  taxonomies:
+    team_tags:
+      after_save: continue_editing

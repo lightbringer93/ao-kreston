@@ -1,0 +1,9 @@
+<!-- Title -->
+<{{ if heading === 'h1' }}h2{{ else }}{{ heading ?? 'h2' }}{{ /if }} class="{{ if heading === 'h1' }}h1{{ /if}} {{ if color }}text-{{ color ?? 'primary-500' }}{{ /if }}">
+    {{ title }}
+    {{ if subtitle }}<span class="subtitle text-{{ color }}">{{ subtitle }}</span>{{ /if }}
+</{{ if heading === 'h1' }}h2{{ else }}{{ heading ?? 'h2' }}{{ /if }}>
+
+
+
+
