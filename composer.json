@@ -15,7 +15,7 @@
         "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.14",
         "laravel/tinker": "^2.7",
-        "statamic/cms": "3.3.*",
+        "statamic/cms": "3.4.*",
         "withcandour/aardvark-seo": "^2.0"
     },
     "require-dev": {
