@@ -13,11 +13,11 @@
 <!-- Main -->
 <main>
     {{ if slider }}
-    {{ if template === 'templates/home' }}
-    {{ partial:layouts/sliders/default }}
-    {{ else }}
-    {{ partial:layouts/sliders/banner }}
-    {{ /if }}
+        {{ if template === 'templates/home' }}
+            {{ partial:layouts/sliders/default }}
+        {{ else }}
+            {{ partial:layouts/sliders/banner }}
+        {{ /if }}
     {{ /if }}
     <div>
         {{ template_content }}
@@ -31,7 +31,7 @@
     <p class="mb-0">
         <span class="">{{ "Haben Sie Fragen? Wir sind ein Hallo von Ihnen entfernt:" | trans }}</span>
         <br><a href="tel:0041581010202" class="after:absolute after:inset-0">058 101 02 02</a> /
-		<a href="mailto:hello@kreston.ch">hello@kreston.ch</a>
+        <a href="mailto:hello@kreston.ch">hello@kreston.ch</a>
 
     </p>
 </div>

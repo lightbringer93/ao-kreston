@@ -73,7 +73,7 @@
         </div>
         <p class="text-xxl">
             {{ dates }}
-            {{ date format_localized="%A, %d. %B %Y" }}{{ if !last }}<br>{{ /if }}
+            {{ date iso_format="dddd, D. MMMM G" }}{{ if !last }}<br>{{ /if }}
             {{# date format="D, d. F Y" }}{{ if !last }}<br>{{ /if #}}
             {{ /dates }}
             {{ dates_text_form }}
@@ -160,9 +160,9 @@
 
     <div class="event-form">
         {{ dates }}
-        {{# <span data-value="{{ date format_localized="%A, %d.%B %Y" }}" data-key="{{ date format="Y-m-d" }}"></span> #}}
-        <span class="date" data-value="{{ date format_localized="%A, %d. %B %Y" }}"
-              data-key="{{ date format_localized="%A, %d. %B %Y" }}"></span>
+        {{# <span data-value="{{ date iso_format="dddd, D. MMMM G" }}" data-key="{{ date format="Y-m-d" }}"></span> #}}
+        <span class="date" data-value="{{ date iso_format="dddd, D. MMMM G" }}"
+              data-key="{{ date iso_format="dddd, D. MMMM G" }}"></span>
         {{ /dates }}
         {{ dates_text_form }}
         <span class="date" data-value="{{ value }}"
