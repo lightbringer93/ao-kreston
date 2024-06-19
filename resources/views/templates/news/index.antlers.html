@@ -6,29 +6,27 @@
 
 <div class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-6 md:gap-8">
 
-    {{ taxonomy }}
+    {{ $count = collection:count in="news" taxonomy:news_tags="{ slug }" }}
 
-        {{ collection:news taxonomy:news_tags="{slug}" sort="post_date:desc" }}
+    {{ collection:news taxonomy:news_tags="{ slug }" sort="post_date:desc" }}
 
-            {{ if entries_count > 0 }}
+        {{ if $count > 0 }}
 
             <div class="col-span-12 md:col-span-6 xl:col-span-4">
-                {{ partial:partials/news/default url="{entry}" }}
+                {{ partial:partials/news/default }}
             </div>
 
-            {{ else }}
+        {{ else }}
 
             <div class="col-span-12">
                 {{ partial:partials/alerts/default alert_color="info" }}
-                Keine News vorhanden. :)
+                    Keine News vorhanden. :)
                 {{ /partial:partials/alerts/default }}
             </div>
 
-            {{ /if }}
+        {{ /if }}
 
-        {{ /collection:news }}
-
-    {{ /taxonomy }}
+    {{ /collection:news }}
 
 </div>
 
