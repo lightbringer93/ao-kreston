@@ -1,67 +1,59 @@
 title: Pages
-sections:
+tabs:
   main:
     display: Main
-    fields:
+    sections:
       -
-        handle: template
-        field:
-          hide_partials: true
-          display: Template
-          type: template
-          icon: template
-          listable: hidden
-          localizable: true
-      -
-        import: title
-        config:
-          title:
-            required: true
-      -
-        import: content
+        fields:
+          -
+            handle: template
+            field:
+              display: Template
+              type: template
+              localizable: true
+          -
+            import: title
+            config:
+              title:
+                required: true
+          -
+            import: content
   sidebar:
     display: Sidebar
-    fields:
+    sections:
       -
-        import: sidebar
-        config:
-          slug: {  }
-          parent: {  }
+        fields:
+          -
+            import: sidebar
+            config:
+              slug:
+                validate: 'max:200'
+              parent: {  }
   images:
     display: Images
-    fields:
+    sections:
       -
-        import: banner_text
-      -
-        handle: slider
-        field:
-          mode: grid
-          container: assets
-          folder: slider
-          restrict: false
-          allow_uploads: true
-          display: Slider
-          type: assets
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          show_filename: true
-          localizable: true
-      -
-        handle: icon
-        field:
-          mode: grid
-          container: assets
-          folder: icons
-          restrict: true
-          allow_uploads: true
-          display: Icon
-          type: assets
-          icon: assets
-          listable: hidden
-          max_files: 1
-          width: 50
-          instructions_position: above
-          show_filename: true
-          read_only: false
-          localizable: true
+        fields:
+          -
+            import: banner_text
+          -
+            handle: slider
+            field:
+              mode: grid
+              container: assets
+              folder: slider
+              display: Slider
+              type: assets
+              localizable: true
+          -
+            handle: icon
+            field:
+              mode: grid
+              container: assets
+              folder: icons
+              restrict: true
+              display: Icon
+              type: assets
+              max_files: 1
+              width: 50
+              localizable: true

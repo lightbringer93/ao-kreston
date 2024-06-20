@@ -1,6 +1,7 @@
 title: Contact
 email:
   -
-    to: info@kreston.ch
+    id: BGnQvUoT
+    to: ds@toweb.ch
     subject: Kontaktanfrage
     html: templates/email/contact

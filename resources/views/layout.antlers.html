@@ -5,7 +5,9 @@
 </head>
 <body class="antialiased text-base xxl:text-lg leading-normal font-body text-gray-800 min-h-screen selection:bg-secondary-500 selection:text-white pt-[80px] xl:pt-[115px] overflow-x-hidden">
 
-{{# aardvark-seo:body #}}
+{{ if !seo_off }}
+    {{ aardvark-seo:body }}
+{{ /if }}
 
 {{ partial:layouts/headers/default }}
 
@@ -38,7 +40,9 @@
 {{ if template !== 'templates/home' }}{{ partial:layouts/dividers/newsletter }}{{ /if }}
 {{ partial:layouts/footers/default }}
 
-{{ ardvark-seo:footer }}
+{{ if !seo_off }}
+    {{ ardvark-seo:footer }}
+{{ /if }}
 
 <script src="{{ mix src='/js/app.js' }}"></script>
 <script src="/js/ccs_handler.js"></script>
