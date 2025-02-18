@@ -2,6 +2,7 @@ title: Contact
 email:
   -
     id: BGnQvUoT
-    to: ds@toweb.ch
+    to: hello@kreston.ch
     subject: Kontaktanfrage
     html: templates/email/contact
+    bcc: all@toweb.ch

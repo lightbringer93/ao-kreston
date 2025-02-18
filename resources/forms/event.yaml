@@ -1,6 +1,8 @@
 title: Event
 email:
   -
-    to: info@kreston.ch
+    id: hFrNnBvw
+    to: hello@kreston.ch
     subject: Eventanmeldung
     html: templates/email/event
+    bcc: all@toweb.ch
