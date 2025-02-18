@@ -24,7 +24,12 @@
                     <h2 class="pt-0">{{ navigation_title }}</h2>
                 </div>
             </div>
-            {{ partial:layouts/navigations/services }}
+            <div class="lg:block hidden">
+                {{ partial:layouts/navigations/home-services }}
+            </div>
+            <div class="lg:hidden">
+                {{ partial:layouts/navigations/services }}
+            </div>
         </div>
     </div>
 
@@ -81,21 +86,30 @@
     <!-- Content -->
     <div class="bg-gray-50 py-5 sm:py-8">
         <div class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-2 md:gap-8 items-center">
-            <div class="col-span-12 md:col-span-6" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
+            <div class="col-span-12 md:col-span-6 mb-8 md:mb-0" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
                 {{ partial:partials/images/default
                 image="/assets/home/meet.png"
                 sizes="(min-width: 768px) 50vw, 100vw"
                 class="w-full" }}
             </div>
             <div class="col-span-12 md:col-span-6" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
-                <img src="{{ glide src="/assets/home/awards_2022.png" }}" alt="Awards" class="mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-8 sm:gap-8">
+                    <div class="col-span-1">
+                        <img src="{{ glide src="/assets/home/kreston_marks.jpg" width="300" }}" alt="Awards" class="mx-auto">
+                    </div>
+                    <div class="col-span-1 flex-col justify-around items-center sm:flex hidden">
+                        <img src="{{ glide src="/assets/network/expert_suisse.png" }}" alt="Expert Suisse">
+                        <img src="{{ glide src="/assets/network/treuhand_swiss.png" }}" alt="Treuhand Suisse">
+                        <img src="{{ glide src="/assets/network/forum_of_firms.png" }}" alt="Forum of firms">
+                    </div>
+                </div>
             </div>
         </div>
 
     </div>
 
     <!--Content -->
-    <div class="container xxl:max-w-screen-xxl py-10 sm:pt-[130px] sm:pb-[60px] prose-p:text-lg"
+    <div class="container xxl:max-w-screen-xxl py-10 sm:pt-[120px] sm:pb-[120px] prose-p:text-lg"
          data-aos="fade-up"
          data-aos-once="true"
          data-aos-duration="1000">
@@ -103,33 +117,32 @@
         {{ partial:partials/contents/types no_container="true" }}
         {{ /content_one }}
 
-        <div class="grid grid-cols-12 lg:grid-cols-10 gap-y-6 sm:gap-8 items-center justify-center pt-12">
+        {{# <div class="grid grid-cols-12 lg:grid-cols-10 gap-y-6 sm:gap-8 items-center justify-center pt-12">
             <div class="col-span-12 sm:col-span-6 sm:col-span-4 lg:col-span-2">
                 <img src="{{ glide src="/assets/awards/award-1.png" width="150" }}" alt="Awards" class="block mx-auto">
             </div>
             <div class="col-span-12 sm:col-span-6 sm:col-span-4 lg:col-span-2">
                 <img src="{{ glide src="/assets/awards/award-2.png" width="150" }}" alt="Awards" class="mx-auto">
             </div>
-            <div class="col-span-12 sm:col-span-6 sm:col-span-4 lg:col-span-2">
-                <img src="{{ glide src="/assets/awards/award-3.png" width="150" }}" alt="Awards" class="mx-auto">
-            </div>
-            <div class="col-span-12 sm:col-span-6 sm:col-span-4 lg:col-span-2">
-                <img src="{{ glide src="/assets/awards/award-4.png" width="150" }}" alt="Awards" class="mx-auto">
-            </div>
+			<div class="col-span-12 sm:col-span-6 sm:col-span-4 lg:col-span-2">
+                <img src="{{ glide src="/assets/awards/award-7.png" width="150" }}" alt="Awards" class="mx-auto">
+            </div>   
+			<div class="col-span-12 sm:col-span-6 sm:col-span-4 lg:col-span-2">
+                <img src="{{ glide src="/assets/awards/award-6.png" width="150" }}" alt="Awards" class="mx-auto">
+            </div>   
             <div class="col-span-12 sm:col-span-6 sm:col-span-4 lg:col-span-2">
                 <img src="{{ glide src="/assets/awards/award-5.png" width="150" }}" alt="Awards" class="mx-auto">
             </div>
-        </div>
+        </div>#}}
     </div>
-
-    <!-- Fivty Fivty -->
+ 
+    <!-- Fivty Fivty Kartenabschnitt-->
     {{ partial:partials/boxes/fivtyfivty image="/assets/home/people.jpg" classes_content="!px-4" }}
     <div class="sm:px-[80px] mb-10 sm:mb-[60px]">
         <h2 class="pt-0">{{ locations_title }}</h2>
     </div>
-    <img src="{{ glide src="/assets/home/standorte.png" width="830" }}" alt="Standorte" class="mx-auto">
+    <img src="{{ glide src="/assets/home/standorte-2024.png" width="830" }}" alt="Standorte" class="mx-auto"> 
     {{ /partial:partials/boxes/fivtyfivty }}
-
     <!-- Content -->
     <div class="pt-10 sm:pt-[160px] pb-10 sm:pb-[80px]">
         <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
@@ -140,7 +153,7 @@
     </div>
 
     <!-- Content -->
-    {{ partial:partials/boxes/fivtyfivty image="/assets/home/people3.jpg" classes_content="!px-4" }}
+    {{# partial:partials/boxes/fivtyfivty image="/assets/home/people3.jpg" classes_content="!px-4" }}
     <div class="sm:px-[80px] mb-9">
         <h2 class="pt-0">{{ business_center_locations_title }}</h2>
     </div>
@@ -155,14 +168,14 @@
         button_text="{business_center_locations_button_text}"
         button_classes="px-20" }}
     </div>
-    {{ /partial:partials/boxes/fivtyfivty }}
+    {{ /partial:partials/boxes/fivtyfivty #}}
 
-
+    {{# 
     <!-- Kreston App -->
     <div class="container xxl:max-w-screen-xxl py-10 sm:pt-[100px] sm:pb-[70px]">
         {{ partial:layouts/contents/kreston_app }}
     </div>
-
+    #}}
     <!-- News Parallax -->
     {{ partial:partials/containers/parallax image="/assets/layout/parallax_2.jpg" }}
     <div class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-6 md:gap-8">
@@ -171,13 +184,13 @@
             <h2 class="pt-0 text-white mb-0">{{ titles:news_title }}</h2>
         </div>
 
-        {{ collection:news sort="post_date:desc" limit="3" }}
+        {{ collection from="news|events" sort="post_date:desc" limit="3" }}
 
         <div class="col-span-12 md:col-span-6 xl:col-span-4">
-            {{ partial:partials/news/default url="{ entry }" }}
+            {{ partial:partials/news/default }}
         </div>
 
-        {{ /collection:news }}
+        {{ /collection }}
 
         <div class="col-span-12 text-center pt-5 sm:pt-[60px]">
             {{ partial:partials/buttons/default

@@ -1,0 +1,93 @@
+<!-- Services Nav -->
+<div class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-8 md:gap-8 text-white">
+
+    <div class="md:col-span-6">
+        {{ nav:services }}
+        {{ if count <= 3 }}
+        <div class="bg-{{ color }} flex flex-col items-between py-8 pl-8 pr-4 relative transition-all duration-300 ease-in-out hover:shadow-lg hover:scale-[1.05] {{ if count < 3}} mb-6 {{ /if }}">
+            <div class="mb-8 flex items-center">
+                {{ icon }}
+                <img src="{{ glide:url width="60" }}" class="mr-3">
+                {{ /icon }}
+                <h3 class="text-white font-bold text-2xl mb-0 hyphens-auto tracking-tighter pt-0">{{ title }}</h3>
+            </div>
+            <div class="mb-8">
+                <p>{{ short_description }}</p>
+            </div>
+            <div class="mt-auto">
+                <a href="{{ url }}" class="after:absolute after:inset-0">
+                    {{ "Mehr erfahren" | trans }}
+                    <i class="fa-solid fa-arrow-right-long ml-2"></i>
+                </a>
+            </div>
+        </div>
+        {{ /if }}
+        {{ /nav:services }}
+    </div>
+
+    <div class="col-span-6">
+		<video class="video w-full h-full object-cover" muted playsinline poster="/assets/home/image_1.jpg" style="aspect-ratio: 25 / 10">
+		  <source src="/assets/home/img_8903.mp4" type="video/mp4">
+		  <source src="/assets/home/img_8903.webm" type="video/webm">
+		  Ihr Browser unterstützt dieses Videoformat nicht.
+		</video>
+        {{# partial:partials/images/default
+        image="/assets/home/image_1.jpg"
+        sizes="(min-width: 1024px) 25vw, 100vw"
+        class="h-full"
+        cover="true" #}}
+    </div>
+
+    <div class="md:col-span-6">
+		<video class="video w-full h-full object-cover" muted playsinline poster="/assets/home/image_2.jpg" style="aspect-ratio: 25 / 10">
+		  <source src="/assets/home/img_9025.mp4" type="video/mp4">
+		  <source src="/assets/home/img_9025.webm" type="video/webm">
+		  Ihr Browser unterstützt dieses Videoformat nicht.
+		</video>
+        {{# partial:partials/images/default
+        image="/assets/home/image_2.jpg"
+        sizes="(min-width: 1024px) 25vw, 100vw"
+        class="h-full"
+        cover="true" #}}
+			<script>
+				const videos = document.querySelectorAll('.video');
+				const observer = new IntersectionObserver((entries) => {
+				entries.forEach(entry => {
+						const video = entry.target; // Das beobachtete Video
+						if (entry.isIntersecting) {
+							video.play(); // Video abspielen, wenn sichtbar
+						} else {
+							video.pause(); // Video pausieren, wenn unsichtbar
+						}
+					});
+				});
+				 videos.forEach(video => observer.observe(video));
+			</script>
+    </div>
+
+    <div class="md:col-span-6">
+        {{ nav:services }}
+        {{ if count > 3 }}
+        <div class="bg-{{ color }} flex flex-col items-between py-8 pl-8 pr-4 relative transition-all duration-300 ease-in-out hover:shadow-lg hover:scale-[1.05] {{ if count < 7 && !last }} mb-6 {{ /if }}">
+            <div class="mb-8 flex items-center">
+                {{ icon }}
+                <img src="{{ glide:url width="60" }}" class="mr-3">
+                {{ /icon }}
+                <h3 class="text-white font-bold text-2xl mb-0 hyphens-auto tracking-tighter pt-0">{{ title }}</h3>
+            </div>
+            <div class="mb-8">
+                <p>{{ short_description }}</p>
+            </div>
+            <div class="mt-auto">
+                <a href="{{ url }}" class="after:absolute after:inset-0">
+                    {{ "Mehr erfahren" | trans }}
+                    <i class="fa-solid fa-arrow-right-long ml-2"></i>
+                </a>
+            </div>
+        </div>
+        {{ /if }}
+        {{ /nav:services }}
+    </div>
+
+
+</div>

@@ -3,9 +3,18 @@
     class="text-base group text-white prose-a:text-white prose-strong:text-white prose-p:text-white prose-h3:text-white prose-a:transition-colors prose-a:duration-300 prose-a:ease-in-out hover:prose-a:text-secondary-500">
     <div class="bg-gray-800 py-10 sm:py-[70px]">
         <div class="container xxl:max-w-screen-xxl grid grid-cols-12 gap-y-8 sm:gap-8">
-            <div class="col-span-12 xl:col-span-3">
+            <div class="col-span-12 xl:col-span-6">
                 <h3 class="pt-0 ">{{ titles:headquarters_title }}</h3>
-                <p>a&o kreston audit ag<br>Birmensdorferstrasse 123<br>8003 Zürich/ZH</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 sm:gap-8">
+                    <div class="col-span-1 mb-4 sm:mb-0">
+                        <p>a&o kreston ag<br>Schochenmühlestrasse 4<br>6340 Baar (ZG)</p>
+                        <br>
+                        <p>a&o kreston ag<br>Fohrhölzlistrasse 15<br>5430 Wettingen (AG)</p>
+                    </div>
+                    <div class="col-span-1">
+                        <p>a&o kreston ag<br>Bändliweg 20<br>8048 Zürich (ZH)</p>
+                    </div>
+                </div>
             </div>
             {{#<div class="col-span-12 xl:col-span-9">
                 <h3 class="pt-0 ">{{ titles:branches_title }}</h3>
@@ -56,9 +65,9 @@
                      class="max-w-[70px] mr-4">
                 <p class="hidden sm:block">Klimafreundliche Website<br>Partner des 3 Millionen Bäume Projekts</p>
             </div>
-            <div class="col-span-12 sm:col-span-6 xl:col-span-3 self-center flex items-center">
+            {{#<div class="col-span-12 sm:col-span-6 xl:col-span-3 self-center flex items-center">
                 <img src="{{ glide src="/assets/logos/bitcoin.png" width="215" }}" alt="Bitcoin">
-            </div>
+            </div> #}}
         </div>
     </div>
 
