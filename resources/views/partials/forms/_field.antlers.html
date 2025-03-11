@@ -5,10 +5,10 @@
     <div class="{{ if inline }}flex space-x-3{{ /if }}">{{ field }}</div>
 
     <span class="text-red-500 text-xs italic" x-show="errors['{{ handle }}']">
-                    <template x-for="error in errors['{{ handle }}']">
-                        <span x-text="error"></span>
-                    </template>
-                </span>
+        <template x-for="error in errors['{{ handle }}']">
+            <span x-text="error"></span>
+        </template>
+    </span>
 
     {{ if error }}
     <span class="text-red-500 text-xs italic">{{ foreach:error }}{{ value }}<br>{{ /foreach:error }}</span>

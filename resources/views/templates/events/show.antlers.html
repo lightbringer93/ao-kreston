@@ -161,14 +161,16 @@
     <div class="event-form">
         {{ dates }}
         {{# <span data-value="{{ date iso_format="dddd, D. MMMM G" }}" data-key="{{ date format="Y-m-d" }}"></span> #}}
-        <span class="date" data-value="{{ date iso_format="dddd, D. MMMM G" }}"
+        <span class="event-date" data-value="{{ date iso_format="dddd, D. MMMM G" }}"
               data-key="{{ date iso_format="dddd, D. MMMM G" }}"></span>
         {{ /dates }}
         {{ dates_text_form }}
-        <span class="date" data-value="{{ value }}"
+        <span class="event-date" data-value="{{ value }}"
               data-key="{{ value }}"></span>
         {{ /dates_text_form }}
-        <span class="event-name" data-event-name="{{ menu_text }}"></span>
+        {{#
+        <span class="event-name" data-event-name="{{ menu_text ?? title }}"></span>
+        #}}
 
         {{ partial:partials/forms/default is_ajax_form="true" handle="event" form_template="event" }}
     </div>

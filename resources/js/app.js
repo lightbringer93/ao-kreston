@@ -85,12 +85,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     if (elements.eventForm) {
-        const dates = elements.eventForm.querySelectorAll('.date'),
-            select = elements.eventForm.querySelector('.date-select select'),
-            eventInput = elements.eventForm.querySelector('#event'),
-            eventName = elements.eventForm.querySelector('.event-name');
+        const dates = elements.eventForm.querySelectorAll('.event-date'),
+            select = elements.eventForm.querySelector('.date-select select');
+            // eventInput = elements.eventForm.querySelector('#event'),
+            // eventName = elements.eventForm.querySelector('.event-name');
 
-        eventInput.value = eventName.getAttribute('data-event-name');
+        // eventInput.value = eventName.getAttribute('data-event-name');
 
         for (const date of dates) {
             const option = document.createElement('option');

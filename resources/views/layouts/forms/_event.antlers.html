@@ -2,9 +2,13 @@
 
     {{ fields }}
 
-        {{ if handle === 'date' }}
+        {{ if handle === 'event_date' }}
 
             {{ partial:partials/forms/field classes="date-select" }}
+
+        {{ elseif handle === 'event' }}
+
+            <input type="hidden" value="{{ title }}" name="event">
 
         {{ else }}
 
