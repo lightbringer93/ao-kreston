@@ -51,7 +51,7 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                display: ['Montserrat', 'sans-serif'],
+                display: ['Raleway', 'sans-serif'],
                 body: ['Montserrat', 'sans-serif'],
             },
             colors: {

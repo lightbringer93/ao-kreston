@@ -1,5 +1,5 @@
 .btn {
-    @apply font-display inline-flex font-normal text-lg items-center rounded-md justify-center w-full text-center px-7 py-2 leading-none border border-transparent transition ease-in-out duration-150;
+    @apply inline-flex font-normal text-lg items-center rounded-md justify-center w-full text-center px-7 py-2 leading-none border border-transparent transition ease-in-out duration-150;
     @screen md {
         @apply w-auto;
     }

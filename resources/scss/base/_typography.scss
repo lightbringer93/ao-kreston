@@ -16,7 +16,7 @@ h5,
 .h5,
 h6,
 .h6 {
-    @apply font-bold leading-tight text-tertiary-500 mb-4;
+    @apply font-bold font-display leading-tight text-gray-800 mb-4;
 
     @screen lg {
         @apply mb-6 pt-3;
