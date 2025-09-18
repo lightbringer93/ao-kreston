@@ -13,7 +13,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1697120754
+updated_at: 1758030489
 slider:
   - slider/team.webp
 template: templates/team/index
@@ -21,4 +21,5 @@ no_padding_bottom: false
 banner_text: |-
   Kreston.
   Knowing good advice.
+seo_off: false
 ---

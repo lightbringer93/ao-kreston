@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af2939508acf36163d342df2521209bf",
+    "content-hash": "ff014147f8a126e5c6b8e839c1f1f8a0",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -68,6 +68,53 @@
                 "source": "https://github.com/ajthinking/archetype/tree/v2.0.0"
             },
             "time": "2024-05-11T08:05:58+00:00"
+        },
+        {
+            "name": "anakadote/statamic-recaptcha",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anakadote/statamic-recaptcha.git",
+                "reference": "c6635d597c3f51481df8211a391a0b69ddf61ad2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anakadote/statamic-recaptcha/zipball/c6635d597c3f51481df8211a391a0b69ddf61ad2",
+                "reference": "c6635d597c3f51481df8211a391a0b69ddf61ad2",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Anakadote\\StatamicRecaptcha\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Statamic reCAPTCHA (v3 and v2)",
+                    "description": "A Google reCAPTCHA v3 and v2 addon."
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Anakadote\\StatamicRecaptcha\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Collins",
+                    "homepage": "https://endif.io"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/anakadote/statamic-recaptcha/issues",
+                "source": "https://github.com/anakadote/statamic-recaptcha/tree/2.0"
+            },
+            "time": "2025-06-27T19:16:37+00:00"
         },
         {
             "name": "brick/math",

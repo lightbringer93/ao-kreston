@@ -1,0 +1,20 @@
+{{#
+    @name Modal trigger
+    @desc Add a open button for Modals
+    @params class,
+            size,
+            text,
+            color: primary, secondary, gray, success, info, warning, danger,
+            icon,
+            icon_right: left or right
+#}}
+{{ partial:partials/buttons/button tag="button"
+                                     text="{ open_button_text }"
+                                     color="{ open_button_color ?? 'primary' }"
+                                     size="{ open_button_size }"
+                                     class="{ open_button_class }"
+                                     is_block="{ open_button_is_block }"
+                                     icon="{ open_button_icon }"
+                                     icon_right="{ open_button_icon_right }"
+                                     click="$store.globals.openModal = true"
+                                     is_block="true" }}

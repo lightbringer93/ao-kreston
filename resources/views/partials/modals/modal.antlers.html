@@ -1,0 +1,40 @@
+{{#
+    @name Modal
+    @desc Create a modal pop up.
+    @params class,
+    is_open: true of false
+    open_button_text,
+    slot
+    @requirements @alpinejs/focus v3.x
+#}}
+<div class="modal relative{{ if class }} {{ class }}{{ /if }}">
+    {{# Trigger #}}
+    <span class="modal-open cursor-pointer" @click="$store.globals.openModal = true">
+        <i class="fa-solid fa-calendar-alt"></i>
+    </span>
+    {{ section:modal }}
+    <div x-data>
+        {{# Overlay #}}
+        {{ partial:partials/modals/overlay }}
+        {{# Modal #}}
+        <div class="fixed inset-0 z-over9k overflow-y-auto"
+             style="display:none"
+             role="dialog"
+             aria-modal="true"
+             :aria-labelledby="$id('modalTitle')"
+             x-show="$store.globals.openModal"
+             x-id="['modalTitle']"
+             @keydown.escape.prevent.stop="$store.globals.openModal = false">
+            <div class="flex items-end sm:items-center justify-center min-h-full text-center"
+                 x-show="$store.globals.openModal"
+                 x-transition
+                 @click="$store.globals.openModal = false">
+                {{# Panel #}}
+                {{ partial:partials/modals/panel }}
+                {{ slot }}
+                {{ /partial:partials/modals/panel }}
+            </div>
+        </div>
+    </div>
+    {{ /section:modal }}
+</div>

@@ -42,6 +42,24 @@
                 {{ if workplace }}<br>Arbeitsort{{ workplace }}{{ if not first and last }}e{{ /if }}{{ /workplace }}
                 {{ workplace }}{{ value }}{{ if not last }}, {{ /if }}{{ /workplace }}{{ /if }}
             </p>
+            {{ if online_appointment_link }}
+                {{ recaptcha }}
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        const buttons = document.querySelectorAll('.online-appointment');
+                        grecaptcha.ready(function() {
+                            grecaptcha.execute('6Ledh8wrAAAAADao-z4WB88iznEbUmHwVyPmPrli', {action: 'submit'}).then(function(token) {
+                                if (!token) {
+                                    buttons[0].addEventListener("click", function(e) {
+                                        e.preventDefault();
+                                    });
+                                }
+                            });
+                        });
+                    });
+                </script>
+                {{ partial:partials/buttons/default button_link="{ online_appointment_link }" button_blank="true" button_text="{ titles:book_online_appointment }" button_color="primary" button_classes="online-appointment w-full mt-5" }}
+            {{ /if }}
         </div>
     </div>
     {{ /if }}

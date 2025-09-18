@@ -43,7 +43,7 @@
 {{ if !seo_off }}
     {{ ardvark-seo:footer }}
 {{ /if }}
-
+{{ yield:modal }}
 <script src="{{ mix src='/js/app.js' }}"></script>
 <script src="/js/ccs_handler.js"></script>
 

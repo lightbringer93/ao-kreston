@@ -1,0 +1,29 @@
+{{#
+    @name Modal cancel
+    @desc Add a cancel button for Modals
+    @params tag: button, a
+            class,
+            size,
+            link,
+            text,
+            color: primary, secondary, gray, success, info, warning, danger,
+            is_blank: target="_blank"
+            type: submit, button,
+            icon,
+            icon_right: left or right
+            form_id: id of the form to submit
+#}}
+<span class="mt-3 sm:mt-0 sm:col-start-1"
+      @click="$store.globals.openModal = false">
+    {{ partial:components/buttons/button tag="{ cancel_button_tag ?? 'button' }"
+                                         text="{ cancel_button_text }"
+                                         color="{ cancel_button_color ?? 'gray' }"
+                                         link="{ cancel_button_link }"
+                                         is_blank="{ cancel_button_is_blank }"
+                                         type="{ cancel_button_typew }"
+                                         size="{ cancel_button_size }"
+                                         class="{ cancel_button_class ?? 'w-full' }"
+                                         icon="{ cancel_button_icon }"
+                                         icon_right="{ cancel_button_icon_right }"
+                                         form_id="{ cancel_button_form_id }" }}
+</span>

@@ -1,0 +1,13 @@
+{{#
+@name Modal overlay
+@desc Create a overlay for the modal
+#}}
+<div class="fixed inset-0 z-over9k bg-gray-500/30 backdrop-blur-sm transition-all"
+     style="display:none"
+     x-show="$store.globals.openModal"
+     x-transition:enter="ease-out duration-300"
+     x-transition:enter-start="opacity-0"
+     x-transition:enter-end="opacity-100"
+     x-transition:leave="ease-in duration-200"
+     x-transition:leave-start="opacity-100"
+     x-transition:leave-end="opacity-0"></div>

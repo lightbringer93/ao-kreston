@@ -1,0 +1,29 @@
+{{#
+    @name Modal confirm
+    @desc Add a cancel button for Modals
+    @params tag: button, a
+            class,
+            size,
+            link,
+            text,
+            color: primary, secondary, gray, success, info, warning, danger,
+            is_blank: target="_blank"
+            type: submit, button,
+            icon,
+            icon_right: left or right
+            form_id: id of the form to submit
+#}}
+<span class="sm:col-start-2"
+      @click="$store.globals.openModal = false">
+    {{ partial:components/buttons/button tag="{ confirm_button_tag ?? 'button' }"
+                                         text="{ confirm_button_text }"
+                                         color="{ confirm_button_color ?? 'primary' }"
+                                         link="{ confirm_button_link }"
+                                         is_blank="{ confirm_button_is_blank }"
+                                         type="{ confirm_button_type ?? 'submit' }"
+                                         size="{ confirm_button_size }"
+                                         class="{ confirm_button_class ?? 'w-full' }"
+                                         icon="{ confirm_button_icon }"
+                                         icon_right="{ confirm_button_icon_right }"
+                                         form_id="{ confirm_button_form_id }" }}
+</span>

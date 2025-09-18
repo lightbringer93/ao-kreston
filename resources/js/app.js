@@ -2,6 +2,7 @@ import Alpine from 'alpinejs'
 import form from './form';
 import accordion from './accordion';
 import collapse from '@alpinejs/collapse'
+import focus from '@alpinejs/focus'
 import {Swiper, Autoplay, Navigation, EffectFade} from 'swiper';
 import {jarallax} from "jarallax";
 import Aos from "aos";
@@ -11,8 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.Alpine = Alpine
     Alpine.plugin(collapse);
+    Alpine.plugin(focus);
     Alpine.data('form', form);
     Alpine.data('accordion', accordion);
+    Alpine.store('globals', {
+        openModal: false,
+    });
     Alpine.start()
 
     Swiper.use([Autoplay, Navigation, EffectFade]);
