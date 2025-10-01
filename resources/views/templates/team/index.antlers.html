@@ -27,7 +27,7 @@
         {{ /taxonomy }}
     </div>
 
-    {{ collection from="team" }}
+    {{ collection from="team" sort="title" }}
 
     <div class="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 {{ team_tags }}{{ slug }} {{ /team_tags }}"
          x-show="{{ team_tags }}{{ slug replace="-|_" }}{{ if !last }} || {{ /if }}{{ /team_tags }} || alle">
