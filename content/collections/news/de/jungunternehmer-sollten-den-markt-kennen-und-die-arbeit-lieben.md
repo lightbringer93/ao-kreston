@@ -1,5 +1,6 @@
 ---
 id: 9ab42b1c-4f95-4892-908d-87f3a8e0fba5
+published: false
 blueprint: news
 title: 'Jungunternehmer sollten den Markt kennen und die Arbeit Lieben'
 post_date: '2018-06-06 10:31'

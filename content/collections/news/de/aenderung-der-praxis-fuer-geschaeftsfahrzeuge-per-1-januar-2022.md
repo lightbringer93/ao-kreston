@@ -1,5 +1,6 @@
 ---
 id: cc9925c1-2b33-497b-b901-c1b902a0b2b0
+published: false
 blueprint: news
 title: 'Änderung der Praxis für Geschäftsfahrzeuge per 1. Januar 2022'
 post_date: '2021-12-01 10:51'

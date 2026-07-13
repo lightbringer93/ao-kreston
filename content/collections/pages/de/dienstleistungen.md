@@ -9,9 +9,8 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
-updated_at: 1649585193
+updated_by: d606be30-225f-4c26-b356-f19cff6cc26e
+updated_at: 1719291239
 heading: h1
 show_in_menu: true
 is_call_to_action_in_navigation: false
@@ -21,4 +20,9 @@ slider:
 redirect: '@child'
 template: templates/services/show
 no_padding_bottom: false
+parent: home
+seo_off: false
+banner_text: |-
+  Kreston.
+  Knowing good advice.
 ---

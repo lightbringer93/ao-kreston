@@ -1,5 +1,6 @@
 ---
 id: a26fe142-657e-4bfb-9196-3aecbbe49c3a
+published: false
 blueprint: news
 title: 'Anspruch und Höhe der Mutterschafts-Entschädigung'
 post_date: '2015-05-20 10:24'
@@ -15,7 +16,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
-updated_at: 1649060699
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1726495477
+seo_off: false
 ---

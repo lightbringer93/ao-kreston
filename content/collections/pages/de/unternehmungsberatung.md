@@ -8,8 +8,8 @@ is_button: false
 parent: d1b4dbee-d3a3-4a72-9ab5-180131d635dc
 no_padding_bottom: false
 contact_persons:
-  - 607ab19f-953f-469f-b2e7-3e455030d130
-  - 580d8a95-79c2-4bc1-b48b-c30120f1eaac
+  - e4ec3366-9cbc-4da7-9fdc-2bdaf05347b1
+  - 0b150308-f49d-4acd-bf6d-0f0d8f745501
 slider:
   - slider/dienstleistungen.jpg
 use_meta_keywords: false
@@ -18,17 +18,18 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
-updated_at: 1655197977
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1774944348
 content_below:
   -
     type: set
     attrs:
+      id: VslAWVvI
       values:
         type: timeline
         timeline:
           -
+            id: PNm6bgYV
             icon: icons/timeline/beratung_und_betreuung-1649078913.png
             title: 'Beratung und Betreuung'
             text: |-
@@ -38,6 +39,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: eedoxw1K
             icon: icons/timeline/unterlagen_bereitstellen-1649078916.png
             title: 'Unterlagen bereitstellen'
             text: |-
@@ -47,6 +49,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: UzNMPQpD
             icon: icons/timeline/durchsicht_der_unterlagen.png
             title: 'Durchsicht der Unterlagen'
             text: |-
@@ -56,6 +59,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: iGPDM0gr
             icon: icons/timeline/zustellung_an_das_notariat.png
             title: 'Zustellung an das Notariat'
             text: |-
@@ -65,6 +69,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: f77E6hrN
             icon: icons/timeline/ueberweisung_des_kapitals.png
             title: 'Überweisung des Kapitals'
             text: |-
@@ -74,6 +79,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: twkGTErR
             icon: icons/timeline/zustellung_der_bestaetigung.png
             title: 'Zustellung der Bestätigung'
             text: |-
@@ -83,6 +89,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: dotk0quH
             icon: icons/timeline/notariatstermin.png
             title: Notariatstermin
             text: |-
@@ -92,6 +99,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: hYq4C8iJ
             icon: icons/timeline/eintragung_ins_handelsregister.png
             title: 'Eintragung im Handelsregister'
             text: |-
@@ -107,6 +115,7 @@ meta_description: 'Unsere Fachspezialisten aus den Bereichen Finanzen, Steuern, 
 banner_text: |-
   Kreston.
   Knowing good advice.
+seo_off: false
 content:
   -
     type: paragraph
@@ -133,10 +142,10 @@ content:
         type: text
         text: 'Egal, ob Sie eine Nachfolgelösung brauchen, eine Umstrukturierung Ihres Unternehmens planen oder eine schwierige Situation bewältigen müssen, wir begleiten Sie so lange es nötig und gewünscht ist. Fokussieren Sie sich auf Ihr Kerngeschäft – wir kümmern uns um den Rest. Die Leistungen unserer Unternehmensberater-Sparte:'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -145,7 +154,7 @@ content:
                 type: text
                 text: Unternehmensbewertungen
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -154,7 +163,7 @@ content:
                 type: text
                 text: 'Unternehmenskäufen und –verkäufen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -163,7 +172,7 @@ content:
                 type: text
                 text: Neugründungen
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -172,7 +181,7 @@ content:
                 type: text
                 text: 'Start-up- und Finanzierungsberatung'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -181,7 +190,7 @@ content:
                 type: text
                 text: 'Erstellung von Businessplänen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -190,7 +199,7 @@ content:
                 type: text
                 text: 'Turnaround-Beratung / Restrukturierungen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -199,7 +208,7 @@ content:
                 type: text
                 text: Gutachtertätigkeit
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -208,7 +217,7 @@ content:
                 type: text
                 text: Ansiedlungen
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph

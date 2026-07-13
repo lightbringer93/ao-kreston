@@ -1,5 +1,6 @@
 ---
 id: 638359a1-6c61-4b58-9a85-40ab7db8a0d9
+published: false
 blueprint: news
 title: 'Vorsteuerabzug bei Totalverlust der Rechnung'
 post_date: '2018-06-29 10:32'

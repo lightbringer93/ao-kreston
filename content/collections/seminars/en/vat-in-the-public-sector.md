@@ -1,6 +1,7 @@
 ---
 id: e60fc557-eaf0-4609-bc6e-e1c415c8c8ac
 origin: c8e277bf-343e-4fac-8993-a470321697e9
+published: false
 title: 'VAT in the public sector'
 hero_content:
   -
@@ -16,6 +17,7 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: k3uEKle6
       values:
         type: title
         title: 'Correct treatment of the many different kinds of transactions'
@@ -54,16 +56,17 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: aLMdoAul
       values:
         type: title
         title: 'Your practical benefits'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -78,7 +81,7 @@ content_next_to_sidebar:
                     type: bold
                 text: 'public entity becomes liable for tax.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -96,7 +99,7 @@ content_next_to_sidebar:
                 type: text
                 text: .
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -114,7 +117,7 @@ content_next_to_sidebar:
                 type: text
                 text: ' are treated with regard to tax.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -134,6 +137,7 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: zFHBdABW
       values:
         type: title
         title: 'Content of seminar'
@@ -142,16 +146,17 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: XQvgUeOt
       values:
         type: title
         title: 'Subjective tax obligation'
         heading: h3
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -160,7 +165,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Who is potentially liable to pay tax?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -169,7 +174,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Who is a public entity/unit pursuant to the VAT law?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -178,7 +183,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'What revenue limits apply when investigating the tax liability?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -187,7 +192,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'What revenue is relevant for investigating the tax liability, and what is not relevant?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -198,16 +203,17 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: GGP5HgUH
       values:
         type: title
         title: 'Objective tax obligation'
         heading: h3
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -216,7 +222,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'What are tax-exempt revenues within the same public entity?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -225,7 +231,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'What services must be taxed when they are provided to other public entities?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -234,7 +240,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'What are sovereign services?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -243,7 +249,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'How is the passing on of subsidies treated in terms of VAT law?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -252,7 +258,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'What are the consequences of using general tax income to adjust deficits?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -261,7 +267,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'What are subsidies, and how are they treated/assessed with regard to tax?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -272,16 +278,17 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: 3KpDJNo1
       values:
         type: title
         title: 'Input tax'
         heading: h3
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -290,7 +297,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'On what services may input tax be deducted?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -301,16 +308,17 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: 6LaoX5y2
       values:
         type: title
         title: 'Calculation methods'
         heading: h3
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -319,7 +327,7 @@ content_next_to_sidebar:
                 type: text
                 text: "Advantages and disadvantages of the effective calculation method\_"
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -331,9 +339,10 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: dLGJrqnL
       values:
         type: title
-        title: 'Company-internal further education tailored to the needs of your company '
+        title: 'Company-internal further education tailored to the needs of your company'
         heading: h2
         color: primary-500
   -
@@ -351,16 +360,17 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: FpE0eI66
       values:
         type: title
         title: 'Your advantages at a glance:'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -369,7 +379,7 @@ content_below_sidebar:
                 type: text
                 text: 'Renowned and exclusive specialist lecturers'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -378,7 +388,7 @@ content_below_sidebar:
                 type: text
                 text: 'Practice-focused teaching'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -387,7 +397,7 @@ content_below_sidebar:
                 type: text
                 text: 'Preparation of individual seminar topics and documentation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -396,7 +406,7 @@ content_below_sidebar:
                 type: text
                 text: 'Attractive price/benefit ratio'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -405,7 +415,7 @@ content_below_sidebar:
                 type: text
                 text: 'No additional travelling expenses for your employees'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -414,7 +424,7 @@ content_below_sidebar:
                 type: text
                 text: 'Flexible seminar dates'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -431,5 +441,5 @@ discouts: |-
   from 2 simultaneous bookings: 10% discount
   from 4 simultaneous bookings: 15% discount
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1656075889
+updated_at: 1732284484
 ---

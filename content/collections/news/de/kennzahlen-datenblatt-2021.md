@@ -1,5 +1,6 @@
 ---
 id: 21ca2bec-e00c-4fea-bedf-178526c275d5
+published: false
 blueprint: news
 title: 'Kennzahlen Datenblatt 2021'
 post_date: '2021-01-22 10:45'
@@ -15,7 +16,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
-updated_at: 1649061985
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1726495703
+seo_off: false
 ---

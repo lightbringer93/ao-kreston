@@ -1,5 +1,6 @@
 ---
 id: 2e808a6e-ee1f-4cfa-93b6-2ce288cc8f7a
+published: false
 blueprint: news
 title: 'Homeofficevertrag Rechtssicher Gestalten'
 post_date: '2020-01-07 10:43'
@@ -15,7 +16,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
-updated_at: 1649061809
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1726495665
+seo_off: false
 ---

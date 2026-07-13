@@ -13,9 +13,12 @@ preferences:
       columns:
         - title
         - slug
-        - site
+        - team_tags
       per_page: 500
+      after_save: continue_editing
+    news:
       after_save: continue_editing
   taxonomies:
     team_tags:
       after_save: continue_editing
+  theme: light

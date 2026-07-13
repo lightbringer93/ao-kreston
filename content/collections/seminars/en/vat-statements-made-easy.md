@@ -1,6 +1,7 @@
 ---
 id: 3cc72e51-0a83-483e-9c51-b30aa075d63c
 origin: 8660a01c-bf0f-4e4e-adb7-1109ef24178c
+published: false
 title: 'VAT statements made easy'
 hero_content:
   -
@@ -10,10 +11,10 @@ hero_content:
         type: text
         text: 'As it is challenging to correctly prepare VAT statements, the possibility of making errors is high. The devil is in the details. A plethora of official information sheets, guidelines and instructions make it difficult for those in charge to keep an overview. But companies are still expected to complete the returns correctly. This seminar helps you to'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -22,7 +23,7 @@ hero_content:
                 type: text
                 text: 'Understand the VAT system,'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -31,7 +32,7 @@ hero_content:
                 type: text
                 text: 'Allocate the correct VAT code to postings, and'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -43,16 +44,17 @@ content_before_sidebar:
   -
     type: set
     attrs:
+      id: 3hHUbPo5
       values:
         type: title
         title: 'Your practical benefits'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -61,7 +63,7 @@ content_before_sidebar:
                 type: text
                 text: 'You understand the difference between the agreed and collected calculation methods and their advantages and disadvantages.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -70,7 +72,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know the actual and flat-rate calculation methods.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -79,7 +81,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know the deadlines, due dates and options for requesting an extension.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -88,7 +90,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know the structure of the form and the form types and can correctly allocate the items posted to the sections in the form.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -97,7 +99,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know how to reconcile the VAT and input tax.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -109,16 +111,17 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: fVEFdekq
       values:
         type: title
         title: 'Content of seminar'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -127,7 +130,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Agreed and collected calculation methods'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -136,7 +139,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Actual and flat-rate calculation methods'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -145,7 +148,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Structure of form and form types'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -154,7 +157,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Posting of items and correct VAT codes'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -163,7 +166,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Reconciliation of VAT and input tax'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -172,7 +175,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Correction of VAT statements'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -184,9 +187,10 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: oMjyLQiL
       values:
         type: title
-        title: 'Company-internal further education tailored to the needs of your company '
+        title: 'Company-internal further education tailored to the needs of your company'
         heading: h2
         color: primary-500
   -
@@ -206,16 +210,17 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: 2zegWgxR
       values:
         type: title
         title: 'Your advantages at a glance:'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -224,7 +229,7 @@ content_below_sidebar:
                 type: text
                 text: 'Renowned and exclusive specialist lecturers'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -233,7 +238,7 @@ content_below_sidebar:
                 type: text
                 text: 'Practice-focused teaching'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -242,7 +247,7 @@ content_below_sidebar:
                 type: text
                 text: 'Preparation of individual seminar topics and documentation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -251,7 +256,7 @@ content_below_sidebar:
                 type: text
                 text: 'Attractive price/benefit ratio'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -260,7 +265,7 @@ content_below_sidebar:
                 type: text
                 text: 'No additional travelling expenses for your employees'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -269,7 +274,7 @@ content_below_sidebar:
                 type: text
                 text: 'Flexible seminar dates'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -286,5 +291,5 @@ discouts: |-
   from 2 simultaneous bookings: 10% discount
   from 4 simultaneous bookings: 15% discount
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1656328247
+updated_at: 1732283386
 ---

@@ -10,7 +10,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1695116793
+updated_at: 1783694934
 heading: h1
 show_in_menu: true
 is_button: false
@@ -21,22 +21,26 @@ slider:
 banner_text: |-
   Kreston.
   Knowing good advice.
+parent: home
+seo_off: false
 content:
   -
     type: set
     attrs:
+      id: 8PMFPSjN
       values:
         type: container
         margin: true
         columns:
           -
+            id: yF14JFTT
             content:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'a&o kreston audit ag ist ein unabhängiges Mitglied von Kreston Global, einem weltweiten Netzwerk unabhängiger Treuhandunternehmen mit Sitz in London. Zum Kreston Netzwerk gehören 200 Unternehmen mit mehr als 25.000 engagierten Fachleuten in 125 Ländern. Durch dieses weltweite Netzwerk können wir Ihnen Zugang zu erstklassiger Beratung garantieren, wo auch immer auf der Welt Sie geschäftlich tätig sind oder tätig werden wollen. Das Netzwerk wurde bereits 1971 gegründet und ist derzeit das zwölftgrösste Buchhaltungsnetzwerk der Welt.'
+                    text: 'a&o kreston ag ist ein unabhängiges Mitglied von Kreston Global, einem weltweiten Netzwerk unabhängiger Treuhandunternehmen mit Sitz in London. Zum Kreston Netzwerk gehören 200 Unternehmen mit mehr als 25.000 engagierten Fachleuten in 125 Ländern. Durch dieses weltweite Netzwerk können wir Ihnen Zugang zu erstklassiger Beratung garantieren, wo auch immer auf der Welt Sie geschäftlich tätig sind oder tätig werden wollen. Das Netzwerk wurde bereits 1971 gegründet und ist derzeit das zwölftgrösste Buchhaltungsnetzwerk der Welt.'
               -
                 type: paragraph
                 content:
@@ -84,15 +88,18 @@ content:
   -
     type: set
     attrs:
+      id: CoKGdXLk
       values:
         type: container
         margin: true
         columns:
           -
+            id: ION29a68
             content:
               -
                 type: set
                 attrs:
+                  id: fcDWmr5k
                   values:
                     type: layout
                     layout: network
@@ -101,7 +108,7 @@ content:
                       - treuhand_swiss.png
                       - asco_logo.jpg
                       - kreston_global.png
-                      - kreston_ao_audit.png
+                      - tschumi-partner-treuhand-ag.jpg
                       - bc_logo.jpg
                       - come_to_switzerland_logo.png
                       - forum_of_firms.png
@@ -113,7 +120,6 @@ content:
                       - gewerbe_zuerich_3.png
                       - logo_gwaerb_eschenbach.png
                       - kmu_next.svg
-                      - numarics-logo.png
               -
                 type: paragraph
             size: 12

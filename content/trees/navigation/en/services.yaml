@@ -4,63 +4,58 @@ tree:
     entry: 556eb22a-11d2-4380-bbda-9eda304702a3
     data:
       color: primary-500
-      icon: icons/finanz_und_rechnungswesen.png
+      icon: icons/finanz_und_rechnungswesen-color.png
       short_description: 'Preparation of monthly, quarterly and annual financial statements Reporting according to company guidelines'
+      members:
+        - 36febedd-7baf-4c61-8229-6e4fae961810
+        - 10ea1a2b-717e-4213-b543-e69b3de9f314
   -
     id: 54be2360-bdeb-4b8a-b0dd-4cd75e10212a
     entry: 3676d4e8-e7d5-43f3-aa3e-6bd349c75179
     data:
       color: secondary-500
-      icon: icons/steuer_und_rechtsberatung.png
+      icon: icons/steuer_und_rechtsberatung-color.png
       short_description: 'Tax planning and consultancy for restructuring, acquisitions and renovations'
+      members:
+        - 93479c29-f125-4656-a6d1-2068df0789e2
+        - 09b1d739-71a1-4b0d-b4fc-e0ef749a4e99
   -
     id: 5dd70bd3-e260-4610-8ec3-a7e344ec86ee
     entry: feb0e613-8215-4b1f-bb04-14c386f517db
     title: 'Business & Management Consulting'
     data:
       color: gray-800
-      icon: icons/wirtschafts_und_unternehmensberatung.png
+      icon: icons/wirtschafts_und_unternehmensberatung-color-1739883775.png
       short_description: 'Settlement Advice on the form of company or company foundations'
+      members:
+        - 10ea1a2b-717e-4213-b543-e69b3de9f314
+        - d69f3ab8-6769-4638-b1b7-905e3d7b9ee1
   -
     id: c086b1e2-dbbd-440f-ac66-9c3d77f72b4a
     entry: 9b5b732f-0a80-4dcc-b57b-ddaf20e9be36
     title: 'Salary & HR advice'
     data:
       color: secondary-500
-      icon: icons/salaer_und_human_resources_beratung.png
+      icon: icons/salaer_und_human_resources_beratung-color.png
       short_description: 'Payroll, Human Resources'
+      members:
+        - 29064709-bba3-470e-978a-fa5b5ad1d029
   -
     id: 525a81fb-5840-4f72-a027-37cde45d6d71
     entry: a675b8dc-a15a-4db5-9ce2-9102de2e33c2
     data:
       color: gray-800
-      icon: icons/wirtschaftsprufung.png
+      icon: icons/wirtschaftsprufung-color.png
       short_description: 'Audit of annual and consolidated financial statements Foundation examinations (qualified foundations)'
+      members:
+        - 595666df-0e01-4dd7-a7c7-eb3aafe13a19
+        - a0e3469d-26af-46ea-9669-da7c2327b090
   -
     id: 64192ebf-69a8-4b05-a789-d01de4ce2b20
     entry: 5702d3fb-60a5-4cc3-b104-4811bad79332
     data:
       color: primary-500
-      icon: icons/mehrwertsteuerberatung.png
+      icon: icons/mehrwertsteuerberatung-color.png
       short_description: 'at Fiscal Representations in Switzerland and abroad through our international network'
-  -
-    id: 0f13dfc9-8a9e-4b69-b137-3efa86456a3a
-    entry: 925abfef-5e7a-4a2c-94d6-6dd34d7e0d33
-    data:
-      color: primary-500
-      icon: icons/interim-management.png
-      short_description: 'Support in setting up a professional financial system, bridging management gaps in the financial area for a limited period'
-  -
-    id: c2a6fafe-ca87-4ed0-849d-811a953c94ad
-    entry: c02efabc-d6d0-49b4-8d3b-5969313dea55
-    data:
-      color: secondary-500
-      icon: icons/immobilien.png
-      short_description: 'Management of rental properties and condominiums, consultancy services on the purchase and sale of real estate and investment properties'
-  -
-    id: 56b1de57-8ab4-4771-abd5-56b991202357
-    entry: 66014be8-5c9c-4e7a-9d76-b863e3512d19
-    data:
-      color: gray-800
-      icon: icons/bitcoin.png
-      short_description: 'Consulting, Accounting Services, Tax Services for individuals and corporations'
+      members:
+        - d69f3ab8-6769-4638-b1b7-905e3d7b9ee1

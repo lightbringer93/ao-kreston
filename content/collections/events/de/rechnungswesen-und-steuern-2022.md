@@ -1,5 +1,6 @@
 ---
 id: 5287fc16-3fe4-4f99-9573-c70dded6533d
+published: false
 blueprint: events
 title: 'Fachtagung: Rechnungswesen und Steuern 2022'
 hero_content:
@@ -19,16 +20,17 @@ content_before_sidebar:
   -
     type: set
     attrs:
+      id: nEMjqLAx
       values:
         type: title
         title: 'Ihr Praxis-Nutzen'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -37,7 +39,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie wissen, was beim Jahresabschluss 2022 besonders beachtet werden soll – insbesondere im Hinblick auf die Änderungen der Aktienrechtsrevision 2023.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -46,7 +48,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie erhalten ein Update zu den Neuerungen im Bereich Lohn und Sozialversicherungen und wissen, worauf es 2023 zu achten gilt.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -55,7 +57,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie verschaffen sich einen Überblick über die aktuellen Entwicklungen im Unternehmenssteuerbereich sowie bei der Schweizer und EU-Mehrwertsteuer.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -64,7 +66,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie erhalten einen Überblick über digitale Tools für die Buchhaltung und den Finanzbereich.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -73,7 +75,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie erkennen die häufigsten Fallstricke beim Thema Datenschutz und wissen, welche datenschutzrechtlichen Neuerungen es zu berücksichtigen gilt.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -82,7 +84,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie verschaffen sich anhand von Praxisfällen einen Überblick über die Neuerungen des Unternehmenssteuerrechts.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -94,6 +96,7 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: a6bJUCAa
       values:
         type: title
         title: 'Inhalt des Seminars'
@@ -109,10 +112,10 @@ content_next_to_sidebar:
             type: bold
         text: 'Update Sozialversicherungen und Lohn'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -121,7 +124,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Neuerungen im Bereich Lohn und Sozialversicherungen 2023'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -130,7 +133,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Tipps für den Lohnausweis 2022'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -150,10 +153,10 @@ content_next_to_sidebar:
             type: bold
         text: 'Update MWST Schweiz und International'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -162,7 +165,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Neuerungen MWST Schweiz und International (Fokus EU)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -171,7 +174,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Nötige Anpassungen identifizieren und die nötigen Schritte einleiten'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -191,10 +194,10 @@ content_next_to_sidebar:
             type: bold
         text: 'Überblick digitale Tools für den Buchhaltungs- und Finanzbereich'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -203,7 +206,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Überblick über konkrete Tools, mit denen sich das Thema Digitalisierung in der Buchhaltung und die Zusammenarbeit mit den Stakeholdern umsetzen lassen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -212,7 +215,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Lösungen für den sicheren Versand von vertraulichen Dokumenten und weitere in der Finanzabteilung anfallende Tätigkeiten'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -232,10 +235,10 @@ content_next_to_sidebar:
             type: bold
         text: 'Update Recht – Datenschutz'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -244,7 +247,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Häufige Fallstricke beim Thema Datenschutz'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -253,7 +256,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Konkrete Tipps und Tricks für den Umgang mit Daten für Digitalisierungsvorhaben'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -273,10 +276,10 @@ content_next_to_sidebar:
             type: bold
         text: 'Update Rechnungslegung und Jahresabschluss'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -285,7 +288,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Für die Buchhaltung relevante Änderungen, welche mit der'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -294,7 +297,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Aktienrechtsrevision 2023 in Kraft treten'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -303,7 +306,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Neuerungen für den Jahresabschluss 2022'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -312,7 +315,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Notwendige Vorbereitungen für 2023'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -332,10 +335,10 @@ content_next_to_sidebar:
             type: bold
         text: 'Update Steuern – Unternehmenssteuern'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -344,7 +347,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Überblick über den Umsetzungsstand der STAF und das neue Kreisschreiben Nr. 5a «Umstrukturierungen»'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -353,7 +356,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Neuerungen aus dem Bereich des Unternehmenssteuerrechts unter Einschluss der Verrechnungssteuer und der Stempelabgaben in Form von Praxisfällen, Gerichtsurteilen, etc. inklusive Ausblick auf zu erwartende Neuerungen auch in der internationalen Entwicklung'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -365,6 +368,7 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: CooBVvuV
       values:
         type: title
         title: 'Firmeninterne Weiterbildung massgeschneidert für Ihr Unternehmen'
@@ -395,6 +399,7 @@ seminar_length: |-
   09:00 - 16:30 Uhr
 dates:
   -
+    id: edkFKJSH
     date: '2022-11-22'
 seminar_leadership: |-
   **Dr. Manuel Vogel**
@@ -420,8 +425,8 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1655985406
+updated_at: 1725956334
 post_date: '2022-06-23 13:56'
+seo_off: false
 ---

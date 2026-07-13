@@ -1,5 +1,6 @@
 ---
 id: a95b509b-03a3-4b8a-8897-2bceef1a1199
+published: false
 blueprint: news
 title: 'info a&o kreston ag 2020'
 post_date: '2020-01-01 10:42'

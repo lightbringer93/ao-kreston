@@ -1,6 +1,7 @@
 ---
 id: 8193fd1c-3c07-4c07-b7bb-e76a1c1f8cbe
 origin: 30dcc353-4a59-4b85-ad08-f2c93b463b28
+published: false
 title: 'VAT Basic'
 hero_content:
   -
@@ -13,16 +14,17 @@ content_before_sidebar:
   -
     type: set
     attrs:
+      id: Dg9oi8U6
       values:
         type: title
         title: 'Your practical benefits'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -31,7 +33,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know how the VAT system in Switzerland works and gain assurance in your accounting practices.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -40,7 +42,7 @@ content_before_sidebar:
                 type: text
                 text: 'You can identify potential risks at an early stage and react appropriately.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -49,7 +51,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know which formal requirements are specifically audited by the VAT inspectors.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -58,7 +60,7 @@ content_before_sidebar:
                 type: text
                 text: 'You can independently judge whether systematic errors are made by your accounting department that need to be rectified.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -70,16 +72,17 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: WjV1RZ3t
       values:
         type: title
         title: 'Content of seminar'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -88,7 +91,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'VAT system structure in Switzerland'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -97,7 +100,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Subjective and objective tax liability'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -106,7 +109,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Assessment basis for calculating the tax'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -115,7 +118,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Distinction between service and supply'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -124,7 +127,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Exemptions from subjective/objective tax liability'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -133,7 +136,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Voluntary subordination with regard to subjective tax liability'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -142,7 +145,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Voluntary taxation of exempt transactions'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -151,7 +154,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Tax rates in VAT'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -160,7 +163,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Effective taxation or balance rate taxation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -169,7 +172,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Types of accounting: agreed/received'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -178,7 +181,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Input tax deduction (formal requirements, input tax reduction, own consumption)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -190,9 +193,10 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: v6r2WaWR
       values:
         type: title
-        title: 'Company-internal further education tailored to the needs of your company '
+        title: 'Company-internal further education tailored to the needs of your company'
         heading: h2
         color: primary-500
   -
@@ -212,16 +216,17 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: 3hvclu6m
       values:
         type: title
         title: 'Your advantages at a glance:'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -230,7 +235,7 @@ content_below_sidebar:
                 type: text
                 text: 'Renowned and exclusive specialist lecturers'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -239,7 +244,7 @@ content_below_sidebar:
                 type: text
                 text: 'Practice-focused teaching'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -248,7 +253,7 @@ content_below_sidebar:
                 type: text
                 text: 'Preparation of individual seminar topics and documentation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -257,7 +262,7 @@ content_below_sidebar:
                 type: text
                 text: 'Attractive price/benefit ratio'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -266,7 +271,7 @@ content_below_sidebar:
                 type: text
                 text: 'No additional travelling expenses for your employees'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -275,7 +280,7 @@ content_below_sidebar:
                 type: text
                 text: 'Flexible seminar dates'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -293,5 +298,5 @@ discouts: |-
   from 2 simultaneous bookings: 10% discount
   from 4 simultaneous bookings: 15% discount
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1656075819
+updated_at: 1732283351
 ---

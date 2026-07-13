@@ -1,7 +1,7 @@
 ---
 id: ed807659-ee25-4082-b0f4-5e57af748c1b
 origin: 1570c04a-c47d-4df9-9a88-822ce3e2eefd
-title: 'Activités professionnelles du conseil d''administration'
+title: "Activités professionnelles du conseil d'administration"
 meta_title: null
 meta_description: null
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325

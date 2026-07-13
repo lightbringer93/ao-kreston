@@ -11,7 +11,13 @@ route:
   de: '/events/{slug}'
   en: '/events/{slug}'
   fr: '/evenements/{slug}'
+date: true
 sort_dir: asc
 date_behavior:
-  past: public
-  future: private
+  past: private
+  future: public
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

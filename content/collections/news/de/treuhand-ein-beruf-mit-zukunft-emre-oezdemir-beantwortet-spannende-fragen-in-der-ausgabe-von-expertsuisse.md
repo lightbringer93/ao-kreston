@@ -1,5 +1,6 @@
 ---
 id: 6f2c8a54-b143-4d0b-96e2-f385d984fa20
+published: false
 blueprint: news
 title: 'Treuhand - ein Beruf mit Zukunft? Emre Özdemir beantwortet spannende Fragen in der Ausgabe von EXPERTsuisse.'
 post_date: '2022-05-01 16:26'

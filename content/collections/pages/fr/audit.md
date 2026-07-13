@@ -5,7 +5,7 @@ title: Audit
 meta_title: null
 meta_description: null
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1657889060
+updated_at: 1783067959
 content:
   -
     type: paragraph
@@ -20,10 +20,10 @@ content:
         type: text
         text: "Grâce à notre équipe expérimentée, nous pouvons vous proposer tous les services d’audit à un niveau de qualité élevé. Outre les exigences légales, notre objectif est toujours de créer des avantages supplémentaires par le biais de suggestions d’optimisation et de garantir une grande continuité de nos services. Notre catalogue de services\_:"
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -32,7 +32,7 @@ content:
                 type: text
                 text: 'Organe de révision selon le Code des obligations suisse (contrôle restreint et ordinaire)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -41,7 +41,7 @@ content:
                 type: text
                 text: 'Audit spécial'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -50,7 +50,7 @@ content:
                 type: text
                 text: 'Audit de constitution, d’augmentation et de réduction de capital'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -59,7 +59,7 @@ content:
                 type: text
                 text: 'Audit des états financiers consolidés conformément à la loi sur les sociétés anonymes et aux directives du groupe'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -68,7 +68,7 @@ content:
                 type: text
                 text: 'Audit selon les normes comptables : IFRS, Swiss GAAP RPC, etc.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -77,7 +77,7 @@ content:
                 type: text
                 text: 'Rapports conformes au droit des sociétés, rapports explicatifs et internes axés sur le client'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -86,7 +86,7 @@ content:
                 type: text
                 text: 'Tests et rapports spéciaux'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -99,5 +99,5 @@ content:
     content:
       -
         type: text
-        text: 'Les services d’audit sont fournis par a&o kreston audit ag (CHE-102.312.698), à Zurich.'
+        text: 'Les services d’audit sont fournis par Tschumi + Partner Revisions AG (CHE-107.882.141), à Zollikofen.'
 ---

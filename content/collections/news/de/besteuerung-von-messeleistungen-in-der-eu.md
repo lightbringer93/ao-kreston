@@ -1,5 +1,6 @@
 ---
 id: 4c6b7837-4eb9-42aa-a149-db4eb0cb2aac
+published: false
 blueprint: news
 title: 'Besteuerung von Messeleistungen in der EU'
 post_date: '2014-03-23 10:18'

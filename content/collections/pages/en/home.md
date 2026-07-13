@@ -8,20 +8,20 @@ hero:
     content:
       -
         type: text
-        text: 'Welcome to the website of a&o kreston audit ltd. We are your reliable partner for all fiduciary services. We have been providing reasoned services in the fields of accounting, auditing, tax and legal advice, human resources and personnel administration to our clients for many years.'
+        text: 'Welcome to the website of a&o kreston ltd. We are your reliable partner for all fiduciary services. We have been providing reasoned services in the fields of accounting, auditing, tax and legal advice, human resources and personnel administration to our clients for many years.'
 content_one:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'We, a&o kreston audit ltd, offer a range of services that all complement each other perfectly. a&o kreston audit ltd focuses on classic fiduciary services such as finance & accounting, tax & legal advice, VAT, salary & HR advice and business & management consulting, and focuses also as an expert in the field of auditing.'
+        text: 'We, a&o kreston ltd, offer a range of services that all complement each other perfectly. a&o kreston ltd focuses on classic fiduciary services such as finance & accounting, tax & legal advice, VAT, salary & HR advice and business & management consulting, and focuses also as an expert in the field of auditing.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'a&o kreston audit ltd is member of the '
+        text: 'a&o kreston ltd is member of the '
       -
         type: text
         marks:
@@ -36,7 +36,7 @@ content_one:
     content:
       -
         type: text
-        text: 'At a&o kreston audit ltd, we deliver cross-section services of the highest quality in all disciplines. We not only offer you in-depth specialist expertise, but also access to our best specialists, all of whom have many years of experience. With a qualified staff of more than 70, among them specialists in the fields of auditing, trusts, taxes, national and international value-added taxes, personnel/salary and social insurance schemes, we provide our national and international clients (companies and private individuals) with holistic, competent and client-specific advice and support.'
+        text: 'At a&o kreston ltd, we deliver cross-section services of the highest quality in all disciplines. We not only offer you in-depth specialist expertise, but also access to our best specialists, all of whom have many years of experience. With a qualified staff of more than 70, among them specialists in the fields of auditing, trusts, taxes, national and international value-added taxes, personnel/salary and social insurance schemes, we provide our national and international clients (companies and private individuals) with holistic, competent and client-specific advice and support.'
   -
     type: paragraph
     content:
@@ -79,6 +79,7 @@ content_one:
   -
     type: set
     attrs:
+      id: H3YLU2KP
       values:
         type: button
         button_text: 'Please do not hesitate to contact us'
@@ -91,25 +92,28 @@ content_two:
   -
     type: set
     attrs:
+      id: buy1jnYp
       values:
         type: container
         margin: true
         columns:
           -
+            id: oqcUr4aa
             content:
               -
                 type: set
                 attrs:
+                  id: TikESvpC
                   values:
                     type: title
                     title: 'Your benefits when working with us:'
                     heading: h2
                     color: primary-500
               -
-                type: bullet_list
+                type: bulletList
                 content:
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
@@ -118,7 +122,7 @@ content_two:
                             type: text
                             text: 'Thanks to our extensive know-how, you benefit from mature and reasoned total solutions, regardless of the size or situation of your company.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
@@ -127,7 +131,7 @@ content_two:
                             type: text
                             text: 'Thanks to our (international) network and close relationships with our partners, you benefit in all national and international transactions from processes that are perfectly geared to your needs and take account of the local conditions at all times.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
@@ -136,7 +140,7 @@ content_two:
                             type: text
                             text: 'Thanks to the broad-based expertise of our specialists, we can guarantee reliable and timely solutions.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
@@ -160,6 +164,7 @@ content_two:
             size_md: 0
             size_sm: 0
           -
+            id: El5N3DMo
             content:
               -
                 type: paragraph
@@ -188,11 +193,13 @@ content_two:
   -
     type: set
     attrs:
+      id: EcagYDOD
       values:
         type: container
         margin: true
         columns:
           -
+            id: JAujsopf
             content:
               -
                 type: paragraph
@@ -218,10 +225,12 @@ content_two:
             size_md: 0
             size_sm: 0
           -
+            id: qoQhAC7O
             content:
               -
                 type: set
                 attrs:
+                  id: m9g115qX
                   values:
                     type: title
                     title: 'Kreston Global'
@@ -232,10 +241,11 @@ content_two:
                 content:
                   -
                     type: text
-                    text: 'a&o kreston audit ltd is an independent member of Kreston Global, an international advisory and accountancy network with its registered office in London. The Kreston network includes 200 independent accounting firms employing more than 25,000 committed specialists in 125 countries. Owing to this global network, we can give you access to top-quality advisory services in every country where you operate or wish to operate. Founded in 1971, Kreston Global is currently the 12th largest accounting network in the world.'
+                    text: 'a&o kreston ltd is an independent member of Kreston Global, an international advisory and accountancy network with its registered office in London. The Kreston network includes 200 independent accounting firms employing more than 25,000 committed specialists in 125 countries. Owing to this global network, we can give you access to top-quality advisory services in every country where you operate or wish to operate. Founded in 1971, Kreston Global is currently the 12th largest accounting network in the world.'
               -
                 type: set
                 attrs:
+                  id: 4LDTj6YR
                   values:
                     type: button
                     button_text: 'Learn more'
@@ -266,6 +276,7 @@ content_three:
   -
     type: set
     attrs:
+      id: ULEe4svb
       values:
         type: layout
         layout: network
@@ -274,7 +285,7 @@ content_three:
           - treuhand_swiss.png
           - asco_logo.jpg
           - kreston_global.png
-          - kreston_ao_audit.png
+          - tschumi-partner-treuhand-ag.jpg
           - bc_logo.jpg
           - come_to_switzerland_logo.png
           - forum_of_firms.png
@@ -292,22 +303,25 @@ video_title: 'Learn more about us'
 video_button: 'Watch video'
 facts:
   -
+    id: BmQIjFVB
     icon: icons/flag.png
     fact: '1946'
     title: Founded
   -
+    id: LPdg6zGg
     icon: icons/people.png
-    fact: '70'
+    fact: '30'
     title: Employees
   -
+    id: PKW3NdEJ
     icon: icons/suitcase.png
-    fact: '3685'
+    fact: '3000'
     title: Customers
-locations_title: '5 locations in Switzerland'
+locations_title: '4 locations in Switzerland'
 business_center_locations_title: 'Business Center 7 Locations in Switzerland'
 business_center_locations_button_text: 'Learn more'
-meta_title: 'a&o kreston - Trust Service in Zurich, Zug, Lucerne...'
+meta_title: 'a&o kreston - Trust Service in Zurich, Baar and Wettingen'
 meta_description: null
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1697210695
+updated_at: 1783694525
 ---

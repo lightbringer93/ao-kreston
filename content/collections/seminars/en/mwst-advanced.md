@@ -1,6 +1,7 @@
 ---
 id: 666ec20d-833b-46ff-9976-73fb98f6dede
 origin: 02c56caf-3570-4a53-aecd-bd39084d7b60
+published: false
 title: 'VAT Advanced'
 hero_content:
   -
@@ -13,16 +14,17 @@ content_before_sidebar:
   -
     type: set
     attrs:
+      id: ipCKHbtR
       values:
         type: title
         title: 'Your practical benefits'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -31,7 +33,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know how the VAT system works in Switzerland and are more assured with regard to your accounts.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -40,7 +42,7 @@ content_before_sidebar:
                 type: text
                 text: 'You can reliably distinguish between services and deliveries.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -49,7 +51,7 @@ content_before_sidebar:
                 type: text
                 text: 'You can correctly identify the place of taxation and avoid erroneous returns.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -58,7 +60,7 @@ content_before_sidebar:
                 type: text
                 text: 'You are familiar with the optimization options for international transactions.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -67,7 +69,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know how to prove tax exemption and avoid unnecessary charges.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -79,16 +81,17 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: SmkqVwGz
       values:
         type: title
         title: 'Content of seminar'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -97,7 +100,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Structure of Swiss VAT system'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -106,7 +109,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Distinction between service and delivery'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -115,7 +118,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Place of delivery'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -124,7 +127,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Place of service'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -133,7 +136,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Proof of tax exemption'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -142,7 +145,7 @@ content_next_to_sidebar:
                 type: text
                 text: Imports
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -151,7 +154,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Relocation procedure'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -160,7 +163,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Simplified procedure'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -169,7 +172,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Import of services'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -178,7 +181,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Import and export chain transaction'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -190,9 +193,10 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: EeGgidra
       values:
         type: title
-        title: 'Company-internal further education tailored to the needs of your company '
+        title: 'Company-internal further education tailored to the needs of your company'
         heading: h2
         color: primary-500
   -
@@ -212,16 +216,17 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: xYAdGeWQ
       values:
         type: title
         title: 'Your advantages at a glance:'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -230,7 +235,7 @@ content_below_sidebar:
                 type: text
                 text: 'Renowned and exclusive specialist lecturers'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -239,7 +244,7 @@ content_below_sidebar:
                 type: text
                 text: 'Practice-focused teaching'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -248,7 +253,7 @@ content_below_sidebar:
                 type: text
                 text: 'Preparation of individual seminar topics and documentation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -257,7 +262,7 @@ content_below_sidebar:
                 type: text
                 text: 'Attractive price/benefit ratio'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -266,7 +271,7 @@ content_below_sidebar:
                 type: text
                 text: 'No additional travelling expenses for your employees'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -275,7 +280,7 @@ content_below_sidebar:
                 type: text
                 text: 'Flexible seminar dates'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -283,6 +288,7 @@ content_below_sidebar:
               -
                 type: text
                 text: 'Seminars can also be held in English'
+post_date: '2022-06-03 13:29'
 seminar_leadership: |-
   **Dr. Manuel Vogel**
   Dr. oec. HSG, dipl. Steuerexperte, CAS FH Unternehmensnachfolge
@@ -292,5 +298,5 @@ discouts: |-
   from 2 simultaneous bookings: 10% discount
   from 4 simultaneous bookings: 15% discount
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1656075788
+updated_at: 1725955500
 ---

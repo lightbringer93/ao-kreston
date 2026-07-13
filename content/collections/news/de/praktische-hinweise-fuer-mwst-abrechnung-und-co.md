@@ -1,5 +1,6 @@
 ---
 id: e7c741bf-a138-4d20-8349-b98921b7e9f0
+published: false
 blueprint: news
 title: 'Praktische Hinweise für MWST-Abrechnung & co'
 post_date: '2014-04-23 10:23'

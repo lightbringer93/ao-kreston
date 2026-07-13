@@ -74,8 +74,9 @@
             <div class="flex items-center justify-center mb-4">
                 <img src="{{ glide src="{icon}" }}" alt="{{ title }}"
                      class="mr-3 max-w-[40px] lg:max-w-none">
-                <span class="text-[#c6e9f9] text-5xl lg:text-[66px] font-bold leading-none"
-                      data-count-to="{{ fact }}"></span>
+                <span class="text-[#c6e9f9] text-5xl lg:text-[66px] font-bold leading-none">
+					{{ if index == 2 }}> {{ /if }}<span data-count-to="{{ fact }}"></span>
+				</span>
             </div>
             <p class="text-xxl lg:text-4xl">{{ title }}</p>
         </div>
@@ -202,7 +203,7 @@
 
     </div>
     {{ /partial:partials/containers/parallax }}
-
+	{{ if testimonials:entries }}
     <!-- Testimonials -->
     <div class="container xxl:max-w-screen-xxl py-5 sm:pt-[70px] sm:pb-[75px]">
         <div class="text-center sm:mb-[70px]">
@@ -231,6 +232,7 @@
                 </div>
             {{ /testimonials:entries }}
         </div>
+		{{ /if }}
         {{#
         <div class="grid grid-cols-12 gap-y-6 md:gap-8">
             <div class="col-span-12 text-center sm:mb-[70px]">

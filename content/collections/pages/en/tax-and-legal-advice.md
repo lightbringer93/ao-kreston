@@ -6,40 +6,47 @@ content_below:
   -
     type: set
     attrs:
+      id: cWeM3U2Z
       values:
         type: timeline
         timeline:
           -
+            id: 8PDKnC5N
             icon: icons/timeline/unterlagen_bereitstellen.png
             title: 'Preparation of documents'
             text: 'Follow our checklist. Put together the required documents, with a copy of your last tax return.'
             type: entry
             enabled: true
           -
+            id: fsYaPJXB
             icon: icons/timeline/dokumente-uebergeben.png
             title: 'Delivery of documents'
             text: 'Send all documents via APP.'
             type: entry
             enabled: true
           -
+            id: ZB8MHZZf
             icon: icons/timeline/auftrag_erteilen.png
             title: 'Issuing of instructions'
             text: 'We will contact you after having checked your documents. You will receive a clear estimate of the time we need to do your tax return, and we will give you a quotation and the exact dates.'
             type: entry
             enabled: true
           -
+            id: gzN2Z8tV
             icon: icons/timeline/frist_verlaengern.png
             title: 'Extension of deadline'
             text: 'Your tax return cannot be submitted on time? No problem. We will apply to the tax office for a deadline extension.'
             type: entry
             enabled: true
           -
+            id: Vo3shfXW
             icon: icons/timeline/unterschreiben_und_abgeben.png
             title: 'Signature and submission'
             text: 'We send you your tax declaration, with a copy for your files. You send the signed original to the tax office, and put the copy in your file. You will need it again next year.'
             type: entry
             enabled: true
           -
+            id: CRbvQIdn
             icon: icons/timeline/beratung_und_betreuung.png
             title: 'Consulting and support'
             text: 'We are here to support you in all tax-related matters. We advise you on all tax issues and represent your interests vis-à-vis the tax authorities.'
@@ -50,7 +57,7 @@ content_below:
 meta_title: null
 meta_description: null
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1657639581
+updated_at: 1739959715
 content:
   -
     type: paragraph
@@ -73,6 +80,7 @@ content:
   -
     type: set
     attrs:
+      id: aFJRwLaM
       values:
         type: list
         selected_partial: column
@@ -100,6 +108,7 @@ content:
   -
     type: set
     attrs:
+      id: 3yyZADHE
       values:
         type: list
         selected_partial: column
@@ -117,6 +126,7 @@ content:
   -
     type: set
     attrs:
+      id: iiSiKosK
       values:
         type: title
         title: 'Legal advice'
@@ -141,10 +151,10 @@ content:
         type: text
         text: 'Our legal advisory services:'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -153,10 +163,10 @@ content:
                 type: text
                 text: 'Advice regarding'
           -
-            type: bullet_list
+            type: bulletList
             content:
               -
-                type: list_item
+                type: listItem
                 content:
                   -
                     type: paragraph
@@ -165,7 +175,7 @@ content:
                         type: text
                         text: 'Inheritance law'
               -
-                type: list_item
+                type: listItem
                 content:
                   -
                     type: paragraph
@@ -174,7 +184,7 @@ content:
                         type: text
                         text: 'Company and commercial law'
               -
-                type: list_item
+                type: listItem
                 content:
                   -
                     type: paragraph
@@ -183,7 +193,7 @@ content:
                         type: text
                         text: 'Tax criminal law'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph

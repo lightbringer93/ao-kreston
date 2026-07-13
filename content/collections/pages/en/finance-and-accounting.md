@@ -6,18 +6,21 @@ content_below:
   -
     type: set
     attrs:
+      id: 0blMtlEb
       values:
         type: container
         margin: false
         columns:
           -
+            id: mBZbg6ct
             content:
               -
                 type: set
                 attrs:
+                  id: HmV5FmQb
                   values:
                     type: title
-                    title: ' Individual. Flexible. Uncomplicated. Online. SaaS businesssSoftware'
+                    title: 'Individual. Flexible. Uncomplicated. Online. SaaS businesssSoftware'
                     heading: h1
                     color: gray
               -
@@ -38,6 +41,7 @@ content_below:
             size_md: 0
             size_sm: 0
           -
+            id: 7MoXcECe
             content:
               -
                 type: paragraph
@@ -61,6 +65,7 @@ content_below:
             size_lg: 0
             size_sm: 0
           -
+            id: nUEsqrRL
             size: 12
             size_for_2xl: false
             size_for_xxl: false
@@ -75,6 +80,7 @@ content_below:
               -
                 type: set
                 attrs:
+                  id: ovgmAeOM
                   values:
                     type: list
                     selected_partial: column
@@ -97,7 +103,7 @@ content_below:
 meta_title: null
 meta_description: null
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1657638552
+updated_at: 1739959464
 content:
   -
     type: paragraph
@@ -108,6 +114,7 @@ content:
   -
     type: set
     attrs:
+      id: CWaeTkce
       values:
         type: list
         selected_partial: column
@@ -131,11 +138,12 @@ content:
   -
     type: set
     attrs:
+      id: 7B460Npm
       values:
         type: list
         partial: column
         list:
-          - 'Financial accounting management '
+          - 'Financial accounting management'
           - 'Business plans (budgets)'
           - 'Preparation of annual and interim financial statements'
           - 'Organizational regulations'

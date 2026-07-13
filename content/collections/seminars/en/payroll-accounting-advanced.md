@@ -1,11 +1,13 @@
 ---
 id: d7ef3625-5070-41b5-aa1b-00b46ed79ac8
 origin: 21f5090d-ffba-412f-b37e-672deafa1b6b
+published: false
 title: 'Payroll accounting - Advanced'
 hero_content:
   -
     type: set
     attrs:
+      id: OXd8XC3K
       values:
         type: title
         title: 'How to correctly handle complex payroll processes'
@@ -47,16 +49,17 @@ content_before_sidebar:
   -
     type: set
     attrs:
+      id: 5AFEpw1Q
       values:
         type: title
         title: 'Your practical benefits'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -65,7 +68,7 @@ content_before_sidebar:
                 type: text
                 text: 'You can explain complex payroll processes and identify erroneous calculations in good time.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -74,7 +77,7 @@ content_before_sidebar:
                 type: text
                 text: 'You can avoid errors and subsequent corrections of social insurance benefits.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -83,7 +86,7 @@ content_before_sidebar:
                 type: text
                 text: 'You refresh your knowledge of social insurance deductions.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -92,7 +95,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know the latest about tax-at-source deductions and statements regarding third-party benefits.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -104,16 +107,17 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: wAWqZf38
       values:
         type: title
         title: 'Content of seminar'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -122,7 +126,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Review – social insurance schemes: employer and employee contributions'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -131,7 +135,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Payslips – basics and detailed questions'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -140,7 +144,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Problems regarding expenses'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -149,7 +153,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Deduction of tax at source: basics'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -158,7 +162,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Third-party benefits: daily benefits, continued payment of salary and net wage compensation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -167,7 +171,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Net wage types and gross pay statement'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -176,7 +180,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Practical examples for more challenging payroll accounting'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -185,7 +189,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Practical questions and exchange of experiences'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -279,9 +283,10 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: JUwue7uc
       values:
         type: title
-        title: 'Company-internal further education tailored to the needs of your company '
+        title: 'Company-internal further education tailored to the needs of your company'
         heading: h2
         color: primary-500
   -
@@ -299,16 +304,17 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: 2Dsimrto
       values:
         type: title
         title: 'Your advantages at a glance:'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -317,7 +323,7 @@ content_below_sidebar:
                 type: text
                 text: 'Renowned and exclusive specialist lecturers'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -326,7 +332,7 @@ content_below_sidebar:
                 type: text
                 text: 'Practice-focused teaching'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -335,7 +341,7 @@ content_below_sidebar:
                 type: text
                 text: 'Preparation of individual seminar topics and documentation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -344,7 +350,7 @@ content_below_sidebar:
                 type: text
                 text: 'Attractive price/benefit ratio'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -353,7 +359,7 @@ content_below_sidebar:
                 type: text
                 text: 'No additional travelling expenses for your employees'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -362,7 +368,7 @@ content_below_sidebar:
                 type: text
                 text: 'Flexible seminar dates'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -385,5 +391,5 @@ discouts: |-
   from 2 simultaneous bookings: 10% discount
   from 4 simultaneous bookings: 15% discount
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1656071322
+updated_at: 1732283378
 ---

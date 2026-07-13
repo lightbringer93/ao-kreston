@@ -1,5 +1,6 @@
 ---
 id: 67a0259c-2da4-48bf-b97e-b96bf6ba170a
+published: false
 blueprint: news
 title: 'Info a&o kreston ag 2018'
 post_date: '2018-01-23 10:26'

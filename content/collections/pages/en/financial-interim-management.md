@@ -1,145 +1,148 @@
 ---
 id: 925abfef-5e7a-4a2c-94d6-6dd34d7e0d33
 origin: 025d5786-739a-45a6-9fed-66892a248cad
-title: 'Financial interim management'
+published: false
+title: 'Financial Interim Management'
+content_below: null
 meta_title: 'Immobilienberatung & Service - Treuhand in Zürich, Zug, Luzern - a&o kreston'
 meta_description: 'Als internationales Unternehmen bieten wir Ihnen nebst unseren Treuhand- und Wirtschaftsprüfungsdienstleistungen auch sämtliche Immobiliendienstleistungen aus einer Hand an.  Zürich, Zug, Luzern oder Baden!'
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1657640333
+updated_at: 1733403232
 content:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Are you a company that is growing rapidly but has not yet employed an experienced and competent specialist in the field of finance? Or are you looking for a CFO / Head of Finance to professionally secure your day-to-day business and CFO projects?'
+        text: 'Sie sind ein Unternehmen mit schnellem Wachstum und haben noch keinen erfahrene und kompetente Fachperson im Bereich Finanzen angestellt? Oder Sie suchen vorübergehend einen CFO/Head Finance zur professionellen Sicherstellung der Tagesgeschäfte und CFO Projekte?'
+      -
+        type: hardBreak
+      -
+        type: hardBreak
+      -
+        type: text
+        text: 'Hier bieten wir Hand - wir unterstützen Sie beim Aufbau eines professionellen Finanzwesens, überbrücken Managementlücken im Finanzbereich auf Zeit und beseitigen Engpässe. Zudem unterstützen wir Sie im Change-Management Prozess oder bei der Einführung von neuen Softwares.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'We support you in setting up a professional financial system, bridging management gaps in the financial area for a limited period and eliminating bottlenecks. We also support you in the change management process or with the introduction of new software.'
+        text: 'Folgende Dienstleistungen können Sie von uns erwarten:'
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Analyse und Review der Abschlüsse (Monats-, Quartals und Jahresabschlüsse) nach Schweizer Obligationenrecht, Swiss Gaap FER und IFRS'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Controlling zum laufenden Geschäftsgang'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Einführung von ERP-Systemen'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Einführung von internen Kontrollsystemen (IKS)'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Erstellung fundierter Businesspläne, der Jahresbudgets und der Finanzplanung sowohl für Verwaltungsrat wie Investoren'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Rollierende Liquiditätsplanung zur Vermeidung von Liquiditätsengpässen'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Sparringspartner des CEO für sämtliche betriebs- und finanzwirtschaftlichen Fragestellungen'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Unterstützung bei Präsentationen/Anträgen für Investoren/Banken'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Begleitung bei externen Revisionen'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Begleitung von Projekten als externer Projektleiter'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Strategischer Sparring-Partner für den ganzen Finanzbereich'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Betreuung der ganzen Buchhaltung'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'You can expect the following services from us:'
-  -
-    type: bullet_list
-    content:
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Analysis and review of the financial statements (monthly, quarterly and annual financial statements) in accordance with the Swiss Code of Obligations, Swiss Gaap FER and IFRS'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Controlling of the current course of business'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Introduction of ERP systems'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Introduction of internal control systems (ICS)'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Preparation of well-founded business plans, annual budgets and financial planning for the board of directors and for investors'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Rolling liquidity planning to avoid liquidity bottlenecks'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Serving as sparring partner for the CEO in all business and financial issues'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Support with presentations / applications for investors / banks'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Support with external audits'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Support of projects as external project manager'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Strategic sparring partner for the entire financial department'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Supervision of the entire bookkeeping'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Our services are fast, flexible, and easy to implement. We enable you to concentrate on what you do best by tailoring our advice to your needs. We support you in all important business decisions. Together we ensure that processes are designed efficiently and effectively and that management, the board of directors and investors receive all management-relevant information promptly. With our experience and an external perspective, we will take you one step further.'
+        text: 'Unsere Dienstleistungen sind schnell, flexibel und einfach zu implementieren. Wir ermöglichen Ihnen, sich auf das zu konzentrieren was Sie am besten können, indem wir unsere Beratung auf Ihre Bedürfnisse abstimmen. Wir begleiten Sie bei allen wichtigen unternehmerischen Entscheidungen. Gemeinsam stellen wir sicher, dass Prozesse effizient und effektiv ausgestaltet sind und das Management, Verwaltungsrat und Investoren zeitnah sämtliche steuerungsrelevanten Informationen erhalten. Mit unserer Erfahrung und dem externen Blick bringen wir Sie einen Schritt weiter.'
 ---

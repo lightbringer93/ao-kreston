@@ -1,6 +1,7 @@
 ---
 id: ee67fad3-1c88-4f8b-9f23-cdf02b00fb39
 origin: d2daaeed-cc4b-430f-95ea-81bfac2014cc
+published: false
 title: 'VAT and real estate'
 hero_content:
   -
@@ -13,9 +14,10 @@ content_before_sidebar:
   -
     type: set
     attrs:
+      id: Y7tJon82
       values:
         type: title
-        title: 'How to correctly implement the provisions on value added tax '
+        title: 'How to correctly implement the provisions on value added tax'
         heading: h2
         color: primary-500
   -
@@ -27,16 +29,17 @@ content_before_sidebar:
   -
     type: set
     attrs:
+      id: 0Rw7ue4S
       values:
         type: title
         title: 'Your practical benefits'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -45,7 +48,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know the advantages and disadvantages of voluntary registration for VAT.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -54,7 +57,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know how to optimize the returns by way of the correct treatment of VAT.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -63,7 +66,7 @@ content_before_sidebar:
                 type: text
                 text: 'You can correctly calculate the subsequent input tax deduction and own consumption in relation to real estate.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -72,7 +75,7 @@ content_before_sidebar:
                 type: text
                 text: 'You can make better use of the legal leeway to minimize your tax expenses and optimize the VAT burden.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -81,7 +84,7 @@ content_before_sidebar:
                 type: text
                 text: 'You can correctly calculate a partial change in use.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -90,7 +93,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know what needs particular attention for new builds and renovations of buildings.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -99,7 +102,7 @@ content_before_sidebar:
                 type: text
                 text: 'You acquire up-to-date knowledge of VAT in relation to your complex real estate transactions.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -108,7 +111,7 @@ content_before_sidebar:
                 type: text
                 text: 'You acquire up-to-date knowledge of VAT in relation to your complex real estate transactions.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -120,16 +123,17 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: kirhwUv9
       values:
         type: title
         title: 'Content of seminar'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -138,7 +142,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Subjective VAT obligation: when does real estate become subject to compulsory VAT registration? What are the conditions for a voluntary VAT obligation?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -147,7 +151,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Quotas: what quotas can be used for calculations? Can I change these?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -156,7 +160,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Quotas: what quotas can be used for calculations? Can I change these?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -165,7 +169,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Partial change in use: flat-rate versus effective calculation methods'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -174,7 +178,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Subsequent input tax corrections for changes in use'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -183,7 +187,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Management: real estate services subject to payment, mixed use, option, vacancy'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -192,7 +196,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Important aspects of purchase and rental contracts'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -201,7 +205,7 @@ content_next_to_sidebar:
                 type: text
                 text: Co-ownership
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -210,7 +214,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Taxable and VAT-exempt real estate delivery for new builds and renovations'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -219,10 +223,10 @@ content_next_to_sidebar:
                 type: text
                 text: 'Transfer of real estate'
           -
-            type: bullet_list
+            type: bulletList
             content:
               -
-                type: list_item
+                type: listItem
                 content:
                   -
                     type: paragraph
@@ -231,7 +235,7 @@ content_next_to_sidebar:
                         type: text
                         text: '- with and without option'
               -
-                type: list_item
+                type: listItem
                 content:
                   -
                     type: paragraph
@@ -245,9 +249,10 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: WbkxfcRN
       values:
         type: title
-        title: 'Company-internal further education tailored to the needs of your company '
+        title: 'Company-internal further education tailored to the needs of your company'
         heading: h2
         color: primary-500
   -
@@ -267,16 +272,17 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: MGBppLcY
       values:
         type: title
         title: 'Your advantages at a glance:'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -285,7 +291,7 @@ content_below_sidebar:
                 type: text
                 text: 'Renowned and exclusive specialist lecturers'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -294,7 +300,7 @@ content_below_sidebar:
                 type: text
                 text: 'Practice-focused teaching'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -303,7 +309,7 @@ content_below_sidebar:
                 type: text
                 text: 'Preparation of individual seminar topics and documentation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -312,7 +318,7 @@ content_below_sidebar:
                 type: text
                 text: 'Attractive price/benefit ratio'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -321,7 +327,7 @@ content_below_sidebar:
                 type: text
                 text: 'No additional travelling expenses for your employees'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -330,7 +336,7 @@ content_below_sidebar:
                 type: text
                 text: 'Flexible seminar dates'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -347,5 +353,5 @@ discouts: |-
   from 2 simultaneous bookings: 10% discount
   from 4 simultaneous bookings: 15% discount
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1656076009
+updated_at: 1732284510
 ---

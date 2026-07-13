@@ -1,5 +1,6 @@
 ---
 id: ffd5119a-4d9a-4b0a-9798-efa4f1e6777b
+published: false
 blueprint: news
 title: 'B. Erbil: Online-Buchhaltung / E-Office - Technische Innovationen und Kundenbeziehung'
 post_date: '2013-03-17 10:12'

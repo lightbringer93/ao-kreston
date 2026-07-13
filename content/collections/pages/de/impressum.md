@@ -14,31 +14,33 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1674223490
+updated_at: 1774948731
 slider:
   - slider/kontakt.jpg
 banner_text: |-
   Kreston.
   Knowing good advice.
+parent: home
+seo_off: false
 content:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Firma: a&o kreston audit ag'
+        text: 'Firma: a&o kreston ag'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
-        text: 'Adresse: Birmensdorferstrasse 123, 8003 Zürich'
+        text: 'Adresse: Schochenmühlestrasse 4, 6340 Baar'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: 'Telefon: +41 (0)58 101 02 02'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: "E-Mail:\_"
@@ -48,13 +50,13 @@ content:
           -
             type: link
             attrs:
-              href: 'mailto:hello@kreston.ch'
+              href: 'mailto:hello@ao-kreston.ch'
               rel: null
               target: null
               title: null
-        text: hello@kreston.ch
+        text: hello@ao-kreston.ch
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: "Web:\_"
@@ -64,11 +66,11 @@ content:
           -
             type: link
             attrs:
-              href: 'http://www.kreston.ch/'
+              href: 'http://www.ao-kreston.ch/'
               rel: null
               target: null
               title: null
-        text: www.kreston.ch
+        text: www.ao-kreston.ch
   -
     type: heading
     attrs:
@@ -87,45 +89,45 @@ content:
         type: text
         text: 'Handelsregisteramt des Kantons Zug (Schweiz)'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: 'Rechtssitz der Firma: Zug (Schweiz)'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: 'Rechtsform: Aktiengesellschaft'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
-        text: 'UID: CHE-115.359.835'
+        text: 'UID: CHE-316.363.131'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
-        text: "Mehrwertsteuernummer: CHE-115.359.835 MWST\_"
+        text: "Mehrwertsteuernummer: CHE-316.363.131 MWST\_"
       -
         type: text
         marks:
           -
             type: link
             attrs:
-              href: 'https://www.uid.admin.ch/Detail.aspx?uid_id=CHE-102.312.698'
+              href: 'https://www.uid.admin.ch/Detail.aspx?uid_id=CHE316363131'
               rel: null
               target: _blank
               title: null
         text: 'Link zu UID-Register'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         marks:
           -
             type: link
             attrs:
-              href: 'https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-102.312.698'
+              href: 'https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-466.516.845'
               rel: null
               target: _blank
               title: null
@@ -148,29 +150,18 @@ content:
         type: text
         text: 'Fehlmann, Alfred, Präsident des Verwaltungsrates'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
-        text: 'Passardi, Prof. Dr. Marco, Mitglied des Verwaltungsrates'
+        text: 'Vogel, Dr. Manuel, Vorsitzender der Geschäftsleitung'
       -
-        type: hard_break
-      -
-        type: text
-        text: 'Dünner, Hermann, Vorsitzender der Geschäftsleitung'
-      -
-        type: hard_break
+        type: hardBreak
       -
         type: text
-        text: 'Özdemir, Emre, Mitglied der Geschäftsleitung'
-  -
-    type: paragraph
-    content:
+        text: 'Özdemir Emre, Mitglied der Geschäftsleitung'
+      -
+        type: hardBreak
       -
         type: text
-        text: 'Baumann, Alessandro, Prokurist'
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'Shala, Valon, Prokurist'
+        text: 'Bodmer Thomas, Mitglied der Geschäftleitung'
 ---

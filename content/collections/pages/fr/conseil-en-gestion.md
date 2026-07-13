@@ -5,7 +5,7 @@ title: 'Conseil en gestion'
 meta_title: null
 meta_description: null
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1657888986
+updated_at: 1739960107
 content:
   -
     type: paragraph
@@ -41,10 +41,10 @@ content:
         type: text
         text: "\_nous nous occupons du reste. Les services de notre division de consultants en gestion\_:"
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -53,7 +53,7 @@ content:
                 type: text
                 text: 'Évaluations d’entreprises'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -62,7 +62,7 @@ content:
                 type: text
                 text: 'Acquisitions et ventes d’entreprises'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -71,7 +71,7 @@ content:
                 type: text
                 text: 'Sociétés nouvellement créées'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -80,7 +80,7 @@ content:
                 type: text
                 text: 'Conseils en matière de démarrage et de financement'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -89,7 +89,7 @@ content:
                 type: text
                 text: 'Préparation des plans d’entreprise'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -98,7 +98,7 @@ content:
                 type: text
                 text: 'Conseil en redressement / Restructuration'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -107,7 +107,7 @@ content:
                 type: text
                 text: 'Avis d’experts'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -116,7 +116,7 @@ content:
                 type: text
                 text: Installations
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph

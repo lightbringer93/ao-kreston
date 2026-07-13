@@ -8,8 +8,8 @@ is_button: false
 parent: d1b4dbee-d3a3-4a72-9ab5-180131d635dc
 no_padding_bottom: false
 contact_persons:
-  - e4ec3366-9cbc-4da7-9fdc-2bdaf05347b1
   - d1d5c8c0-9a82-4447-b4a0-e13a4a7051a5
+  - e4ec3366-9cbc-4da7-9fdc-2bdaf05347b1
 slider:
   - slider/dienstleistungen.jpg
 use_meta_keywords: false
@@ -18,47 +18,53 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
-updated_at: 1650793113
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1774944171
 content_below:
   -
     type: set
     attrs:
+      id: ymEmBAb7
       values:
         type: timeline
         timeline:
           -
+            id: 2Jpx4j2A
             icon: icons/timeline/unterlagen_bereitstellen.png
             title: 'Unterlagen bereitstellen'
             text: 'Folgen Sie unserer Checkliste. Stellen Sie die erforderlichen Dokumente zusammen, mit einer Kopie der letzten Steuererklärung.'
             type: entry
             enabled: true
           -
+            id: 1B0xu8Vi
             icon: icons/timeline/dokumente-uebergeben.png
             title: 'Dokumente übergeben'
             text: 'Senden Sie alle Unterlagen via APP.'
             type: entry
             enabled: true
           -
+            id: VrysKuhh
             icon: icons/timeline/auftrag_erteilen.png
             title: 'Auftrag erteilen'
             text: 'Sobald wir Ihre Unterlagen geprüft haben, melden wir uns bei Ihnen. Sie erhalten eine klare Einschätzung, wie viel Zeit wir für Ihre Steuererklärung einplanen müssen, wir nennen unseren Preis und geben Ihnen präzise Termine vor.'
             type: entry
             enabled: true
           -
+            id: 4YOH56Cv
             icon: icons/timeline/frist_verlaengern.png
             title: 'Frist verlängern'
             text: 'Ihre Steuererklärung kann nicht fristgerecht eingereicht werden? Kein Problem. Wir beantragen eine Fristverlängerung beim Steueramt für Sie.'
             type: entry
             enabled: true
           -
+            id: 4vp1ZoQW
             icon: icons/timeline/unterschreiben_und_abgeben.png
             title: 'Unterschreiben und abgeben'
             text: 'Sie erhalten von uns Ihre Steuererklärung mit einer Orientierungskopie. Senden Sie die unterschriebenen Originale ans Steueramt. Die Kopie behalten Sie. Sie wird Ihnen nächstes Jahr wieder nutzen.'
             type: entry
             enabled: true
           -
+            id: xJcS7u32
             icon: icons/timeline/beratung_und_betreuung.png
             title: 'Beratung und Betreuung'
             text: 'Bei allen Fragen zu sämtlichen Steuerbelangen, sind wir jederzeit gerne für Sie da. Wir beraten Sie zu allen Steuerfragen und vertreten Ihre Interessen gegenüber Steuerbehörden.'
@@ -66,8 +72,12 @@ content_below:
             enabled: true
   -
     type: paragraph
-meta_title: 'Steuerberatung & Rechtsberatung in Zürich, Zug, Luzern, Baden - a&o kreston'
-meta_description: 'Kompetente Steuerberatung & Rechtsberatung von A&O Kreston in Zürich, Zug, Luzern, Baden - Verlassen Sie sich auf uns.'
+meta_title: 'Steuerberatung & Rechtsberatung in Zürich, Baar und in Wettingen'
+meta_description: 'Kompetente Steuerberatung & Rechtsberatung von A&O Kreston in Zürich, Baar und in Wettingen - Verlassen Sie sich auf uns.'
+seo_off: false
+banner_text: |-
+  Kreston.
+  Knowing good advice.
 content:
   -
     type: paragraph
@@ -88,10 +98,10 @@ content:
         type: text
         text: 'Für Unternehmen bieten wir folgende Dienstleistungen an:'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -100,7 +110,7 @@ content:
                 type: text
                 text: 'Steuerplanung unter Berücksichtigung nationaler und internationaler Gesichtspunkte'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -109,7 +119,7 @@ content:
                 type: text
                 text: 'Umstrukturierungen, Beratung bei Unternehmens- und Gruppenstrukturen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -118,7 +128,7 @@ content:
                 type: text
                 text: 'Mergers &  Acquisitions sowie Übernahmen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -127,7 +137,7 @@ content:
                 type: text
                 text: 'Joint Ventures'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -136,7 +146,7 @@ content:
                 type: text
                 text: Liquidationen
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -145,7 +155,7 @@ content:
                 type: text
                 text: 'Steuerplanung im Rahmen von Eigen- und Fremdfinanzierungen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -154,7 +164,7 @@ content:
                 type: text
                 text: 'Beratung beim Zuzug vom bzw. Wegzug ins Ausland (Relocation) inkl. dem Finden von geeigneten Wohnmöglichkeiten'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -163,7 +173,7 @@ content:
                 type: text
                 text: 'Erstellen von Steuererklärungen sowie Überprüfung von Steuerveranlagungen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -172,7 +182,7 @@ content:
                 type: text
                 text: 'Verhandlungen mit den Steuerbehörden'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -181,7 +191,7 @@ content:
                 type: text
                 text: 'Einholen von Vorabbescheiden (sog. Tax-Rulings)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -190,7 +200,7 @@ content:
                 type: text
                 text: 'Vertretung vor sämtlichen Steuerbehörden und Steuerinstanzen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -199,7 +209,7 @@ content:
                 type: text
                 text: 'Steuer- und sozialversicherungsrechtliche Beratung im Zusammenhang mit Mitarbeitenden (Spesenreglemente, Mitarbeiterbeteiligungspläne usw.)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -208,7 +218,7 @@ content:
                 type: text
                 text: 'Nationale und internationale Mehrwertsteuer- bzw. Umsatzsteuerberatung'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -223,10 +233,10 @@ content:
         type: text
         text: 'Für natürliche Personen bieten wir folgende Dienstleistungen an:'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -235,7 +245,7 @@ content:
                 type: text
                 text: 'Steuerplanung unter Berücksichtigung nationaler und internationaler wie auch vorsorgerechtlicher Gesichtspunkte'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -244,7 +254,7 @@ content:
                 type: text
                 text: 'Erstellen von Gutachten'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -253,7 +263,7 @@ content:
                 type: text
                 text: 'Verhandlungen mit den Steuerbehörden (sog. Tax-Rulings)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -262,7 +272,7 @@ content:
                 type: text
                 text: 'Einholen von Vorabbescheiden (sog. Tax-Rulings)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -271,7 +281,7 @@ content:
                 type: text
                 text: 'Unterstützung bei Steuerrevisionen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -280,7 +290,7 @@ content:
                 type: text
                 text: 'Vertretung bei Einsprache- und Beschwerdeverfahren'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -289,7 +299,7 @@ content:
                 type: text
                 text: 'Beratung in Erbschafts- und Schenkungssteuerfragen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -298,7 +308,7 @@ content:
                 type: text
                 text: 'Beratung in Grundstückgewinnsteuerfragen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -307,7 +317,7 @@ content:
                 type: text
                 text: 'Unterstützung bei der Wohnsitznahme in der Schweiz und Betreuung von Expatriates'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -318,6 +328,7 @@ content:
   -
     type: set
     attrs:
+      id: LAOJCxFE
       values:
         type: title
         title: Rechtsberatung
@@ -342,10 +353,10 @@ content:
         type: text
         text: 'Leistungen unserer Rechtsberatung:'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -354,10 +365,10 @@ content:
                 type: text
                 text: 'Beratung in Sachen'
           -
-            type: bullet_list
+            type: bulletList
             content:
               -
-                type: list_item
+                type: listItem
                 content:
                   -
                     type: paragraph
@@ -366,7 +377,7 @@ content:
                         type: text
                         text: Erbrecht
               -
-                type: list_item
+                type: listItem
                 content:
                   -
                     type: paragraph
@@ -375,7 +386,7 @@ content:
                         type: text
                         text: 'Gesellschafts- und Handelsrecht'
               -
-                type: list_item
+                type: listItem
                 content:
                   -
                     type: paragraph
@@ -384,7 +395,7 @@ content:
                         type: text
                         text: Steuerstrafrecht
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph

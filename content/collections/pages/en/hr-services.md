@@ -6,7 +6,7 @@ content_below: null
 meta_title: null
 meta_description: null
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1674548707
+updated_at: 1741685823
 content:
   -
     type: paragraph
@@ -55,10 +55,10 @@ content:
             type: bold
         text: 'Payroll Outsourcing'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -67,7 +67,7 @@ content:
                 type: text
                 text: 'Payroll processing'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -76,7 +76,7 @@ content:
                 type: text
                 text: 'Preparation of withholding tax statements'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -85,7 +85,7 @@ content:
                 type: text
                 text: 'Preparation of salary certificates'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -94,7 +94,7 @@ content:
                 type: text
                 text: 'Preparation of supplements for equity based compensation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -103,7 +103,7 @@ content:
                 type: text
                 text: 'Year-end declarations'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -112,7 +112,7 @@ content:
                 type: text
                 text: 'Registrations for social security and withholding tax'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -121,7 +121,7 @@ content:
                 type: text
                 text: 'Taking over of the entire salary administration'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -141,10 +141,10 @@ content:
             type: bold
         text: 'Shadow Payroll'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -153,7 +153,7 @@ content:
                 type: text
                 text: 'Collection of data from abroad (data gathering)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -162,7 +162,7 @@ content:
                 type: text
                 text: 'Preparation of the shadow payroll'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -171,7 +171,7 @@ content:
                 type: text
                 text: 'Settlement of social security and/or withholding tax'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -180,7 +180,7 @@ content:
                 type: text
                 text: 'Calculation of accounting accruals'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -189,7 +189,7 @@ content:
                 type: text
                 text: 'Preparation of accounting vouchers'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -198,7 +198,7 @@ content:
                 type: text
                 text: 'Preparation of salary certificates'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -207,7 +207,7 @@ content:
                 type: text
                 text: 'Preparation of supplements for equity based compensation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -227,10 +227,10 @@ content:
             type: bold
         text: 'Special cases'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -239,7 +239,7 @@ content:
                 type: text
                 text: 'Support in the implementation of employee participation schemes (equity based compensation)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -248,7 +248,7 @@ content:
                 type: text
                 text: 'Net guaranteed wage elements'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -257,7 +257,7 @@ content:
                 type: text
                 text: 'Day-by-day withholding tax accounting (international weekly commuters)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -277,10 +277,10 @@ content:
             type: bold
         text: 'On-site support (staffing)'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -300,10 +300,10 @@ content:
             type: bold
         text: Consulting
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -312,7 +312,7 @@ content:
                 type: text
                 text: 'Payroll review'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -321,7 +321,7 @@ content:
                 type: text
                 text: 'Support in process optimization'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -330,7 +330,7 @@ content:
                 type: text
                 text: 'Review of wage types/wage bases'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph

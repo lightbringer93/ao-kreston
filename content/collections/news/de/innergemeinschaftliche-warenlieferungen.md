@@ -1,5 +1,6 @@
 ---
 id: f7ddfac9-ebba-4c85-b559-2b0912fbc303
+published: false
 blueprint: news
 title: 'Innergemeinschaftliche Warenlieferungen'
 post_date: '2014-04-23 10:22'

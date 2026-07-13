@@ -10,7 +10,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1674552418
+updated_at: 1783936341
 heading: h1
 show_in_menu: true
 is_button: true
@@ -21,18 +21,23 @@ no_padding_bottom: true
 banner_text: |-
   Kreston.
   Knowing good advice.
+parent: home
+seo_off: false
 content:
   -
     type: set
     attrs:
+      id: 9hxE3RDf
       values:
         type: container
         columns:
           -
+            id: uY5EqOHi
             content:
               -
                 type: set
                 attrs:
+                  id: ssFMOprx
                   values:
                     type: layout
                     layout: headquarters
@@ -52,13 +57,14 @@ content:
             size_md: 0
             size_sm: 0
           -
+            id: oQYlNs2U
             content:
               -
                 type: set
                 attrs:
+                  id: HWndLCgD
                   values:
                     type: form
-                    form_title: Test
                     form: contact
                     is_ajax_form: true
                     redirect_after_success: false

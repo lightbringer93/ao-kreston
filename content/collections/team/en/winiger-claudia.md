@@ -5,7 +5,7 @@ blueprint: team
 title: 'Winiger Claudia'
 is_partner: false
 team_tags:
-  - salaer-hr-beratung
+  - human-resources
 position: 'HR/Recruiting Sachbearbeiterin'
 workplace:
   - 'alle Standorte'
@@ -13,7 +13,7 @@ email: c.winiger@kreston.ch
 banner_text: |-
   Kreston.
   Knowing good advice.
-image: team/nophoto_f.jpg
+image: team/gross-anna_kreston-ag.jpg
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

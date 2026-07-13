@@ -1,27 +1,27 @@
 ---
 id: b6c3e6eb-da5a-4e56-bbb0-e8c060c2469e
 origin: fa52cb7b-1304-463d-8055-a655056c3138
-subtitle: 'Votre bureau fiduciaire'
+subtitle: 'your fiduciary office'
 hero:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Nous vous souhaitons la bienvenue sur le site de a&o kreston audit ag. Nous sommes votre partenaire compétent pour toutes les prestations de services fiduciaires. Nous convainquons nos clients depuis de nombreuses années grâce à nos services bien pensés dans les domaines de la comptabilité, de l’audit, du conseil fiscal et juridique, des ressources humaines et de l’administration du personnel.'
+        text: 'Welcome to the website of a&o kreston ltd. We are your reliable partner for all fiduciary services. We have been providing reasoned services in the fields of accounting, auditing, tax and legal advice, human resources and personnel administration to our clients for many years.'
 content_one:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Nous, a&o kreston audit ag, proposons une gamme de services qui se complètent parfaitement. Ainsi, a&o kreston audit ag s’est concentrée sur les services fiduciaires classiques, tels que la finance et la comptabilité, le conseil fiscal et juridique, la taxe sur la valeur ajoutée, le conseil en matière de salaires et de ressources humaines et le conseil en affaires et en gestion et est experte en matière d’audit.'
+        text: 'We, a&o kreston ltd, offer a range of services that all complement each other perfectly. a&o kreston ltd focuses on classic fiduciary services such as finance & accounting, tax & legal advice, VAT, salary & HR advice and business & management consulting, and focuses also as an expert in the field of auditing.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'a&o kreston audit ag est en outre membre du réseau fiduciaire mondial « '
+        text: 'a&o kreston ltd is member of the '
       -
         type: text
         marks:
@@ -30,28 +30,37 @@ content_one:
         text: 'Kreston Global'
       -
         type: text
-        text: ' » et représentent ce réseau dans toute la Suisse alémanique. Grâce à notre réseau, nous sommes donc le partenaire idéal pour les questions qui dépassent les frontières nationales de la Suisse.'
+        text: ' international accounting network and represent this network throughout the German-speaking area of Switzerland. Thanks to this network, we are also the right partner for all matters that go beyond the borders of Switzerland.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Nous, a&o kreston audit ag, fournissons la plus haute qualité dans les différentes disciplines ainsi que dans tous les domaines transversaux. Nous vous proposons non seulement une expertise complète, mais aussi nos meilleurs cerveaux, qui ont tous de nombreuses années d’expérience. Avec plus de 70 employés qualifiés, dont des experts dans les domaines de l’audit, des services fiduciaires, de la fiscalité, de la TVA nationale et internationale, du personnel, des salaires et des assurances sociales, nous garantissons à notre clientèle nationale et internationale (entreprises et particuliers) un conseil et un suivi complets, compétents et adaptés à leurs besoins.'
+        text: 'At a&o kreston ltd, we deliver cross-section services of the highest quality in all disciplines. We not only offer you in-depth specialist expertise, but also access to our best specialists, all of whom have many years of experience. With a qualified staff of more than 70, among them specialists in the fields of auditing, trusts, taxes, national and international value-added taxes, personnel/salary and social insurance schemes, we provide our national and international clients (companies and private individuals) with holistic, competent and client-specific advice and support.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Notre affiliation aux associations professionnelles '
+        text: "Our membership of the industry associations\_"
       -
         type: text
         marks:
           -
             type: bold
-        text: 'EXPERTsuisse et TREUHAND|SUISSE'
+        text: EXPERTsuisse
       -
         type: text
-        text: ", au réseau international «\_"
+        text: "\_and\_"
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: Treuhand|Suisse
+      -
+        type: text
+        text: ', the '
       -
         type: text
         marks:
@@ -60,79 +69,85 @@ content_one:
         text: 'Kreston Global'
       -
         type: text
-        text: "\_», ainsi que la coopération avec d’autres partenaires nationaux, nous permettent de vous fournir le meilleur service. Grâce à la formation continue et à l’échange entre les partenaires, nous garantissons un service de conseil toujours basé sur la situation actuelle du droit fiscal."
+        text: ' international accounting network and our collaboration with additional national partners allow us to provide you with the best services. Through ongoing continuing education and the exchange of experiences with our partners, we guarantee advisory services that at all times comply with the latest tax legislation.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Votre avantage en tant que client\_? Vous n’avez qu’un seul interlocuteur, mais vous avez accès à une multitude de services nationaux et internationaux que nous recevons de notre réseau."
+        text: 'Your benefits as a client? You have a single contact person, but access to a wealth of national and international services provided to us by our network.'
   -
     type: set
     attrs:
+      id: H3YLU2KP
       values:
         type: button
-        button_text: "N'hésitez pas à nous contacter."
-        button_link: 'entry::9a1f7185-9234-4b22-bb19-9685ec1efbf4'
-        button_blank: false
+        button_text: 'Please do not hesitate to contact us'
         button_color: tertiary-500
+        button_link: 'entry::9a3aaac3-792f-44df-883a-a1d6263d1997'
+        button_blank: false
+  -
+    type: paragraph
 content_two:
   -
     type: set
     attrs:
+      id: buy1jnYp
       values:
         type: container
         margin: true
         columns:
           -
+            id: oqcUr4aa
             content:
               -
                 type: set
                 attrs:
+                  id: TikESvpC
                   values:
                     type: title
-                    title: 'Collaborer avec nous vous offre les avantages suivants :'
+                    title: 'Your benefits when working with us:'
                     heading: h2
                     color: primary-500
               -
-                type: bullet_list
+                type: bulletList
                 content:
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
                         content:
                           -
                             type: text
-                            text: 'Grâce à notre vaste savoir-faire, vous bénéficiez de solutions complètes soigneusement élaborées et bien pensées, quelle que soit la taille de l’entreprise ou la problématique.'
+                            text: 'Thanks to our extensive know-how, you benefit from mature and reasoned total solutions, regardless of the size or situation of your company.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
                         content:
                           -
                             type: text
-                            text: 'Grâce à notre réseau (international) et aux partenariats rapprochés que nous entretenons, vous bénéficiez, dans le cadre d’opérations nationales et internationales, de processus parfaitement adaptés à vos besoins qui tiennent toujours compte des conditions in situ.'
+                            text: 'Thanks to our (international) network and close relationships with our partners, you benefit in all national and international transactions from processes that are perfectly geared to your needs and take account of the local conditions at all times.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
                         content:
                           -
                             type: text
-                            text: 'Grâce à notre vaste expertise, nous garantissons des solutions fiables à court terme.'
+                            text: 'Thanks to the broad-based expertise of our specialists, we can guarantee reliable and timely solutions.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
                         content:
                           -
                             type: text
-                            text: 'Grâce à notre réflexion flexible et innovante, nous trouvons toujours les meilleures solutions qui apportent une réponse adaptée aux exigences des marchés et aux besoins en constante évolution.'
+                            text: 'Thanks to our flexible and innovative manner of thinking, we always find the best solutions that provide a suitable answer to the requirements of changing markets and needs.'
             size: 12
             size_for_2xl: false
             size_for_xxl: false
@@ -149,6 +164,7 @@ content_two:
             size_md: 0
             size_sm: 0
           -
+            id: El5N3DMo
             content:
               -
                 type: paragraph
@@ -177,11 +193,13 @@ content_two:
   -
     type: set
     attrs:
+      id: EcagYDOD
       values:
         type: container
         margin: true
         columns:
           -
+            id: JAujsopf
             content:
               -
                 type: paragraph
@@ -207,10 +225,12 @@ content_two:
             size_md: 0
             size_sm: 0
           -
+            id: qoQhAC7O
             content:
               -
                 type: set
                 attrs:
+                  id: m9g115qX
                   values:
                     type: title
                     title: 'Kreston Global'
@@ -221,13 +241,14 @@ content_two:
                 content:
                   -
                     type: text
-                    text: 'a&o kreston audit ag es tune indépendante membre de Kreston Global, un réseau mondial de sociétés fiduciaires indépendantes basé à Londres. Le réseau Kreston comprend 200 entreprises et plus de 25 000 professionnels dévoués dans 125 pays. Grâce à ce réseau mondial, nous pouvons vous garantir l’accès à des conseils de premier ordre, quel que soit le lieu où vous exercez ou souhaitez exercez votre activité. Le réseau a été fondé en 1971 et est actuellement le douzième plus grand réseau de comptabilité au monde.'
+                    text: 'a&o kreston ltd is an independent member of Kreston Global, an international advisory and accountancy network with its registered office in London. The Kreston network includes 200 independent accounting firms employing more than 25,000 committed specialists in 125 countries. Owing to this global network, we can give you access to top-quality advisory services in every country where you operate or wish to operate. Founded in 1971, Kreston Global is currently the 12th largest accounting network in the world.'
               -
                 type: set
                 attrs:
+                  id: 4LDTj6YR
                   values:
                     type: button
-                    button_text: 'En savoir plus'
+                    button_text: 'Learn more'
                     button_color: tertiary-500
                     button_link: 'entry::03abea9f-eede-4e20-a941-2800a03fa877'
                     button_blank: false
@@ -255,6 +276,7 @@ content_three:
   -
     type: set
     attrs:
+      id: ULEe4svb
       values:
         type: layout
         layout: network
@@ -263,7 +285,7 @@ content_three:
           - treuhand_swiss.png
           - asco_logo.jpg
           - kreston_global.png
-          - kreston_ao_audit.png
+          - tschumi-partner-treuhand-ag.jpg
           - bc_logo.jpg
           - come_to_switzerland_logo.png
           - forum_of_firms.png
@@ -276,24 +298,27 @@ content_three:
           - logo_gwaerb_eschenbach.png
           - kmu_next.svg
           - numarics-logo.png
-navigation_title: 'Apprenez à nous connaître et à connaître notre réseau'
-video_title: '„Apprenez à nous connaître et à connaître notre réseau“'
-video_button: 'Regarder la vidéo'
+navigation_title: 'Our Services Overview'
+video_title: 'Learn more about us'
+video_button: 'Watch video'
 facts:
   -
+    id: BmQIjFVB
     icon: icons/flag.png
     fact: '1946'
-    title: Fondée
+    title: Founded
   -
+    id: LPdg6zGg
     icon: icons/people.png
-    fact: '70'
-    title: Employés
+    fact: '30'
+    title: Employees
   -
+    id: PKW3NdEJ
     icon: icons/suitcase.png
-    fact: '3685'
-    title: Clients
-business_center_locations_button_text: 'En savoir plus'
-meta_title: 'a&o kreston - votre bureau fiduciaire à Zurich, Zoug et Lucerne'
+    fact: '3000'
+    title: Customers
+business_center_locations_button_text: 'Learn more'
+meta_title: 'a&o kreston - Trust Service in Zurich, Baar and Wettingen'
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1697210705
+updated_at: 1783694588
 ---

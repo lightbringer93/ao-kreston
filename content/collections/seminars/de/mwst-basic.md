@@ -10,17 +10,30 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1656075830
-place: 'SIB, Zürich'
+updated_at: 1783695969
+place: 'ZWB, Zürich'
 price: 'CHF 890.- (exkl. MwSt.)'
 seminar_length: 'Praxis-Seminar, 1 Tag'
 dates:
   -
-    date: '2022-09-01'
+    id: kuQhRe6S
+    date: '2026-08-20'
   -
-    date: '2022-11-17'
+    id: mrf2erp8
+    date: '2026-10-29'
+  -
+    id: mrf2g7rg
+    date: '2027-01-14'
+  -
+    id: mrf2gf1c
+    date: '2027-05-13'
+  -
+    id: mrf2gme0
+    date: '2027-09-09'
+  -
+    id: mrf2gse6
+    date: '2027-10-28'
 seminar_leadership: |-
   **Dr. Manuel Vogel**
   Dr. oec. HSG, dipl. Steuerexperte, CAS FH 
@@ -57,21 +70,22 @@ hero_content:
     content:
       -
         type: text
-        text: 'Nach dem Besuch dieses eintägigen Seminars verstehen Sie die wichtigsten Grundsätze des Schweizer MWST-Systems und wissen, wo für Sie ganz konkret die grössten Risiken liegen. Anhand vieler praktischer Fallbeispiele werden die gewichtigsten Probleme diskutiert, die sich für Sie vorab bei inländischen Transaktionen ergeben können'
+        text: 'Nach dem Besuch dieses Seminars verstehen Sie die wichtigsten Grundsätze des Schweizer MWST-Systems und wissen, wo für Sie ganz konkret die grössten Risiken liegen. Anhand vieler praktischer Fallbeispiele werden die gewichtigsten Probleme diskutiert, die sich für Sie vorab bei inländischen Transaktionen ergeben können.'
 content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: IWJl6ON8
       values:
         type: title
         title: 'Inhalt des Seminars'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -80,7 +94,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'MWST-Systemaufbau in der Schweiz'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -89,7 +103,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Subjektive und objektive Steuerpflicht'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -98,7 +112,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Bemessungsgrundlage bei der Berechnung der Steuer'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -107,7 +121,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Abgrenzung Dienstleistung – Lieferung'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -116,7 +130,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Ausnahmen von der subjektiven/objektiven Steuerpflicht'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -125,7 +139,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Freiwillige Unterstellung hinsichtlich subjektiver Steuerpflicht'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -134,7 +148,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Freiwillige Versteuerung von ausgenommenen Umsätzen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -143,7 +157,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Steuersätze in der MWST'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -152,7 +166,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Effektive Besteuerung oder Saldosatzbesteuerung'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -161,7 +175,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Abrechnungsarten: vereinbart/vereinnahmt'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -170,7 +184,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Vorsteuerabzug (Formvorschriften, Vorsteuerkürzung, Eigenverbrauch)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -184,16 +198,17 @@ content_before_sidebar:
   -
     type: set
     attrs:
+      id: NdWhmmFJ
       values:
         type: title
         title: 'Ihr Praxis-Nutzen'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -202,7 +217,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie wissen, wie das MWST-System in der Schweiz funktioniert und gewinnen so Sicherheit in Ihrem Rechnungswesen.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -211,7 +226,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie erkennen lauernde Risiken frühzeitig und können richtig reagieren.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -220,7 +235,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie schätzen richtig ein, auf welche formellen Vorschriften die MWST-Inspektoren wirklich achten.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -229,7 +244,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie beurteilen eigenständig, ob in Ihrem Rechnungswesen systematische Fehler gemacht werden, die korrigiert werden müssen.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -245,6 +260,7 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: Hy0mgJeX
       values:
         type: title
         title: 'Firmeninterne Weiterbildung massgeschneidert für Ihr Unternehmen'
@@ -267,16 +283,17 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: ffaR6dsR
       values:
         type: title
         title: 'Ihre Vorteile auf einen Blick:'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -285,7 +302,7 @@ content_below_sidebar:
                 type: text
                 text: 'Renommierte und exklusive Fachreferenten'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -294,7 +311,7 @@ content_below_sidebar:
                 type: text
                 text: 'Praxisorientierter Unterricht'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -303,7 +320,7 @@ content_below_sidebar:
                 type: text
                 text: 'Erarbeitung von individuellen Seminarthemen und –unterlagen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -312,7 +329,7 @@ content_below_sidebar:
                 type: text
                 text: 'Attraktives Preis-/Leistungsverhältnis'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -321,7 +338,7 @@ content_below_sidebar:
                 type: text
                 text: 'Keine zusätzlichen Reisekosten für Ihre Mitarbeitenden'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -330,7 +347,7 @@ content_below_sidebar:
                 type: text
                 text: 'Flexibler Durchführungstermin'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -338,7 +355,8 @@ content_below_sidebar:
               -
                 type: text
                 text: 'Die Seminare können auch auf Englisch durchgeführt werden'
-post_date: '2022-06-04 13:29'
+post_date: '2026-07-10 13:29'
+seo_off: false
 content:
   -
     type: heading

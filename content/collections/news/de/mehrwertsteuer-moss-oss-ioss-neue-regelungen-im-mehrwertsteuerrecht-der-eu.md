@@ -16,5 +16,6 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1671202599
+updated_at: 1746799114
+seo_off: false
 ---

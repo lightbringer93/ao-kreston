@@ -1,11 +1,13 @@
 ---
 id: cde491f9-05b4-4fb1-a2d1-7a1de7f4da84
 origin: 5287fc16-3fe4-4f99-9573-c70dded6533d
+published: false
 title: 'Accounting and Taxes 2022'
 hero_content:
   -
     type: set
     attrs:
+      id: L4vmuQ2U
       values:
         type: title
         title: 'Latest news on finance and taxes'
@@ -51,16 +53,17 @@ content_before_sidebar:
   -
     type: set
     attrs:
+      id: q7cbwQSj
       values:
         type: title
         title: 'Your practical benefits'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -69,7 +72,7 @@ content_before_sidebar:
                 type: text
                 text: 'You know what is particularly important with regard to the 2022 annual financial statement, in particular in view of the company law revision 2023.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -78,7 +81,7 @@ content_before_sidebar:
                 type: text
                 text: 'You receive an update on the changes affecting salaries and social insurance schemes and know what must be considered with effect from 2023.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -87,7 +90,7 @@ content_before_sidebar:
                 type: text
                 text: 'You obtain an overview of the latest developments regarding corporate taxes as well as Swiss and EU value added taxes.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -96,7 +99,7 @@ content_before_sidebar:
                 type: text
                 text: 'You obtain an overview of digital accounting and finance tools.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -105,7 +108,7 @@ content_before_sidebar:
                 type: text
                 text: 'You can identify the most frequent pitfalls when it comes to data privacy and know which new provisions on data privacy have to be observed.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -114,7 +117,7 @@ content_before_sidebar:
                 type: text
                 text: 'Based on case studies, you obtain an overview of the changes to corporate tax legislation.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -126,6 +129,7 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: cTEqrj8H
       values:
         type: title
         title: 'Program and focal topics'
@@ -134,6 +138,7 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: LBT1hYbG
       values:
         type: title
         title: 'Update on social insurance schemes and salaries'
@@ -141,10 +146,10 @@ content_next_to_sidebar:
         heading: h3
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -153,7 +158,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'News on salaries and social insurance schemes 2023'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -162,7 +167,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Tips for 2022 salary statements'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -173,6 +178,7 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: TCytDylb
       values:
         type: title
         title: 'Update on VAT Switzerland and international'
@@ -180,10 +186,10 @@ content_next_to_sidebar:
         heading: h3
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -192,7 +198,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Changes regarding VAT Switzerland and international (focus EU)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -201,7 +207,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Identifying the changes that are required and initiating the steps'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -212,6 +218,7 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: i2KhuvCR
       values:
         type: title
         title: 'Overview of digital accounting and finance tools'
@@ -219,10 +226,10 @@ content_next_to_sidebar:
         heading: h3
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -231,7 +238,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Overview of tools that can be used to implement digitalization in accounting and stakeholder cooperation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -240,7 +247,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Solutions for the secure delivery of confidential documents and other activities in the finance department'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -251,6 +258,7 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: zZb95YrL
       values:
         type: title
         title: 'Legal update – data privacy'
@@ -258,10 +266,10 @@ content_next_to_sidebar:
         heading: h3
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -270,7 +278,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Frequent data privacy pitfalls'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -279,7 +287,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Tips and tricks for handling data destined for digitalization projects'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -290,6 +298,7 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: 9dN7Ja06
       values:
         type: title
         title: 'Update on accounting standards and annual financial statements'
@@ -297,10 +306,10 @@ content_next_to_sidebar:
         heading: h3
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -309,7 +318,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Accounts-relevant changes that will enter into force together with the company law revision in 2023'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -318,7 +327,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'New provisions for annual financial statements 2022'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -327,7 +336,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Required preparations for 2023'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -338,6 +347,7 @@ content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: Oa379l3S
       values:
         type: title
         title: 'Update on taxes – corporate taxes'
@@ -345,10 +355,10 @@ content_next_to_sidebar:
         heading: h3
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -357,7 +367,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Overview of the implementation status of the tax reform and AHV financing (STAF) and the new Circular no. 5a «Restructurings»'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -366,7 +376,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'News regarding corporate tax legislation, including withholding tax and stamp duty in the form of case studies, court rulings, etc.; outlook of international changes that can be expected'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -378,9 +388,10 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: NjLmwm3l
       values:
         type: title
-        title: 'Company-internal further education tailored to the needs of your company '
+        title: 'Company-internal further education tailored to the needs of your company'
         heading: h2
         color: primary-500
   -
@@ -398,15 +409,16 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: D3zjulff
       values:
         type: title
         title: 'Your advantages at a glance:'
         heading: h1
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -415,7 +427,7 @@ content_below_sidebar:
                 type: text
                 text: 'Renowned and exclusive specialist lecturers'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -424,7 +436,7 @@ content_below_sidebar:
                 type: text
                 text: 'Practice-focused teaching'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -433,7 +445,7 @@ content_below_sidebar:
                 type: text
                 text: 'Preparation of individual seminar topics and documentation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -442,7 +454,7 @@ content_below_sidebar:
                 type: text
                 text: 'Attractive price/benefit ratio'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -451,7 +463,7 @@ content_below_sidebar:
                 type: text
                 text: 'No additional travelling expenses for your employees'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -460,7 +472,7 @@ content_below_sidebar:
                 type: text
                 text: 'Flexible seminar dates'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -469,6 +481,7 @@ content_below_sidebar:
                 type: text
                 text: 'Seminars can also be held in English'
 menu_text: 'Accounting and Taxes 2022'
+post_date: '2022-06-23 13:56'
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1655976332
+updated_at: 1725956348
 ---

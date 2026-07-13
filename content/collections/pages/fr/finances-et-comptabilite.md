@@ -6,19 +6,22 @@ content_below:
   -
     type: set
     attrs:
+      id: DRCyougg
       values:
         type: container
         margin: false
         columns:
           -
+            id: PLDjdfWG
             content:
               -
                 type: set
                 attrs:
+                  id: QvZTbP7C
                   values:
                     type: title
-                    title: 'Individuel. Flexible. Simple. En ligne. '
-                    subtitle: 'Le logiciel de gestion SaaS. '
+                    title: 'Individuel. Flexible. Simple. En ligne.'
+                    subtitle: 'Le logiciel de gestion SaaS.'
                     heading: h1
                     color: gray
               -
@@ -39,6 +42,7 @@ content_below:
             size_md: 0
             size_sm: 0
           -
+            id: 9vGe1qiH
             content:
               -
                 type: paragraph
@@ -62,6 +66,7 @@ content_below:
             size_lg: 0
             size_sm: 0
           -
+            id: MNur7tpa
             size: 12
             size_for_2xl: false
             size_for_xxl: false
@@ -76,6 +81,7 @@ content_below:
               -
                 type: set
                 attrs:
+                  id: dTm8dWdq
                   values:
                     type: list
                     selected_partial: column
@@ -97,7 +103,7 @@ content_below:
 meta_title: null
 meta_description: null
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1657887349
+updated_at: 1739959467
 content:
   -
     type: paragraph
@@ -108,6 +114,7 @@ content:
   -
     type: set
     attrs:
+      id: Cm7vnEdf
       values:
         type: list
         partial: column
@@ -134,6 +141,7 @@ content:
   -
     type: set
     attrs:
+      id: VqZfo5pQ
       values:
         type: list
         partial: column

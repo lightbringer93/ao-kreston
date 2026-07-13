@@ -9,7 +9,6 @@ parent: d1b4dbee-d3a3-4a72-9ab5-180131d635dc
 no_padding_bottom: false
 contact_persons:
   - e4ec3366-9cbc-4da7-9fdc-2bdaf05347b1
-  - 607ab19f-953f-469f-b2e7-3e455030d130
 slider:
   - slider/dienstleistungen.jpg
 use_meta_keywords: false
@@ -18,11 +17,14 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
-updated_at: 1650793090
+updated_by: d606be30-225f-4c26-b356-f19cff6cc26e
+updated_at: 1719293969
 meta_title: 'Verwaltungsrat - Service von a&o kreston'
 meta_description: 'Wir verstehen unsere Tätigkeit als unmittelbare und direkte Unterstützung in Ihrer Tätigkeit als Verwaltungsrat.'
+seo_off: false
+banner_text: |-
+  Kreston.
+  Knowing good advice.
 content:
   -
     type: paragraph
@@ -37,10 +39,10 @@ content:
         type: text
         text: 'Ein guter Verwaltungsrat zeichnet sich durch die «richtigen» Mitglieder aus. D.h., davon kann ausgegangen werden, wenn die Mitglieder durch ihre jeweils vorhandenen Kenntnisse, Erfahrungen und Eigenschaften den Bedürfnissen des einzelnen Unternehmens entsprechen. Wir unterstützen Sie unter anderem wie folgt:'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -49,7 +51,7 @@ content:
                 type: text
                 text: 'Wir übernehmen die Funktion des VR-Sekretariats: Gemäss Art. 712 Abs. 1 OR muss der Verwaltungsrat nebst der Präsidialfunktion einen Sekretär benennen, der allerdings nicht zwingend Mitglied des Verwaltungsrates sein muss. Durch seine Tätigkeit trägt er u.a. durch das Erstellen der Einladung zu den Verwaltungsratssitzungen inkl. Traktandenliste mit klar formulierten Anträgen wesentlich dazu bei, dass die Führung der Gesellschaft und die Arbeit im Verwaltungsrat effizient und effektiv erfolgen kann. Zudem verantwortet er bei Verwaltungsratssitzungen die Erfüllung sämtlicher rechtlicher und formeller Erfordernisse. Zu seinen Aufgaben zählt dabei auch eine professionelle Protokollführung, die vor allem aus Transparenz-, Verantwortlichkeits- und Haftungsgründen essenziell ist.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph

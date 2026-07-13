@@ -4,68 +4,62 @@ tree:
     entry: c158bbfc-70bb-41ab-82de-7f73948445a5
     data:
       color: primary-500
-      icon: icons/finanz_und_rechnungswesen.png
+      icon: icons/finanz_und_rechnungswesen-color.png
       short_description: 'Erstellung von Monats-, Quartals- und Jahresabschlüssen, Reporting nach Unternehmensrichtlinien'
+      members:
+        - 33b4d305-1e87-4a60-816a-ac526e19f77b
+        - 0b150308-f49d-4acd-bf6d-0f0d8f745501
   -
     id: 872981c9-5c09-4286-974b-3380886cb30e
     entry: aa708163-23d3-416f-9d33-345b32aef42f
     data:
       color: secondary-500
-      icon: icons/steuer_und_rechtsberatung.png
+      icon: icons/steuer_und_rechtsberatung-color.png
       short_description: |-
         Steuerplanung und -beratung, Umstrukturierungen,
         Übernahmen und Sanierungen
+      members:
+        - d1d5c8c0-9a82-4447-b4a0-e13a4a7051a5
+        - 870a7650-5fb5-4ce7-86fa-a68459367074
   -
     id: f6364e63-5abd-4546-9491-1737198476da
     entry: 90efadc5-b346-4d9c-b4c0-345ee3ee5bbd
     title: 'Wirtschafts- & Unternehmensberatung'
     data:
       color: gray-800
-      icon: icons/wirtschafts_und_unternehmensberatung.png
+      icon: icons/wirtschafts_und_unternehmensberatung-color-1739883775.png
       short_description: |-
         Ansiedlung, Beratung bei der Gesellschaftsform bzw Gesellschaftsgründungen
         oder Liquidationen
+      members:
+        - 0b150308-f49d-4acd-bf6d-0f0d8f745501
+        - e4ec3366-9cbc-4da7-9fdc-2bdaf05347b1
   -
     id: 011f81f3-f0ab-464e-8c3d-ee646a1ba905
     entry: 36aaff73-8782-4265-b30d-122a15f0c4d0
     title: 'Salär- & Human Resources Beratung'
     data:
       color: secondary-500
-      icon: icons/salaer_und_human_resources_beratung.png
+      icon: icons/salaer_und_human_resources_beratung-color.png
       short_description: 'Payroll, Human Resources'
+      members:
+        - f7cea459-707f-4d81-95aa-4962467433da
   -
     id: d7d2d517-7ca1-429c-9b10-0f4e14b3fd3d
     entry: 4bc30fe2-3c5c-4993-be7d-12a179246386
     data:
       color: gray-800
-      icon: icons/wirtschaftsprufung.png
+      icon: icons/wirtschaftsprufung-color.png
       short_description: 'Prüfung von Jahres- und Konzernrechnungen, Gründungsprüfungen (qualifizierte Gründungen)'
+      members:
+        - ac803730-0b5f-4efa-8a7a-19de8d2923dd
+        - ba037e72-5b11-4d08-920e-bba82fe0cef2
   -
     id: f880ab14-2b10-4981-a0ed-fe776c930743
     entry: ae7e739f-1c25-4aff-b2f7-d416665cb719
     data:
       color: primary-500
-      icon: icons/mehrwertsteuerberatung.png
+      icon: icons/mehrwertsteuerberatung-color.png
       short_description: 'Fiskalvertretungen in der Schweiz und im Ausland mittels unserem internationalen Netzwerk'
-  -
-    id: eae30756-3de8-4889-9864-1f8ca6c187a2
-    entry: 025d5786-739a-45a6-9fed-66892a248cad
-    data:
-      color: primary-500
-      icon: icons/interim-management.png
-      short_description: 'Unterstützung beim Aufbau eines professionellen Finanzwesens, überbrücken Managementlücken im Finanzbereich auf Zeit und beseitigen Engpässe.'
-  -
-    id: b8e4418e-994a-412d-858d-4bf42ab4b284
-    entry: c8b2d5e8-6e53-433c-a96c-f00828174f74
-    title: Immobilien
-    data:
-      color: secondary-500
-      icon: icons/immobilien.png
-      short_description: 'Verwaltung von Mietobjekten und Stockwerkeigentum, Beratung in Kauf und Verkauf von Liegenschaften und Renditeobjekten'
-  -
-    id: 3bd8e04d-5cf4-4fd9-93e6-a6b7a14a392b
-    entry: 7cadb577-7928-46b6-a1d1-67fa5e8e714b
-    data:
-      color: gray-800
-      icon: icons/bitcoin.png
-      short_description: 'Beratung, Buchhaltung, Steuern Natürliche und Juristische Personen'
+      members:
+        - e4ec3366-9cbc-4da7-9fdc-2bdaf05347b1

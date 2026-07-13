@@ -1,5 +1,6 @@
 ---
 id: 191ae974-5b79-4c57-89e2-5702b989727d
+published: false
 blueprint: news
 title: 'Aktienrechtsrevision und Änderung der Sanierungstatbestände per  1. Januar 2023'
 post_date: '2022-06-01 16:25'

@@ -1,5 +1,6 @@
 ---
 id: ff431d79-fe48-4290-81bb-5ff46ba355ef
+published: false
 blueprint: seminars
 title: 'Lohnabrechnung Basic'
 hero_content:

@@ -1,5 +1,6 @@
 ---
 id: b8f919ef-9aa7-4c80-ad75-b3c31cc1b6a9
+published: false
 blueprint: news
 title: 'Revidiertes Sanierungsrecht tritt am 1. Januar 2014 in Kraft'
 post_date: '2013-11-06 10:17'

@@ -1,5 +1,6 @@
 ---
 id: 7961a4e5-bcac-4da6-9879-cfeab3bbf79a
+published: false
 blueprint: news
 title: 'Steuerreform und AHV-Finanzierung (STAF) – Übersicht Über Die Hauptaspekte. – Dr. Manuel Vogel, Dr. oec. HSG, dipl. Steuerexperte CAS FH in Unternehmensnachfolge Weka Newsletter 09.2019'
 post_date: '2019-09-20 10:35'

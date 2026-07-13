@@ -10,7 +10,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1718872307
+updated_at: 1760425756
 heading: h1
 show_in_menu: true
 is_button: false

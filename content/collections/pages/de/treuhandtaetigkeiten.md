@@ -18,10 +18,13 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
-updated_at: 1650793144
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1774944224
 meta_title: 'Treuhand in unserem Treuhandbüro - a&o kreston'
+seo_off: false
+banner_text: |-
+  Kreston.
+  Knowing good advice.
 content:
   -
     type: paragraph
@@ -42,10 +45,10 @@ content:
         type: text
         text: 'Nachfolgend einige ausgewählte Treuhanddienstleistungen, die wir für Sie anbieten:'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -54,7 +57,7 @@ content:
                 type: text
                 text: 'Übernahme von ausgewählten Verwaltungsrats-, Geschäftsführungs- oder Stiftungsratsmandaten'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -63,7 +66,7 @@ content:
                 type: text
                 text: 'Verwaltung von Gesellschaften und Verbänden'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -72,7 +75,7 @@ content:
                 type: text
                 text: 'Gründungen von Kapital- und Personengesellschaften'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -81,7 +84,7 @@ content:
                 type: text
                 text: Liquidationen
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -90,7 +93,7 @@ content:
                 type: text
                 text: Nachfolgeregelungen
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -99,7 +102,7 @@ content:
                 type: text
                 text: 'Sekretariatsdienst (inkl. Telefondienst)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -108,7 +111,7 @@ content:
                 type: text
                 text: 'Administration (Backoffice)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -117,7 +120,7 @@ content:
                 type: text
                 text: 'Infrastrukturaufbau etwa bei Startup’s oder Ansiedlungen (Übernahme von Innendienstleistungen oder Logistikarbeiten)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -126,7 +129,7 @@ content:
                 type: text
                 text: 'Vermittlung und Vermietung von Büro- und Konferenzräumen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -135,7 +138,7 @@ content:
                 type: text
                 text: Willensvollstreckermandate
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -144,7 +147,7 @@ content:
                 type: text
                 text: Steuerberatung
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -153,7 +156,7 @@ content:
                 type: text
                 text: 'Nachlass- und Vorsorgeplanung'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -162,7 +165,7 @@ content:
                 type: text
                 text: 'Beratung und Unterstützung in der Administration des Geldwäschereigesetzes'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -171,7 +174,7 @@ content:
                 type: text
                 text: 'Lohnbuchhaltung, Personaladministration und Arbeitsrecht'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -180,7 +183,7 @@ content:
                 type: text
                 text: Unternehmensberatung
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -189,7 +192,7 @@ content:
                 type: text
                 text: 'Buchführung, Rechnungswesen, Reporting'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -198,7 +201,7 @@ content:
                 type: text
                 text: 'Family Office Tätigkeiten'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph

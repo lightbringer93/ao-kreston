@@ -5,7 +5,7 @@ title: Auditing
 meta_title: null
 meta_description: null
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1657639802
+updated_at: 1783067981
 content:
   -
     type: paragraph
@@ -20,10 +20,10 @@ content:
         type: text
         text: 'Our experienced team can offer you high-quality auditing services in all areas. In addition to the legal requirements, we always aim to create added value through suggestions for optimization and to guarantee a high degree of continuity in our services. Our service catalog:'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -32,7 +32,7 @@ content:
                 type: text
                 text: 'Statutory auditors in accordance with the Swiss Code of Obligations (limited and ordinary audits)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -41,7 +41,7 @@ content:
                 type: text
                 text: 'Special audits'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -50,7 +50,7 @@ content:
                 type: text
                 text: 'Establishments, capital increases and reduction audits'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -59,7 +59,7 @@ content:
                 type: text
                 text: 'Audits of consolidated financial statements according to company law and group guidelines'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -68,7 +68,7 @@ content:
                 type: text
                 text: 'Audits in accordance with accounting standards: IFRS, Swiss GAAP FER, etc.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -77,7 +77,7 @@ content:
                 type: text
                 text: 'Reporting in accordance with company law, client-focused explanatory notes and internal reports'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -86,7 +86,7 @@ content:
                 type: text
                 text: 'Special audits and reports'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -96,10 +96,8 @@ content:
                 text: 'Due diligence'
   -
     type: paragraph
-  -
-    type: paragraph
     content:
       -
         type: text
-        text: 'Auditing services are provided by a&o kreston audit ltd (CHE-102.312.698) in Zurich.'
+        text: 'Auditing services are provided by Tschumi + Partner Revisions AG (CHE-107.882.141) in Zollikofe'
 ---

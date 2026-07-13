@@ -1,11 +1,12 @@
 ---
 id: 7725f0d9-d091-407f-a82b-3b0bce8fa408
+published: false
 blueprint: team
-title: 'Bieri Christine'
-position: 'Sachbearbeiterin Sekretariat'
+title: 'Christine Bieri'
+position: 'Sachbearbeiterin Administration'
 workplace:
   - Baar
-email: c.bieri@kreston.ch
+email: christine.bieri@kreston.ch
 image: team/Christine-Bieri-1-1.jpg
 use_meta_keywords: false
 no_index_page: false
@@ -13,11 +14,13 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
-updated_at: 1651571934
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1745320494
 team_tags:
-  - sekretariat-und-marketing
+  - administration
 is_partner: false
 hover_image: team/Christine-Bieri-Logo-1-1.jpg
+banner_text: |-
+  Kreston.
+  Knowing good advice.
 ---

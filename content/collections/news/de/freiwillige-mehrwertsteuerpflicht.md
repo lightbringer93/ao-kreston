@@ -1,5 +1,6 @@
 ---
 id: ac28f5f3-c8b8-4f74-81a4-86cc526a7e5e
+published: false
 blueprint: news
 title: 'Freiwillige Mehrwertsteuerpflicht'
 post_date: '2018-03-23 10:26'

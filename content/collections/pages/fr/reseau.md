@@ -3,16 +3,18 @@ id: 3099f10e-4df9-4d68-8fe1-d251f8fd9aa9
 origin: 03abea9f-eede-4e20-a941-2800a03fa877
 menu_text: Réseau
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1695116821
+updated_at: 1783077549
 content:
   -
     type: set
     attrs:
+      id: GViQAKZn
       values:
         type: container
         margin: true
         columns:
           -
+            id: twOfCXjo
             content:
               -
                 type: paragraph
@@ -67,15 +69,18 @@ content:
   -
     type: set
     attrs:
+      id: zdrk1aFW
       values:
         type: container
         margin: true
         columns:
           -
+            id: HaMrSwRc
             content:
               -
                 type: set
                 attrs:
+                  id: Jo193LvM
                   values:
                     type: layout
                     layout: network
@@ -84,7 +89,7 @@ content:
                       - treuhand_swiss.png
                       - asco_logo.jpg
                       - kreston_global.png
-                      - kreston_ao_audit.png
+                      - tschumi-partner-treuhand-ag.jpg
                       - bc_logo.jpg
                       - come_to_switzerland_logo.png
                       - forum_of_firms.png
@@ -96,7 +101,6 @@ content:
                       - gewerbe_zuerich_3.png
                       - logo_gwaerb_eschenbach.png
                       - kmu_next.svg
-                      - numarics-logo.png
               -
                 type: paragraph
             size: 12

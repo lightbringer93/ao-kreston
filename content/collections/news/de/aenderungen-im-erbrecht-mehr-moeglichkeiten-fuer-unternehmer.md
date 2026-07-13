@@ -1,5 +1,6 @@
 ---
 id: 2fdfa973-6bef-49f4-9b9e-330b0163a546
+published: false
 blueprint: news
 title: 'Änderungen im Erbrecht: Mehr Möglichkeiten für Unternehmer'
 post_date: '2021-12-02 11:09'

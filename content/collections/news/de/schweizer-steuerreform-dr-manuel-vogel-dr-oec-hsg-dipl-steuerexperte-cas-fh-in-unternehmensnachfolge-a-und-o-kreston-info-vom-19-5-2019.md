@@ -1,5 +1,6 @@
 ---
 id: 47f80a73-a480-4fae-ab13-b0af137bec4a
+published: false
 blueprint: news
 title: 'Schweizer Steuerreform – Dr. Manuel Vogel, Dr. oec. HSG, dipl. Steuerexperte CAS FH in Unternehmensnachfolge a&o kreston Info vom 19.5.2019'
 post_date: '2019-05-19 10:35'
@@ -15,7 +16,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
-updated_at: 1649061330
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1726495613
+seo_off: false
 ---

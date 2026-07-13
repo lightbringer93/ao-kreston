@@ -1,5 +1,6 @@
 ---
 id: ec7bf98a-ec16-47c2-89bf-fff36f631173
+published: false
 blueprint: news
 title: 'Info a&o kreston ag 01/2022'
 post_date: '2022-01-01 11:10'

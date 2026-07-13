@@ -42,7 +42,7 @@ content:
             content:
               -
                 type: text
-                text: 'Rachat d''entreprise par les cadres (MBO)'
+                text: "Rachat d'entreprise par les cadres (MBO)"
       -
         type: list_item
         content:

@@ -10,22 +10,24 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
-updated_at: 1652777811
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1774943923
 content_below:
   -
     type: set
     attrs:
+      id: c7Ic9Whk
       values:
         type: container
         margin: false
         columns:
           -
+            id: Kuxdoi40
             content:
               -
                 type: set
                 attrs:
+                  id: yDUfSJkx
                   values:
                     type: title
                     title: 'Individuell. Flexibel. Unkompliziert. Online. Die Business-Software SaaS'
@@ -50,6 +52,7 @@ content_below:
             size_md: 0
             size_sm: 0
           -
+            id: U17v8k1d
             content:
               -
                 type: paragraph
@@ -73,6 +76,7 @@ content_below:
             size_lg: 0
             size_sm: 0
           -
+            id: acl5hwm5
             size: 12
             size_for_2xl: false
             size_for_xxl: false
@@ -87,6 +91,7 @@ content_below:
               -
                 type: set
                 attrs:
+                  id: VlklqKjC
                   values:
                     type: list
                     selected_partial: column
@@ -111,38 +116,43 @@ slider:
   - slider/dienstleistungen.jpg
 no_padding_bottom: false
 contact_persons:
-  - 607ab19f-953f-469f-b2e7-3e455030d130
-  - 580d8a95-79c2-4bc1-b48b-c30120f1eaac
-meta_title: 'Finanzverwaltung & Rechnungswesen Service in Zürich, Zug, Luzern - a&o kreston'
+  - 0b150308-f49d-4acd-bf6d-0f0d8f745501
+  - 33b4d305-1e87-4a60-816a-ac526e19f77b
+meta_title: 'Finanzverwaltung & Rechnungswesen Service in Zürich, Baar und in Wettingen'
 meta_description: 'Das Rechnungswesen ist eines der wichtigsten Führungsinstrumente im Unternehmen. Wir erstellen für Sie monatlich, quartalsweise oder halbjährlich individuelle Auswertungen, damit Sie über den Geschäftsgang und die finanzielle Situation Ihrer Firma .'
 banner_text: |-
   Kreston.
   Knowing good advice.
+subtitle: 'Mit uns immer einen Schritt voraus – Ihre Experten für Rechnungswesen'
+parent: d1b4dbee-d3a3-4a72-9ab5-180131d635dc
+seo_off: false
 content:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Das Rechnungswesen ist eines der wichtigsten Führungsinstrumente im Unternehmen. Wir erstellen für Sie monatlich, quartalsweise oder halbjährlich individuelle Auswertungen, damit Sie über den Geschäftsgang und die finanzielle Situation Ihrer Firma jederzeit im Bilde sind. Eine nachhaltige buchhalterische Planung der Unternehmenstätigkeit hilft Ihnen:'
+        text: 'Das Rechnungswesen ist eines der wichtigsten Führungsinstrumente im Unternehmen. Wir erstellen für Sie individuelle monatliche, vierteljährliche oder halbjährliche Auswertungen, damit Sie jederzeit über den Geschäftsverlauf und die finanzielle Situation Ihres Unternehmens informiert sind. Eine nachhaltige buchhalterische Planung der Unternehmenstätigkeit hilft Ihnen:'
   -
     type: set
     attrs:
+      id: mIJNwgJB
       values:
         type: list
         partial: column
         list:
-          - 'die Risiken zu steuern'
-          - 'schneller auf Veränderungen zu reagieren'
-          - 'die Kontrollmechanismen zu verbessern'
-          - 'das Potenzial voll auszuschöpfen.'
+          - 'Transparenz zu schaffen'
+          - 'Entscheidungen zu treffen'
+          - 'Risiken zu minimieren'
+          - 'Wachstum zu planen'
+          - 'Compliance zu gewährleisten'
         selected_partial: column
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Die Bedürfnisse unserer Kunden variieren stark. Unsere Dienstleistungen erstrecken sich deshalb von der Bereitstellung von Informationen und Reviews bis zur vollständigen Buchführung mitsamt allen Nebenarbeiten, wie zum Beispiel dem Erstellen von Mehrwertsteuerabrechnungen oder Steuererklärungen.'
+        text: 'Die Bedürfnisse unserer Kunden sind sehr unterschiedlich. Unsere Dienstleistungen reichen daher von der Auskunftserteilung und Prüfung bis hin zur kompletten Buchführung mit allen Nebenarbeiten, wie z.B. der Erstellung von Umsatzsteuerabrechnungen oder Steuererklärungen.'
   -
     type: heading
     attrs:
@@ -157,6 +167,7 @@ content:
   -
     type: set
     attrs:
+      id: 4u1jzYrX
       values:
         type: list
         partial: column

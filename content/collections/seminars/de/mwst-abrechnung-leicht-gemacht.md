@@ -1,5 +1,6 @@
 ---
 id: 8660a01c-bf0f-4e4e-adb7-1109ef24178c
+published: false
 blueprint: seminars
 title: 'MWST Abrechnung leicht gemacht'
 hero_content:

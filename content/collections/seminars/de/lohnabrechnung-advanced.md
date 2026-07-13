@@ -1,5 +1,6 @@
 ---
 id: 21f5090d-ffba-412f-b37e-672deafa1b6b
+published: false
 blueprint: seminars
 title: 'Lohnabrechnung Advanced'
 hero_content:

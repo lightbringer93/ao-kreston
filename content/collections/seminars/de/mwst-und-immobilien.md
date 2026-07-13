@@ -14,6 +14,7 @@ content_before_sidebar:
   -
     type: set
     attrs:
+      id: Dt6XReTa
       values:
         type: title
         title: 'So setzen Sie die Mehrwertsteuerbestimmungen korrekt um'
@@ -28,16 +29,17 @@ content_before_sidebar:
   -
     type: set
     attrs:
+      id: JX4Nrr9x
       values:
         type: title
         title: 'Ihr Praxis-Nutzen'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -46,7 +48,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie kennen die Vor- und Nachteile einer freiwilligen Optierung.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -55,7 +57,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie kennen die Renditeoptimierung aufgrund einer korrekten Mehrwertsteuerbehandlung.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -64,7 +66,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie können korrekt Einlageentsteuerung und Eigenverbrauch im Zusammenhang mit Liegenschaften berechnen.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -73,7 +75,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie können rechtliche Gestaltungsspielräume besser nutzen, um Ihren Steueraufwand zu minimieren bzw. die MWST-Belastung zu optimieren.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -82,7 +84,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie berechnen eine partielle Nutzungsänderung korrekt.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -91,7 +93,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie wissen, auf was bei Neubauten und Renovationen bei Bauwerken besonders zu beachten ist.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -100,7 +102,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie bekommen aktuelles Mehrwertsteuerwissen speziell für Ihre komplexen Immobiliengeschäfte.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -109,7 +111,7 @@ content_before_sidebar:
                 type: text
                 text: 'Sie können Ihre individuellen Fragen und Geschäftsvorfälle in das Seminar einbringen.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -129,21 +131,22 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1661353392
+updated_at: 1732285865
 content_next_to_sidebar:
   -
     type: set
     attrs:
+      id: kD6hPByQ
       values:
         type: title
         title: 'Inhalt des Seminars'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -152,7 +155,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Subjektive Mehrwertsteuerpflicht: Wann werde ich mit Immobilien zwingend mehrwertsteuerpflichtig. Was sind die Bedingungen für eine freiwillige Steuerpflicht?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -161,7 +164,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Quotenwahl: Welche Quoten können für Berechnungen herangezogen werden? Kann ich diese ändern?'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -170,7 +173,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Berechnungen von Beispielen im Bereich der Einlageentsteuerung und des Eigenverbrauchs'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -179,7 +182,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Partielle Nutzungsänderung: Pauschale versus effektive Berechnungsmethode'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -188,7 +191,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Nachträgliche Vorsteuerkorrekturen bei Nutzungsänderungen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -197,7 +200,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Bewirtschaftung: Entgeltliche Leistungen mit Immobilien, Gemischte Verwendung, Option, Leerstand'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -206,7 +209,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Wichtige Aspekte bei Kauf- und Mietverträgen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -215,7 +218,7 @@ content_next_to_sidebar:
                 type: text
                 text: Miteigentum
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -224,7 +227,7 @@ content_next_to_sidebar:
                 type: text
                 text: 'Steuerbare und von der MWST ausgenommene Immobilienlieferung bei Neu- und Umbau'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -233,10 +236,10 @@ content_next_to_sidebar:
                 type: text
                 text: 'Übertragung von Immobilien'
           -
-            type: bullet_list
+            type: bulletList
             content:
               -
-                type: list_item
+                type: listItem
                 content:
                   -
                     type: paragraph
@@ -245,7 +248,7 @@ content_next_to_sidebar:
                         type: text
                         text: '- mit und ohne Option'
               -
-                type: list_item
+                type: listItem
                 content:
                   -
                     type: paragraph
@@ -255,7 +258,7 @@ content_next_to_sidebar:
                         text: '- im Meldeverfahren'
   -
     type: paragraph
-place: 'SIB, Zürich'
+place: 'ZWB, Zürich'
 price: 'CHF 890.- (exkl. MwSt.)'
 seminar_length: |-
   Praxis-Seminar, 1 Tag
@@ -263,7 +266,11 @@ seminar_length: |-
   09:00 - 16:30 Uhr
 dates:
   -
-    date: '2022-06-23'
+    id: fqVCfOM1
+    date: '2025-06-12'
+  -
+    id: m3st2yk1
+    date: '2025-11-06'
 seminar_leadership: |-
   **Dr. Manuel Vogel**
   Dr. oec. HSG, dipl. Steuerexperte, CAS FH Unternehmensnachfolge
@@ -285,6 +292,7 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: O6due9FL
       values:
         type: title
         title: 'Firmeninterne Weiterbildung massgeschneidert für Ihr Unternehmen'
@@ -307,16 +315,17 @@ content_below_sidebar:
   -
     type: set
     attrs:
+      id: 98yGHAp3
       values:
         type: title
         title: 'Ihre Vorteile auf einen Blick:'
         heading: h2
         color: primary-500
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -325,7 +334,7 @@ content_below_sidebar:
                 type: text
                 text: 'Renommierte und exklusive Fachreferenten'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -334,7 +343,7 @@ content_below_sidebar:
                 type: text
                 text: 'Praxisorientierter Unterricht'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -343,7 +352,7 @@ content_below_sidebar:
                 type: text
                 text: 'Erarbeitung von individuellen Seminarthemen und –unterlagen'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -352,7 +361,7 @@ content_below_sidebar:
                 type: text
                 text: 'Attraktives Preis-/Leistungsverhältnis'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -361,7 +370,7 @@ content_below_sidebar:
                 type: text
                 text: 'Keine zusätzlichen Reisekosten für Ihre Mitarbeitenden'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -370,7 +379,7 @@ content_below_sidebar:
                 type: text
                 text: 'Flexibler Durchführungstermin'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -379,4 +388,6 @@ content_below_sidebar:
                 type: text
                 text: 'Die Seminare können auch auf Englisch durchgeführt werden'
 post_date: '2022-06-07 13:30'
+menu_text: 'MWST und Immobilien'
+seo_off: false
 ---

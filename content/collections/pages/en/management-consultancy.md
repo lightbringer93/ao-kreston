@@ -6,10 +6,12 @@ content_below:
   -
     type: set
     attrs:
+      id: MRYQnPQg
       values:
         type: timeline
         timeline:
           -
+            id: Xzp8Qbtt
             icon: icons/timeline/beratung_und_betreuung-1649078913.png
             title: 'Consulting and support'
             text: |-
@@ -19,6 +21,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: Yna8dgRz
             icon: icons/timeline/unterlagen_bereitstellen-1649078916.png
             title: 'Preparation of documents'
             text: |-
@@ -28,6 +31,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: ZVlTsiy7
             icon: icons/timeline/durchsicht_der_unterlagen.png
             title: 'Review of documents'
             text: |-
@@ -37,6 +41,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: MYTJYlPf
             icon: icons/timeline/zustellung_an_das_notariat.png
             title: 'Delivery to the notary public'
             text: |-
@@ -46,6 +51,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: QoU8sjIf
             icon: icons/timeline/ueberweisung_des_kapitals.png
             title: 'Transfer of capital'
             text: |-
@@ -55,6 +61,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: yIByQSdj
             icon: icons/timeline/zustellung_der_bestaetigung.png
             title: 'Delivery of confirmation'
             text: |-
@@ -64,6 +71,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: kUZrpnzS
             icon: icons/timeline/notariatstermin.png
             title: 'Meeting with notary public'
             text: |-
@@ -73,6 +81,7 @@ content_below:
             type: entry
             enabled: true
           -
+            id: Q7tTpUZr
             icon: icons/timeline/eintragung_ins_handelsregister.png
             title: 'Entry in the Commercial Register'
             text: |-
@@ -86,7 +95,7 @@ content_below:
 meta_title: null
 meta_description: null
 updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
-updated_at: 1657641426
+updated_at: 1739960104
 content:
   -
     type: paragraph
@@ -113,10 +122,10 @@ content:
         type: text
         text: 'Whether you need a succession solution, plan the restructuring of your company or have to master a difficult situation, we support you for as long as required and requested. You focus on your core business while we take care of the rest. Our management consulting services include:'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -125,7 +134,7 @@ content:
                 type: text
                 text: 'Company valuations'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -134,7 +143,7 @@ content:
                 type: text
                 text: 'Company acquisitions and sales'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -143,7 +152,7 @@ content:
                 type: text
                 text: 'Establishment of new companies'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -152,7 +161,7 @@ content:
                 type: text
                 text: 'Startup and financing advice'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -161,7 +170,7 @@ content:
                 type: text
                 text: 'Preparation of business plans'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -170,7 +179,7 @@ content:
                 type: text
                 text: 'Turnaround consulting/restructurings'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -179,7 +188,7 @@ content:
                 type: text
                 text: 'Appraisal activities'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -188,7 +197,7 @@ content:
                 type: text
                 text: 'Establishment of branch offices'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph

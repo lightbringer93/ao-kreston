@@ -18,21 +18,22 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
-updated_at: 1655194821
-meta_title: 'Schweizer Fiskalvertretung - Fiskalvertreter in Zürich, Zug, Luzern (Schweiz)'
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1741681066
+meta_title: 'Schweizer Fiskalvertretung - Fiskalvertreter in Zürich, Baar und in Wettingen'
 meta_description: 'Benötigen Sie eine Fiskalvertretung? Sprechen Sie uns unbedingt an. Als Steuervertreter wird die Fiskalvertretung vorzugsweise durch eine auf Mehrwertsteuer spezialisierte Treuhandgesellschaft übernommen.'
 banner_text: |-
   Kreston.
   Knowing good advice.
+subtitle: 'Mit uns als Partner – immer gesetzeskonform und steuerlich sicher in der Schweiz'
+seo_off: false
 content:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Ein Unternehmen wird in der Schweiz mehrwertsteuerpflichtig (umsatzsteuerpflichtig), wenn es eine auf die nachhaltige Erzielung von Einnahmen aus Leistungen ausgerichtete berufliche oder gewerbliche Tätigkeit selbständig ausübt und unter eigenem Namen nach aussen auftritt. Dies gilt auch für Unternehmen mit Geschäftssitz im Ausland, die in der Schweiz tätig sind. Deshalb ist es wichtig, eine Mehrwertsteuervertretung in der Schweiz (Fiskalvertretung) zu haben, um den steuerlichen Pflichten nachzukommen. Wir unterstützen Sie dabei, mit uns als Partner jederzeit gesetzeskonform zu bleiben.'
+        text: 'Ein Unternehmen wird in der Schweiz mehrwertsteuerpflichtig, wenn es eine auf die nachhaltige Erzielung von Einnahmen aus Leistungen gerichtete berufliche oder gewerbliche Tätigkeit selbständig ausübt und nach aussen im eigenen Namen auftritt. Dies gilt auch für Unternehmen mit Sitz im Ausland, die in der Schweiz tätig sind. Zur Erfüllung der steuerlichen Pflichten ist es deshalb wichtig, in der Schweiz einen Vertreter für die Mehrwertsteuer (Fiskalvertretung) zu haben. Wir unterstützen Sie dabei, mit uns als Partner jederzeit gesetzeskonform zu bleiben.'
   -
     type: heading
     attrs:
@@ -46,17 +47,17 @@ content:
     content:
       -
         type: text
-        text: 'Benötigen Sie eine Fiskalvertretung? Sprechen Sie uns unbedingt an. Als Steuervertreter wird die Fiskalvertretung vorzugsweise durch eine auf Mehrwertsteuer spezialisierte Treuhandgesellschaft übernommen. Wir können Ihnen das benötigte Portfolio bieten und vertreten Sie in mehrwertsteuerlichen oder umsatzsteuerlichen Angelegenheiten vor der schweizerischen Steuerverwaltung'
+        text: 'Benötigen Sie eine Fiskalvertretung? Zögern Sie nicht, uns zu kontaktieren. Die Fiskalvertretung wird vorzugsweise von einer auf die Mehrwertsteuer spezialisierten Treuhandgesellschaft übernommen. Wir bieten Ihnen das erforderliche Portfolio und vertreten Sie in mehrwertsteuerlichen oder umsatzsteuerlichen Angelegenheiten vor der Eidgenössischen Steuerverwaltung.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Wir übernehmen, als Ihr Fiskalvertreter, dabei grundsätzlich sämtliche Rechte und Pflichten, die der ausländische Unternehmer selbst hätte. Das Unternehmen übernimmt insbesondere die Pflicht, alle fälligen Steuererklärungen und sonstigen (statistischen) Meldungen rechtzeitig einzureichen und eine sich daraus ergebende Steuerschuld zu begleichen.'
+        text: 'Als Fiskalvertreter übernehmen wir grundsätzlich alle Rechte und Pflichten, die der ausländische Unternehmer selbst hätte. Insbesondere übernimmt er die Pflicht, alle fälligen Steuererklärungen und sonstigen (statistischen) Meldungen fristgerecht einzureichen und die sich daraus ergebende Steuerschuld zu begleichen.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Ein Fiskalvertreter wird übrigens auch dann benötigt, wenn ein ausländischer Unternehmer die, in der Schweiz bereits gezahlte, Mehrwertsteuer zurückfordern möchte (Vorsteuerrückerstattung). Sie haben Fragen? Sprechen Sie uns an.'
+        text: 'Ein Fiskalvertreter wird übrigens auch dann benötigt, wenn ein ausländischer Unternehmer die in der Schweiz bereits bezahlte Mehrwertsteuer zurückfordern möchte (Vorsteuerrückerstattung). Haben Sie Fragen? Kontaktieren Sie uns.'
 ---
