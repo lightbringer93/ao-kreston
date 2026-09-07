@@ -1,0 +1,21 @@
+title: 'Financial Services'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1738060105
+blueprint: team_tags
+localizations:
+  en:
+    title: 'Financial Services'
+    slug: finanz-und-rechnungswesen
+    updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+    updated_at: 1738059953
+  fr:
+    title: 'Services financiers'
+    slug: finanz-und-rechnungswesen
+    updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+    updated_at: 1738059985

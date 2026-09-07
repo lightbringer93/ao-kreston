@@ -262,7 +262,7 @@ content_next_to_sidebar:
           -
             type: link
             attrs:
-              href: 'mailto:weka@ao-kreston.ch?subject=Frage%20zum%20Seminar%20Lohnabrechnung%20-%20Advanced'
+              href: 'mailto:weka@kreston.ch?subject=Frage%20zum%20Seminar%20Lohnabrechnung%20-%20Advanced'
               rel: null
               target: _blank
               title: null

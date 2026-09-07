@@ -16,3 +16,8 @@ yarn-error.log
 .DS_Store
 /.idea
 /.vscode
+
+# local backups / server env copies (never commit)
+bkp-*.zip
+.env.server-*
+/public/.well-known/acme-challenge/

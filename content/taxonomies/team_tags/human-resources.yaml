@@ -1,0 +1,21 @@
+title: 'Human Resources'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1738060428
+blueprint: team_tags
+localizations:
+  en:
+    title: 'Human Resources'
+    slug: human-resources
+    updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+    updated_at: 1738060443
+  fr:
+    title: 'Services des ressources humaines'
+    slug: services-des-ressources-humaines
+    updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+    updated_at: 1738060463

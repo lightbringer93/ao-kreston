@@ -1,0 +1,21 @@
+title: 'Tax Services'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1738060552
+blueprint: team_tags
+localizations:
+  en:
+    title: 'Tax Services'
+    slug: tax-services
+    updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+    updated_at: 1738060594
+  fr:
+    title: 'Services fiscaux'
+    slug: services-fiscaux
+    updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+    updated_at: 1738060619

@@ -1,0 +1,21 @@
+title: 'Payroll Services'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+updated_by: b1c36291-e863-41f3-8c6f-b18dd4f22325
+updated_at: 1738060337
+blueprint: team_tags
+localizations:
+  en:
+    title: 'Tax Advice & VAT/Customs'
+    slug: steuerberatung-und-mwst-zoll
+    updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
+    updated_at: 1649838590
+  fr:
+    title: 'Conseils fiscaux & TVA/Douanes'
+    slug: steuerberatung-und-mwst-zoll
+    updated_by: 3574a48a-d509-4c9e-9e37-5b83b6cfdc78
+    updated_at: 1649838592

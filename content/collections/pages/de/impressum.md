@@ -50,11 +50,11 @@ content:
           -
             type: link
             attrs:
-              href: 'mailto:hello@ao-kreston.ch'
+              href: 'mailto:hello@kreston.ch'
               rel: null
               target: null
               title: null
-        text: hello@ao-kreston.ch
+        text: hello@kreston.ch
       -
         type: hardBreak
       -
